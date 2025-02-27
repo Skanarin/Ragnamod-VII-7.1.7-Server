@@ -1,0 +1,780 @@
+{
+	id: "7C5D25D8C536BCF5"
+	group: ""
+	order_index: 8
+	filename: "nature_aura"
+	title: " Nature's Aura"
+	icon: "naturesaura:gold_leaf"
+	subtitle: ["Natural magic"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"Use Brilliant Fiber on leaves."
+				"Then wait a few minutes until you get fully golden leaves."
+				"{image:ftbquests:textures/quests/natureaura_golden_leaves.png width:150 height:100 align:1}"
+				"You can see that the conversion is complete when the foliage emits small particles."
+			]
+			dependencies: [
+				"03F04C5F7BAED6A3"
+				"52D6BB5F13D719A4"
+			]
+			size: 1.5d
+			id: "6C96FE0695C6B11E"
+			tasks: [{
+				id: "0B3E4459E640F9BA"
+				type: "item"
+				item: "naturesaura:gold_fiber"
+			}]
+			rewards: [{
+				id: "1AA243A374E2F88E"
+				type: "item"
+				item: "naturesaura:gold_fiber"
+				random_bonus: 7
+			}]
+		}
+		{
+			icon: "naturesaura:gold_leaf"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			description: ["When you break Golden Leaves, you may get a Gold Leaf that you can then turn into powder."]
+			dependencies: [
+				"6C96FE0695C6B11E"
+				"52D6BB5F13D719A4"
+			]
+			id: "21BC6CA6EEB95BC6"
+			tasks: [
+				{
+					id: "6F1CB7AEC9CBA88C"
+					type: "item"
+					item: "naturesaura:gold_leaf"
+				}
+				{
+					id: "201805E86364312D"
+					type: "item"
+					item: "naturesaura:gold_powder"
+				}
+			]
+			rewards: [{
+				id: "70FB59D8C1C2D08D"
+				type: "item"
+				item: "naturesaura:gold_leaf"
+				random_bonus: 15
+			}]
+		}
+		{
+			icon: "naturesaura:nature_altar"
+			x: -1.0d
+			y: 2.0d
+			shape: "square"
+			description: [
+				"You can use the Book of Natural Aura to visualize the multiblock with ghost blocks, or you can reproduce it according to the following picture:"
+				"{image:ftbquests:textures/quests/natureaura_natural_altar.png width:150 height:100 align:1}"
+				"The Altar works by absorbing aura from the atmosphere to transfer it to your craft."
+			]
+			dependencies: [
+				"68383BED1EA06D9F"
+				"52D6BB5F13D719A4"
+			]
+			id: "27A25E88696A2CE0"
+			tasks: [
+				{
+					id: "3D67BA403E35419C"
+					type: "item"
+					item: "naturesaura:nature_altar"
+				}
+				{
+					id: "71B2C5AC1AFBC6F4"
+					type: "item"
+					item: "naturesaura:gold_brick"
+					count: 8L
+				}
+				{
+					id: "2825BE93BFE410B3"
+					type: "item"
+					item: "minecraft:chiseled_stone_bricks"
+					count: 4L
+				}
+				{
+					id: "6B95C9139E5E235A"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 16L
+				}
+				{
+					id: "0C64B69DD7C0672B"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "274ACC146A256626"
+				type: "item"
+				item: "minecraft:stone_bricks"
+				random_bonus: 15
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			shape: "square"
+			description: [
+				"Bottle and Cork are used to get different bottles."
+				""
+				"Bottled Darkness is obtainable in the End and Twilight Forest."
+				"Bottled Ghosts is obtainable in the Nether and Undergarden."
+				"Bottled sunlight is obtainable in the Overworld, Everdawn, Everbright and Alfheim."
+				"Bottled Substance is obtainable in other dimensions."
+			]
+			dependencies: ["52D6BB5F13D719A4"]
+			id: "4E0AAB85DBF67FDC"
+			tasks: [
+				{
+					id: "5AAEE8837468E76B"
+					type: "item"
+					item: "naturesaura:bottle_two_the_rebottling"
+				}
+				{
+					id: "002D217F11EFE19E"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:end"
+						}
+					}
+				}
+				{
+					id: "0DD11FE87609AF27"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:nether"
+						}
+					}
+				}
+				{
+					id: "538AC2631D7AB7D5"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:other"
+						}
+					}
+				}
+				{
+					id: "69AFEFA75827AF84"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:overworld"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3087EB112BA3E5FA"
+				type: "item"
+				item: "naturesaura:bottle_two_the_rebottling"
+				random_bonus: 63
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			shape: "square"
+			description: [
+				"To get an Infused Iron Ingot, use an Iron Ingot in the Natural Altar."
+				"This ingot is used to make tools, aura cache and other stuff."
+			]
+			dependencies: [
+				"27A25E88696A2CE0"
+				"52D6BB5F13D719A4"
+			]
+			id: "29BEFD73AFC63136"
+			tasks: [{
+				id: "6A412B9CB37C2230"
+				type: "item"
+				item: "naturesaura:infused_iron"
+			}]
+			rewards: [{
+				id: "0A21838D013B60C3"
+				type: "item"
+				item: "naturesaura:infused_iron"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			shape: "square"
+			description: ["Transform a Gold Ingot in a Crimson Altar to obtain the Tainted Gold Ingot."]
+			dependencies: [
+				"7C8755271F338DCB"
+				"52D6BB5F13D719A4"
+			]
+			id: "691F0E989EEE474C"
+			tasks: [{
+				id: "30EDBB2A75B3BA3B"
+				type: "item"
+				item: "naturesaura:tainted_gold"
+			}]
+			rewards: [{
+				id: "120EF926CC61E14E"
+				type: "item"
+				item: "naturesaura:tainted_gold"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			shape: "square"
+			description: ["Use the Offering Table to get this ingot."]
+			dependencies: [
+				"72BB33D21B770DCE"
+				"52D6BB5F13D719A4"
+			]
+			id: "27DA3EEF9DF78B7A"
+			tasks: [{
+				id: "3750E76B1F664FAF"
+				type: "item"
+				item: "naturesaura:sky_ingot"
+			}]
+			rewards: [{
+				id: "5C69DBCFA97B670B"
+				type: "item"
+				item: "naturesaura:sky_ingot"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			shape: "square"
+			description: ["The Environmental Eye allows you to see the amount of aura in the chunk you are in."]
+			dependencies: [
+				"118CF1B7418B3CC4"
+				"52D6BB5F13D719A4"
+			]
+			id: "25EF9CEF662A2F45"
+			tasks: [{
+				id: "7F1050D2BEAD9870"
+				type: "item"
+				item: "naturesaura:eye"
+			}]
+			rewards: [{
+				id: "6E996A218CB61A25"
+				type: "item"
+				item: "naturesaura:gold_powder"
+				random_bonus: 63
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			shape: "square"
+			description: ["This upgrade allows you to see more than the aura in the chunk: you can see the positive and negative effects as well."]
+			dependencies: [
+				"25EF9CEF662A2F45"
+				"52D6BB5F13D719A4"
+			]
+			id: "0FA9880BDFC97633"
+			tasks: [{
+				id: "3CA627F5CAB1F6C6"
+				type: "item"
+				item: "naturesaura:eye_improved"
+			}]
+			rewards: [{
+				id: "4D55B376A6668E31"
+				type: "item"
+				item: "naturesaura:end_flower"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			shape: "square"
+			description: ["Use the Ritual of the Forest to get the Token of Joy."]
+			dependencies: [
+				"118CF1B7418B3CC4"
+				"52D6BB5F13D719A4"
+			]
+			id: "68383BED1EA06D9F"
+			tasks: [{
+				id: "6D0DCE436BA87093"
+				type: "item"
+				item: "naturesaura:token_joy"
+				count: 2L
+			}]
+			rewards: [{
+				id: "6459B188F5A7255E"
+				type: "item"
+				item: "naturesaura:token_joy"
+				random_bonus: 3
+			}]
+		}
+		{
+			title: "Aura Farm"
+			icon: "naturesaura:moss_generator"
+			x: 0.0d
+			y: 2.0d
+			shape: "square"
+			description: [
+				"Swamp Homi absorbs moss from blocks (like Mossy Cobblestone) to turn it into aura in the chunk."
+				""
+				"Combined with the Botanist's Pickaxe, you can turn the Cobblestone into Mossy Cobblestone for durability!"
+			]
+			dependencies: [
+				"29BEFD73AFC63136"
+				"6D3F6DB72B2FBEB1"
+				"68383BED1EA06D9F"
+				"52D6BB5F13D719A4"
+			]
+			id: "7118A69FCEF7E54D"
+			tasks: [
+				{
+					id: "4995D96F6BD97170"
+					type: "item"
+					item: {
+						id: "naturesaura:infused_iron_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "45C31C289B4CD869"
+					type: "item"
+					item: "naturesaura:moss_generator"
+				}
+			]
+			rewards: [{
+				id: "2AAD1D521B5CEF03"
+				type: "item"
+				item: "minecraft:mossy_cobblestone"
+				count: 8
+				random_bonus: 16
+			}]
+		}
+		{
+			title: "Ancient Sapling"
+			x: 1.0d
+			y: 2.0d
+			shape: "square"
+			description: [
+				"Leaves of trees grown from Ancient Saplings are used to generate aura in the chunk."
+				""
+				"The less aura there is in the chunk, the more leaves disappear until you have to grow a sapling again!"
+			]
+			dependencies: [
+				"118CF1B7418B3CC4"
+				"52D6BB5F13D719A4"
+			]
+			id: "6D3F6DB72B2FBEB1"
+			tasks: [{
+				id: "7B82ECF64ED9FB64"
+				type: "item"
+				item: "naturesaura:ancient_sapling"
+				count: 2L
+			}]
+			rewards: [{
+				id: "274C81A718BCB9D3"
+				type: "item"
+				item: "naturesaura:ancient_sapling"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			shape: "square"
+			description: [
+				"Aura Cache is used to store Aura on you."
+				"Simply place your Aura Cache on the Ritual Altar to charge it."
+				""
+				"Having Aura on you allows you to avoid negative effects in chunks with negative aura."
+			]
+			dependencies: [
+				"29BEFD73AFC63136"
+				"0BDC79CB920BA817"
+				"52D6BB5F13D719A4"
+			]
+			id: "237C80E9ED2EF157"
+			tasks: [{
+				id: "58761C4103F05CCE"
+				type: "item"
+				item: "naturesaura:aura_cache"
+			}]
+			rewards: [{
+				id: "454A522AAA0DD722"
+				type: "item"
+				item: "naturesaura:infused_iron"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			shape: "square"
+			description: ["The Aura Trove is just a bigger version of the Aura Cache."]
+			dependencies: [
+				"237C80E9ED2EF157"
+				"52D6BB5F13D719A4"
+			]
+			id: "7504ADD9756D5D39"
+			tasks: [{
+				id: "6F3ADDF4EA4312E6"
+				type: "item"
+				item: "naturesaura:aura_trove"
+			}]
+			rewards: [{
+				id: "0D36D53D598DCCD5"
+				type: "item"
+				item: "naturesaura:sky_ingot"
+				random_bonus: 3
+			}]
+		}
+		{
+			title: "Powders from the skies"
+			x: 1.0d
+			y: 4.0d
+			shape: "square"
+			description: [
+				"Use the Ritual of the Forest with the ingots of the skies to get their powders."
+				""
+				"These powders are used for Botania in this modpack."
+			]
+			dependencies: [
+				"27DA3EEF9DF78B7A"
+				"52D6BB5F13D719A4"
+			]
+			id: "761F1776ADC5E9F1"
+			tasks: [
+				{
+					id: "0E78075816690A75"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:animal"
+						}
+					}
+					match_nbt: true
+				}
+				{
+					id: "7BAEFD0E19FB1DFC"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:plant_boost"
+						}
+					}
+					match_nbt: true
+				}
+			]
+			rewards: [{
+				id: "008ABCE8F1BF013D"
+				type: "item"
+				item: {
+					id: "naturesaura:effect_powder"
+					Count: 1b
+					tag: {
+						effect: "naturesaura:animal"
+					}
+				}
+				random_bonus: 15
+			}]
+		}
+		{
+			title: "Catalysts"
+			x: -2.0d
+			y: 2.0d
+			shape: "square"
+			description: ["Catalysts are used to craft several items in the Natural or Crimson Altar!"]
+			dependencies: [
+				"27A25E88696A2CE0"
+				"52D6BB5F13D719A4"
+			]
+			id: "0BE8AC98FA9A5F89"
+			tasks: [
+				{
+					id: "4663425731E979D9"
+					type: "item"
+					item: "naturesaura:crushing_catalyst"
+				}
+				{
+					id: "70C1719854FBC75A"
+					type: "item"
+					item: "naturesaura:conversion_catalyst"
+				}
+			]
+			rewards: [{
+				id: "146CA9752BFE785A"
+				type: "item"
+				item: "minecraft:dragon_breath"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"To get some Spirit of Birthing you need to breed animals in a chunk with an excess of Aura !"
+				"You have a chance of getting Spirit of Birthing that way."
+			]
+			dependencies: [
+				"25EF9CEF662A2F45"
+				"52D6BB5F13D719A4"
+			]
+			id: "41426E66714F1FD8"
+			tasks: [{
+				id: "5EDCD196B66E146C"
+				type: "item"
+				item: "naturesaura:birth_spirit"
+			}]
+			rewards: [{
+				id: "354A78CFB234CCE4"
+				type: "item"
+				item: "naturesaura:birth_spirit"
+				random_bonus: 7
+			}]
+		}
+		{
+			icon: "naturesaura:animal_spawner"
+			x: 2.0d
+			y: 1.0d
+			shape: "square"
+			description: [
+				"This altar allows you to summon mobs. For example, by using the Spirit of Birthing, Raw Beef and Leather you can summon a Cow, with a little bit of aura around."
+				"{image:ftbquests:textures/quests/natureaura_altar_of_birthing.png width:150 height:100 align:1}"
+			]
+			dependencies: [
+				"41426E66714F1FD8"
+				"52D6BB5F13D719A4"
+			]
+			id: "322FC9ECB2ECC680"
+			tasks: [
+				{
+					id: "524C3EC43D4DF1B5"
+					type: "item"
+					item: "naturesaura:animal_spawner"
+				}
+				{
+					id: "122DBABEB6A0C755"
+					type: "item"
+					item: "naturesaura:infused_brick"
+					count: 16L
+				}
+				{
+					id: "24291386C1F4E4AB"
+					type: "item"
+					item: "minecraft:hay_block"
+					count: 16L
+				}
+				{
+					id: "5E8C40ED08338C62"
+					type: "item"
+					item: "naturesaura:ancient_planks"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "0C3AF0BC23DFBD77"
+				type: "item"
+				item: "minecraft:cow_spawn_egg"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			shape: "square"
+			description: ["You can transform a stone block into infused rock using the Natural Altar."]
+			dependencies: [
+				"27A25E88696A2CE0"
+				"52D6BB5F13D719A4"
+			]
+			id: "0BDC79CB920BA817"
+			tasks: [
+				{
+					id: "21FED1A419B0E6F8"
+					type: "item"
+					item: "naturesaura:infused_stone"
+				}
+				{
+					id: "0C1FD2246BA22504"
+					type: "item"
+					item: "naturesaura:infused_brick"
+				}
+			]
+			rewards: [{
+				id: "57D2A11759D880F7"
+				type: "item"
+				item: "naturesaura:infused_stone"
+				random_bonus: 15
+			}]
+		}
+		{
+			title: "Crimson Altar"
+			icon: "naturesaura:nature_altar"
+			x: -1.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"You can use the guide book to see the multiblock with ghost blocks, or you can reproduce the multiblock via the following image."
+				"{image:ftbquests:textures/quests/natureaura_crimson_altar.png width:150 height:100 align:1}"
+				"The Altar works by absorbing aura from the atmosphere to transfer it to your craft."
+			]
+			dependencies: [
+				"68383BED1EA06D9F"
+				"52D6BB5F13D719A4"
+			]
+			id: "7C8755271F338DCB"
+			tasks: [
+				{
+					id: "735B42C3A80D24FB"
+					type: "item"
+					item: "naturesaura:nature_altar"
+				}
+				{
+					id: "7CB1B99F2CA6CEAE"
+					type: "item"
+					item: "minecraft:red_nether_bricks"
+					count: 4L
+				}
+				{
+					id: "7890B05DE1EF64A1"
+					type: "item"
+					item: "naturesaura:gold_nether_brick"
+					count: 8L
+				}
+				{
+					id: "7556146B0716C8C1"
+					type: "item"
+					item: "minecraft:nether_bricks"
+					count: 16L
+				}
+				{
+					id: "4EAA7BEDB3E01F10"
+					type: "item"
+					item: "minecraft:crimson_planks"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "751899BD07C2795F"
+				type: "item"
+				item: "minecraft:red_nether_bricks"
+				random_bonus: 15
+			}]
+		}
+		{
+			title: "Ritual of the Forest"
+			icon: "naturesaura:wood_stand"
+			x: 0.0d
+			y: 1.0d
+			shape: "square"
+			description: [
+				"The Ritual of the Forest allows you to perform rituals by absorbing the power of a growing tree!"
+				"{image:ftbquests:textures/quests/natureaura_ritual_of_the_forest.png width:150 height:100 align:1}"
+				"First place all your items on the Wooden Stands, then place your Gold Powder on the ground and then grow your sapling to trigger the craft."
+				""
+				"Wait a few seconds and it's ready!"
+			]
+			dependencies: [
+				"21BC6CA6EEB95BC6"
+				"52D6BB5F13D719A4"
+			]
+			id: "118CF1B7418B3CC4"
+			tasks: [
+				{
+					id: "5A8E9A309577F5A2"
+					type: "item"
+					item: "naturesaura:wood_stand"
+					count: 8L
+				}
+				{
+					id: "50194993139C2049"
+					type: "item"
+					item: "naturesaura:gold_powder"
+					count: 16L
+				}
+				{
+					id: "6F9062683F83D95E"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+			]
+			rewards: [{
+				id: "3DDF2D10841D4303"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			title: "Offering of the Gods"
+			icon: "naturesaura:offering_table"
+			x: 1.0d
+			y: 3.0d
+			shape: "square"
+			description: [
+				"The offering table allows you to appeal to the gods, with a spirit of calling, to obtain new powerful items!"
+				"{image:ftbquests:textures/quests/natureaura_offering_table.png width:150 height:100 align:1}"
+			]
+			dependencies: [
+				"29BEFD73AFC63136"
+				"52D6BB5F13D719A4"
+			]
+			id: "72BB33D21B770DCE"
+			tasks: [
+				{
+					id: "76C78C0FAC07B3C6"
+					type: "item"
+					item: "naturesaura:offering_table"
+				}
+				{
+					id: "42BE071D8322824C"
+					type: "item"
+					title: "Any #minecraft:small_flowers"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:small_flowers"
+						}
+					}
+					count: 36L
+				}
+			]
+			rewards: [{
+				id: "5C2F06AE32070079"
+				type: "item"
+				item: "minecraft:grass_block"
+				count: 64
+			}]
+		}
+	]
+	quest_links: [ ]
+}

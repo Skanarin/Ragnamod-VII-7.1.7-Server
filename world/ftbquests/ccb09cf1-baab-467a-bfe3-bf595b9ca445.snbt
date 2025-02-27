@@ -1,0 +1,15 @@
+{
+	version: 1
+	uuid: "ccb09cf1baab467abfe3bf595b9ca445"
+	name: "Skanarin"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	chapter_pinned: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

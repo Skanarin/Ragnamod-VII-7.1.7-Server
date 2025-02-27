@@ -1,0 +1,3814 @@
+{
+	id: "2045D567B9FCBCF3"
+	group: ""
+	order_index: 9
+	filename: "botania"
+	title: " Botania"
+	icon: "botania:mana_pylon"
+	subtitle: ["Best Tech mod!"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 9.0d
+			y: -4.5d
+			width: 27.0d
+			height: 1.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/background/generating.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 9.0d
+			y: 5.0d
+			width: 27.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/background/functional.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Runes of seasons"
+			x: 11.0d
+			y: 2.0d
+			shape: "circle"
+			description: [
+				"These are the second tier runes."
+				""
+				"They are all crafted with 2 elemental runes and 4 items representative of their season."
+			]
+			dependencies: [
+				"00000000000003A2"
+				"113D3F44F9F6C45C"
+			]
+			id: "000000000000037C"
+			tasks: [
+				{
+					id: "2A30C3E8DA526676"
+					type: "item"
+					item: "botania:rune_spring"
+				}
+				{
+					id: "555D46B3277DC518"
+					type: "item"
+					item: "botania:rune_summer"
+				}
+				{
+					id: "7C275C683FD97C97"
+					type: "item"
+					item: "botania:rune_autumn"
+				}
+				{
+					id: "58CFB604287FFE3E"
+					type: "item"
+					item: "botania:rune_winter"
+				}
+			]
+			rewards: [{
+				id: "702C4A6456E43254"
+				type: "item"
+				item: "botania:rune_winter"
+			}]
+		}
+		{
+			title: "Runes of Sins"
+			x: 10.0d
+			y: 2.5d
+			shape: "circle"
+			description: [
+				"These are the third tier runes."
+				""
+				"They are all crafted with an elemental rune, a season rune and 2 Mana Diamonds."
+			]
+			dependencies: [
+				"000000000000037C"
+				"00000000000003D0"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000388"
+			tasks: [
+				{
+					id: "0000000000000389"
+					type: "item"
+					item: "botania:rune_wrath"
+				}
+				{
+					id: "501048AA650BB8EF"
+					type: "item"
+					item: "botania:rune_lust"
+				}
+				{
+					id: "060B00064AAE4FFD"
+					type: "item"
+					item: "botania:rune_gluttony"
+				}
+				{
+					id: "2DD691AAA99F6B30"
+					type: "item"
+					item: "botania:rune_greed"
+				}
+				{
+					id: "7877B5E8469528E8"
+					type: "item"
+					item: "botania:rune_sloth"
+				}
+				{
+					id: "1B3EBF81C5D4EA65"
+					type: "item"
+					item: "botania:rune_envy"
+				}
+				{
+					id: "1D9CF38B0A9E22BF"
+					type: "item"
+					item: "botania:rune_pride"
+				}
+			]
+			rewards: [{
+				id: "474D303D38D90673"
+				type: "item"
+				item: "botania:rune_pride"
+			}]
+		}
+		{
+			title: "Runes of Yggdrasil"
+			x: 9.0d
+			y: 3.0d
+			shape: "circle"
+			description: [
+				"These are the fourth tier runes."
+				""
+				"They are all crafted with an elemental rune, a season rune, a sin rune and 2 items representative of their world."
+			]
+			dependencies: [
+				"0000000000000388"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000394"
+			tasks: [
+				{
+					id: "0000000000000395"
+					type: "item"
+					item: "mythicbotany:midgard_rune"
+				}
+				{
+					id: "0BA79AE0B09F3F0E"
+					type: "item"
+					item: "mythicbotany:asgard_rune"
+				}
+				{
+					id: "554A02555B240859"
+					type: "item"
+					item: "mythicbotany:vanaheim_rune"
+				}
+				{
+					id: "29085AD58D0933E0"
+					type: "item"
+					item: "mythicbotany:alfheim_rune"
+				}
+				{
+					id: "5770E58622BC0C5C"
+					type: "item"
+					item: "mythicbotany:joetunheim_rune"
+				}
+				{
+					id: "04BEE93DBF8CD79F"
+					type: "item"
+					item: "mythicbotany:muspelheim_rune"
+				}
+				{
+					id: "7F2C89FFA91548FB"
+					type: "item"
+					item: "mythicbotany:niflheim_rune"
+				}
+				{
+					id: "7E7ED99CA6425C78"
+					type: "item"
+					item: "mythicbotany:nidavellir_rune"
+				}
+				{
+					id: "04527CEB8BB22A79"
+					type: "item"
+					item: "mythicbotany:helheim_rune"
+				}
+			]
+			rewards: [{
+				id: "55936AE9F4994376"
+				type: "item"
+				item: "mythicbotany:midgard_rune"
+			}]
+		}
+		{
+			title: "Elemental Runes"
+			x: 11.0d
+			y: 1.0d
+			shape: "circle"
+			description: [
+				"These are the first tier runes."
+				""
+				"Apart from the Rune of Mana, they are all crafted with a Manasteel, a Mana Powder and 3 items representative of their element."
+			]
+			dependencies: [
+				"00000000000003F7"
+				"00000000000003D3"
+				"11DDE2DB7C47E14E"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003A2"
+			tasks: [
+				{
+					id: "00000000000003A3"
+					type: "item"
+					item: "botania:rune_fire"
+				}
+				{
+					id: "20BBF26689A2F152"
+					type: "item"
+					item: "botania:rune_water"
+				}
+				{
+					id: "28ABFC44933FF6D9"
+					type: "item"
+					item: "botania:rune_earth"
+				}
+				{
+					id: "1191C9C9939572EF"
+					type: "item"
+					item: "botania:rune_air"
+				}
+				{
+					id: "58245BA9CF6838B2"
+					type: "item"
+					item: "botania:rune_mana"
+				}
+			]
+			rewards: [{
+				id: "54C8AA615C69794D"
+				type: "item"
+				item: "botania:rune_mana"
+			}]
+		}
+		{
+			title: "Spark Augments"
+			x: 13.0d
+			y: 2.0d
+			shape: "circle"
+			description: [
+				"Put a Spark Augment on your Sparks to grant them a specific behavior:"
+				"- Recessive will send its mana to all other Sparks in range;"
+				"- Dominant will pull the mana from all other Sparks in range;"
+				"- Isolated avoid other Sparks with a Recessive or Dominant Augment to interact with them;"
+				"- Dispersive will fill nearby player's mana containers (Mana Tablets or Rings)."
+			]
+			dependencies: [
+				"00000000000003EF"
+				"000000000000041A"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003A4"
+			tasks: [
+				{
+					id: "00000000000003A6"
+					type: "item"
+					item: "botania:spark_upgrade_recessive"
+				}
+				{
+					id: "00000000000003A7"
+					type: "item"
+					item: "botania:spark_upgrade_dominant"
+				}
+				{
+					id: "4707A3D9FDEA8EDD"
+					type: "item"
+					item: "botania:spark_upgrade_isolated"
+				}
+				{
+					id: "62A2CBABA804DCBF"
+					type: "item"
+					item: "botania:spark_upgrade_dispersive"
+				}
+			]
+			rewards: [{
+				id: "3B32038783EC36DF"
+				type: "item"
+				item: "botania:pixie_dust"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "Preparations for the Guardian of Gaia"
+			icon: "botania:gaia_pylon"
+			x: 19.5d
+			y: 2.0d
+			shape: "circle"
+			description: [
+				"To fight the Guardian of Gaia you need to setup an arena using the stuff of this quest. Check the Lexica Botania to view how to build the arena."
+				""
+				"To start the fight, just sneak+right-click the Beacon with the Terrasteel Ingot."
+			]
+			dependencies: [
+				"7E165C3D21F39879"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003A9"
+			tasks: [
+				{
+					id: "00000000000003AA"
+					type: "item"
+					item: "botania:gaia_pylon"
+					count: 4L
+				}
+				{
+					id: "3961DECF99B9DDFA"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+				{
+					id: "0AA0E77B5C57A056"
+					type: "item"
+					item: "minecraft:iron_block"
+					count: 9L
+				}
+				{
+					id: "3E1D676C4FB738F4"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+			]
+			rewards: [{
+				id: "5865559519406018"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				random_bonus: 3
+			}]
+		}
+		{
+			title: "Alfheim Portal"
+			icon: "botania:natura_pylon"
+			x: 14.0d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"The Alfheim portal is mainly used for trading overworld stuff for Alfheim stuff."
+				"Check the Lexica Botania to see the structure you need to make."
+				"The portal needs 100,000 mana in &nboth&r pools under the Natura Pylons to be opened but then uses mana only when trading, at a rate of 500 mana per trade."
+				""
+				"Later, with Mystic Botany, you will be able to enter the Alfheim dimension, follow the quests."
+				""
+				"Pro-tip: once the Alfheim Portal has been opened, you can replace the Mana Pools under Natura Pylons by Diluted Mana Pools to avoid locking to much mana for the trades."
+				"Breaking the pools or pylons doesn't close the portal as long as you don't throw trading items in."
+			]
+			dependencies: [
+				"00000000000003EB"
+				"00000000000003AE"
+				"113D3F44F9F6C45C"
+			]
+			size: 2.0d
+			id: "00000000000003AB"
+			tasks: [
+				{
+					id: "00000000000003AC"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+				{
+					id: "38BA82E297C1B533"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "507E860BFFE00F9F"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "08B9364BBD14F9FF"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "30AA7F0C14687CF0"
+				type: "item"
+				item: "botania:starfield"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.0d
+			shape: "circle"
+			description: ["Mana Pylons are used to boost up Enchanting Tables like Bookshelves. They give 8 Eterna each so you just need 2 to reach an enchanting level of 30."]
+			dependencies: [
+				"00000000000003CF"
+				"00000000000003D4"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003AD"
+			tasks: [{
+				id: "00000000000003AE"
+				type: "item"
+				item: "botania:mana_pylon"
+			}]
+			rewards: [{
+				id: "2006A066BF0FBEE2"
+				type: "item"
+				item: "botania:mana_diamond"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 14.0d
+			y: -1.5d
+			shape: "circle"
+			description: ["You can upgrade your Lexica Botania by throwing your existing Lexica Botania in the Aflheim Portal (works with the Akashic Tome)"]
+			dependencies: [
+				"00000000000003AB"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003AF"
+			tasks: [{
+				id: "00000000000003B0"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+			}]
+			rewards: [{
+				id: "057D77D89BB0907A"
+				type: "item"
+				item: "croptopia:caramel"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			shape: "circle"
+			description: [
+				"The Wand of the Forest is the tool you need to manipulate mana and configure Botania stuff."
+				"Switch between Bind Mode and Function Mode by sneak+right-clicking your wand without targetting a compatible block."
+			]
+			dependencies: [
+				"4E8017A427B96DC5"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003B1"
+			tasks: [{
+				id: "00000000000003B2"
+				type: "item"
+				item: {
+					id: "botania:twig_wand"
+					Count: 1b
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1048817CA847D176"
+				type: "item"
+				item: "botania:livingwood_log"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["The Floral Fertilizer is used to spawn Mystical Flowers by right-clicking Grass Blocks with it."]
+			dependencies: [
+				"113D3F44F9F6C45C"
+				"761F1776ADC5E9F1"
+			]
+			size: 2.0d
+			id: "00000000000003B3"
+			tasks: [{
+				id: "00000000000003B4"
+				type: "item"
+				item: "botania:fertilizer"
+			}]
+			rewards: [{
+				id: "14A0D9EE780635AC"
+				type: "item"
+				item: "botania:fertilizer"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "Petal Apothecary"
+			x: 2.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["The Petal Apothecary is used to craft generating and functional flowers."]
+			dependencies: [
+				"00000000000003B3"
+				"113D3F44F9F6C45C"
+			]
+			size: 2.0d
+			id: "00000000000003B5"
+			tasks: [{
+				id: "00000000000003B6"
+				type: "item"
+				title: "Petal Apothecary"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botania:apothecary"
+					}
+				}
+			}]
+			rewards: [{
+				id: "609058DB2E1BD713"
+				type: "item"
+				item: "botania:flower_bag"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"The Gaia Mana Spreader can burst even more mana and much faster than the elven one."
+				""
+				"It has an internal buffer of 6,400 mana and shoots bursts of 640 mana which can travel to up to 48 blocks at a speed of 0.4 blocks per tick (8 blocks per second)."
+			]
+			dependencies: [
+				"00000000000003E9"
+				"00000000000003DC"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003B7"
+			tasks: [{
+				id: "00000000000003B8"
+				type: "item"
+				item: "botania:gaia_spreader"
+			}]
+			rewards: [{
+				id: "0304AC4B7F0651F1"
+				type: "item"
+				item: "botania:gaia_spreader"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 16.0d
+			y: -1.5d
+			shape: "circle"
+			description: [
+				"By right-clicking with the Rod of the Bifrost you can build a temporary rainbow road in the direction you are looking at."
+				"You need to have mana on you to use the rod, but using it doesn't cost any mana. Built roads can be up to 100 blocks long and last for 30 seconds."
+			]
+			dependencies: [
+				"00000000000003ED"
+				"00000000000003F2"
+				"00000000000003F0"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003B9"
+			tasks: [{
+				id: "00000000000003BA"
+				type: "item"
+				item: "botania:rainbow_rod"
+			}]
+			rewards: [{
+				id: "1B5C113217954080"
+				type: "item"
+				item: "botania:bifrost_perm"
+				count: 12
+				random_bonus: 12
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			shape: "circle"
+			description: ["With the Rod of the Seas you have an ocean in your hands, if you have mana (75 per use) on you of course!"]
+			dependencies: [
+				"00000000000003A2"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003BB"
+			tasks: [{
+				id: "00000000000003BC"
+				type: "item"
+				item: "botania:water_rod"
+			}]
+			rewards: [{
+				id: "301DDFDB19211602"
+				type: "item"
+				item: "minecraft:heart_of_the_sea"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.0d
+			shape: "circle"
+			description: [
+				"With the Rod of the Shifting Crust, if you have mana on you (40 per use), you can swap blocks."
+				"Sneak+right-click on a block to register it in your rod, then left-click another block to swap it with the one you've registered, or right-click it to swap all identical blocks in a 7x7x7 area around it (only those on the surface)."
+			]
+			dependencies: [
+				"0000000000000388"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003BD"
+			tasks: [{
+				id: "00000000000003BE"
+				type: "item"
+				item: {
+					id: "botania:exchange_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2D38CE387557E66C"
+				type: "item"
+				item: "thermal:earth_tnt"
+				count: 4
+			}]
+		}
+		{
+			x: 11.0d
+			y: -2.0d
+			shape: "circle"
+			description: ["The Mana Tablet is used to carry mana on you. Toss your tablet in a Mana Pool set in sending mode by right-clicking it with your Wand of the Forest to fill it, or in receive mode to fill the pool with the content of your tablet."]
+			dependencies: [
+				"00000000000003D1"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003C7"
+			tasks: [{
+				id: "00000000000003C8"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "595B476B529176BF"
+				type: "item"
+				item: "botania:mana_diamond"
+				random_bonus: 1
+			}]
+		}
+		{
+			title: "Mana materials"
+			x: 7.0d
+			y: -1.0d
+			shape: "circle"
+			description: [
+				"In a Mana Pool, Toss:"
+				"- a String to get a Mana Infused String;"
+				"- a dust (Gunpowder, Glowstone, Redstone, Sugar) or any Dye to get a Mana Powder;"
+				"- a Nether Quartz to get a Mana Quartz;"
+				"- a Glass block to get a Managlass."
+			]
+			dependencies: [
+				"00000000000003F9"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003CB"
+			tasks: [
+				{
+					id: "444180FD972487DA"
+					type: "item"
+					item: "botania:mana_string"
+				}
+				{
+					id: "11DDE2DB7C47E14E"
+					type: "item"
+					item: "botania:mana_powder"
+				}
+				{
+					id: "0F6ACB727D707130"
+					type: "item"
+					item: "botania:quartz_mana"
+				}
+				{
+					id: "4176DCF2028E1027"
+					type: "item"
+					item: "botania:mana_glass"
+				}
+			]
+			rewards: [{
+				id: "41345E9BFBF7C395"
+				type: "item"
+				item: "botania:quartz_mana"
+				count: 4
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.5d
+			shape: "circle"
+			description: ["Get a Mana Diamond by tossing a Diamond in a Mana Pool."]
+			dependencies: [
+				"00000000000003F9"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003CF"
+			tasks: [{
+				id: "00000000000003D0"
+				type: "item"
+				item: "botania:mana_diamond"
+			}]
+			rewards: [{
+				id: "7B2E9D11C3CEB0CF"
+				type: "item"
+				item: "botania:mana_diamond"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			shape: "circle"
+			description: ["Get a Mana Pearl by tossing an Ender Pearl in a Mana Pool."]
+			dependencies: [
+				"00000000000003F9"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003D1"
+			tasks: [{
+				id: "00000000000003D2"
+				type: "item"
+				item: "botania:mana_pearl"
+			}]
+			rewards: [{
+				id: "6A805D664ADB1AF3"
+				type: "item"
+				item: "botania:mana_pearl"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			shape: "circle"
+			description: ["Get a Manasteel Ingot by tossing a Steel Ingot in a Mana Pool."]
+			dependencies: [
+				"00000000000003F9"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003D3"
+			tasks: [{
+				id: "00000000000003D4"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+			rewards: [{
+				id: "6A226391443603C9"
+				type: "item"
+				item: "beyond_earth:steel_ingot"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.5d
+			shape: "circle"
+			description: ["The Assembly Halo is a portable Crafting Table with the ability to register up to 11 crafts."]
+			dependencies: [
+				"00000000000003D1"
+				"00000000000003D4"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003D5"
+			tasks: [{
+				id: "00000000000003D6"
+				type: "item"
+				item: {
+					id: "botania:crafting_halo"
+					Count: 1b
+					tag: {
+						rotationBase: 630.4825f
+					}
+				}
+			}]
+			rewards: [{
+				id: "56907D9F9EFBAD52"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			shape: "circle"
+			description: ["Blacker Lotus give enormous amount of mana when throwed in a Mana Pool, 100,000 exactly."]
+			dependencies: [
+				"00000000000003E5"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003D7"
+			tasks: [{
+				id: "00000000000003D8"
+				type: "item"
+				item: "botania:blacker_lotus"
+			}]
+			rewards: [{
+				id: "0E3A618BE58CF8D2"
+				type: "item"
+				item: "botania:blacker_lotus"
+				count: 4
+			}]
+		}
+		{
+			x: 14.0d
+			y: 1.5d
+			shape: "circle"
+			description: [
+				"The Elven Mana Spreader can burst more mana and a bit faster than the basic one."
+				""
+				"It has an internal buffer of 1,000 mana and shoots bursts of 240 mana which can travel to up to 20 blocks at a speed of 0.25 blocks per tick (5 blocks per second)."
+			]
+			dependencies: [
+				"00000000000003F1"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003DB"
+			tasks: [{
+				id: "00000000000003DC"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+			rewards: [{
+				id: "67FAD6678232C056"
+				type: "item"
+				item: "botania:elven_spreader"
+				random_bonus: 3
+			}]
+		}
+		{
+			title: "Guardian of Gaia II"
+			icon: "botania:gaia_ingot"
+			x: 18.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["Use your Gaia Spirit to craft a Gaia Spirit Ingot and use it on the Beacon of your Gaia arena."]
+			dependencies: [
+				"00000000000003E9"
+				"113D3F44F9F6C45C"
+			]
+			size: 2.0d
+			id: "00000000000003DD"
+			tasks: [{
+				id: "00000000000003DE"
+				type: "item"
+				item: "botania:gaia_ingot"
+			}]
+			rewards: [{
+				id: "36ACE24E75575740"
+				type: "item"
+				item: "botania:life_essence"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 17.0d
+			y: 1.0d
+			shape: "circle"
+			description: [
+				"Put an Elementium Ingot, a Pixie Dust and a Dragonstone on the Mana-Infuser to get an Alfsteel Ingot."
+				"As for the Terrasteel, the cost is pretty high (2,000,000 mana, 2 Mana Pools) so ensure to have the mana required for the craft before starting or all the mana sent to the infuser will be lost."
+			]
+			dependencies: [
+				"0000000000000418"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003DF"
+			tasks: [{
+				id: "00000000000003E0"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+			}]
+			rewards: [{
+				id: "6BFB76E07F4A5E7B"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.5d
+			shape: "circle"
+			description: [
+				"Bind a Mana Mirror to a Mana Pool by right-clicking it to have mana on you, like a remote Mana Tablet."
+				"The chunk in which the Mana Pool is doesn't need to be loaded to access its mana, but of course it needs to be loaded if you want your mana generating setup to constantly refill the pool."
+			]
+			dependencies: [
+				"00000000000003EB"
+				"00000000000003C7"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003E3"
+			tasks: [{
+				id: "00000000000003E4"
+				type: "item"
+				item: {
+					id: "botania:mana_mirror"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "654C9B976EA936BA"
+				type: "item"
+				item: "botania:mana_diamond"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			shape: "circle"
+			description: ["In this pack you can craft Black Lotus. By throwing it in a Mana Pool containing some mana, you will instantly get 8,000 more mana."]
+			dependencies: [
+				"00000000000003F9"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003E5"
+			tasks: [{
+				id: "00000000000003E6"
+				type: "item"
+				item: "botania:black_lotus"
+			}]
+			rewards: [{
+				id: "4E21189582BEAA27"
+				type: "item"
+				item: "botania:black_lotus"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			shape: "circle"
+			description: [
+				"With the Mana Spreader you can transfer the mana generated by flowers wherever you want."
+				"Simply use a Wand of the Forest to make the Mana Spreader point where you want."
+				""
+				"A spreader can only shoot one burst of mana at a time, thus, the further the spreader is from its target, the slower the mana will be transferred."
+				""
+				"It has an internal buffer of 1,000 mana and shoots bursts of 160 mana which can travel to up to 12 blocks at a speed of 0.2 blocks per tick (4 blocks per second)."
+			]
+			dependencies: [
+				"4E8017A427B96DC5"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003E7"
+			tasks: [{
+				id: "00000000000003E8"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+			rewards: [{
+				id: "1690C7063EB3D16A"
+				type: "item"
+				item: "botania:mana_spreader"
+				random_bonus: 3
+			}]
+		}
+		{
+			title: "Fight the Guardian of Gaia"
+			icon: "botania:life_essence"
+			x: 19.0d
+			y: 1.0d
+			shape: "circle"
+			description: ["Defeat the Guardian of Gaia and get some Gaia Spirits as rewards."]
+			dependencies: [
+				"00000000000003A9"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003E9"
+			tasks: [
+				{
+					id: "79F16061260C42EC"
+					type: "kill"
+					icon: "botania:gaia_head"
+					entity: "botania:doppleganger"
+					value: 1L
+				}
+				{
+					id: "350ACAF37AD1780A"
+					type: "item"
+					item: "botania:life_essence"
+				}
+			]
+			rewards: [{
+				id: "291E6E4F5613C16A"
+				type: "item"
+				item: "botania:record_gaia_1"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -1.0d
+			shape: "circle"
+			description: [
+				"Put a Manasteel Ingot, a Mana Pearl and a Mana Diamond on a Terrestrial Agglomeration Plate to get a Terrasteel Ingot. You can right-click the plate with the items or toss them on it."
+				"Items on the plate can despawn, so ensure to have the 500,000 mana (half a Mana Pool) required for the craft before starting or all the mana sent to the plate will be lost."
+			]
+			dependencies: [
+				"0000000000000416"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003EB"
+			tasks: [{
+				id: "00000000000003EC"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+			rewards: [{
+				id: "35EDD0934EC5F626"
+				type: "item"
+				item: "botania:thorn_chakram"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -1.0d
+			shape: "circle"
+			description: ["The get a Dragonstone, throw a Mana Diamond in the Alfheim Portal."]
+			dependencies: [
+				"00000000000003AB"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003ED"
+			tasks: [{
+				id: "00000000000003EE"
+				type: "item"
+				item: "botania:dragonstone"
+			}]
+			rewards: [{
+				id: "23218B1AE56D8E8E"
+				type: "item"
+				item: "botania:dragonstone"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 13.0d
+			y: 1.0d
+			shape: "circle"
+			description: ["To get a Pixie Dust, throw a Mana Pearl in the Alfheim Portal."]
+			dependencies: [
+				"00000000000003AB"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003EF"
+			tasks: [{
+				id: "00000000000003F0"
+				type: "item"
+				item: "botania:pixie_dust"
+			}]
+			rewards: [{
+				id: "28E7F1710FF3EAC6"
+				type: "item"
+				item: "botania:pixie_dust"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 15.0d
+			y: 1.0d
+			shape: "circle"
+			description: ["The get an Elementium Ingot, throw 2 Manasteel Ingots in the Alfheim Portal."]
+			dependencies: [
+				"00000000000003AB"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003F1"
+			tasks: [{
+				id: "00000000000003F2"
+				type: "item"
+				item: "botania:elementium_ingot"
+			}]
+			rewards: [{
+				id: "0BA2D32EFF0E6061"
+				type: "item"
+				item: "mythicbotany:raw_elementium_block"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.0d
+			shape: "circle"
+			description: ["The Factory Halo is an Assembly Halo, but it will automatically performs the crafts you've registered as soon as their ingredients are in your inventory!"]
+			dependencies: [
+				"00000000000003D5"
+				"00000000000003D0"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003F3"
+			tasks: [{
+				id: "00000000000003F4"
+				type: "item"
+				item: {
+					id: "botania:auto_crafting_halo"
+					Count: 1b
+					tag: {
+						rotationBase: 630.4825f
+					}
+				}
+			}]
+			rewards: [{
+				id: "7C23F44BC157F474"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			shape: "circle"
+			description: [
+				"With a Mana Splitter you can fill up to 4 Mana Pools at once."
+				"Simply point your Mana Spreader toward the Mana Splitter and place your Mana Pools next to it."
+			]
+			dependencies: [
+				"00000000000003D3"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003F5"
+			tasks: [{
+				id: "00000000000003F6"
+				type: "item"
+				item: "botania:mana_distributor"
+			}]
+			rewards: [{
+				id: "0B6499BC1161C232"
+				type: "item"
+				item: "botania:mana_distributor"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"The Runic Altar is mainly used to craft Runes."
+				"To make it work, you have to feed it with mana from Mana Spreaders."
+			]
+			dependencies: [
+				"00000000000003D1"
+				"113D3F44F9F6C45C"
+			]
+			size: 2.0d
+			id: "00000000000003F7"
+			tasks: [{
+				id: "00000000000003F8"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [{
+				id: "077D8643E7010B12"
+				type: "item"
+				item: "botania:livingrock"
+				random_bonus: 15
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"Mana Pool is your primary method of storing mana."
+				""
+				"Normal and Fabulous Mana Pools can contain up to 1,000,000 mana, while the Diluted Mana Pool can only contain up to 10,000 mana."
+				"Thus, the latter is useless for storing mana, but useful as a step for complex mana transfers with Sparks for example."
+			]
+			dependencies: [
+				"4E8017A427B96DC5"
+				"113D3F44F9F6C45C"
+			]
+			size: 2.0d
+			id: "00000000000003F9"
+			tasks: [{
+				id: "00000000000003FA"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			rewards: [{
+				id: "38F55633A5344A8D"
+				type: "item"
+				item: "botania:diluted_pool"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 1.0d
+			shape: "circle"
+			description: [
+				"The Flügel Tiara allows you to fly temporarily as in creative, but with a twist: press your run key to get an incredible speed boost! You are also immune to fall damage."
+				""
+				"With the Tiara alone, you can fly for 1 minute at the cost of 35 mana per tick. You can see a new fly gauge bar above your food bar that depletes while flying and refills at half the depleting speed when on ground."
+				"If you also have the Eye of the Flügel (a reward from the Guardian of Gaia II) in your inventory, you can fly indefinitely, but when your fly gauge is depleted, the mana cost triples to 105 per tick."
+			]
+			dependencies: [
+				"00000000000003E9"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003FB"
+			tasks: [{
+				id: "00000000000003FC"
+				type: "item"
+				item: {
+					id: "botania:flight_tiara"
+					Count: 1b
+					tag: {
+						variant: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5BAEC5D402D7E1F0"
+				type: "item"
+				item: "botania:ender_air_bottle"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			title: "Elementium Armor"
+			x: 16.0d
+			y: 1.5d
+			shape: "circle"
+			description: ["An armor made of Elementium has the same properties as the one in Manasteel, but also a chance (up to 52% with the full set) to spawn Pixies each time you are hit. Pixies will fly to your opponents and apply potion effects to them."]
+			dependencies: [
+				"00000000000003F1"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003FD"
+			tasks: [
+				{
+					id: "00000000000003FE"
+					type: "item"
+					item: {
+						id: "botania:elementium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-597681243
+								826493361
+								-1917670745
+								876601677
+							]
+						}
+					}
+				}
+				{
+					id: "00000000000003FF"
+					type: "item"
+					item: {
+						id: "botania:elementium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000400"
+					type: "item"
+					item: {
+						id: "botania:elementium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000401"
+					type: "item"
+					item: {
+						id: "botania:elementium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0A28925ACC029419"
+				type: "item"
+				item: "botania:elementium_ingot"
+				count: 4
+				random_bonus: 16
+			}]
+		}
+		{
+			title: "Manasteel Armor"
+			x: 8.0d
+			y: 2.5d
+			shape: "circle"
+			description: [
+				"Pieces or armor made of Manasteel provide a defense equivalent to an iron armor. But it also have the following advantages:"
+				"- its enchantability is twice as good as that of iron armor (18 instead of 9);"
+				"- it can repair itself using mana stored on you, at the rate of 140 mana per durability point and per tick;"
+				"- using your mana tools costs 10% less mana if you wear the full set."
+				""
+				"And it's pretty cool."
+			]
+			dependencies: [
+				"00000000000003D3"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000402"
+			tasks: [
+				{
+					id: "0000000000000403"
+					type: "item"
+					item: {
+						id: "botania:manasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000404"
+					type: "item"
+					item: {
+						id: "botania:manasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000405"
+					type: "item"
+					item: {
+						id: "botania:manasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000406"
+					type: "item"
+					item: {
+						id: "botania:manasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "009871CA1E0F6426"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				count: 4
+				random_bonus: 12
+			}]
+		}
+		{
+			title: "Terrasteel Armor"
+			x: 13.0d
+			y: -2.0d
+			shape: "circle"
+			description: [
+				"The Terrasteel armor is a very good set. It provides as much protection as the Netherite set, but with the Manasteel armor advantages and many more:"
+				"- its enchantability is much better than Netherite armor (26 instead of 15);"
+				"- each piece grants more knockback resistance than its Netherite counterpart, for a total of 100% resistance (versus 40% for the full Netherite set);"
+				"- the full set grants 20% of mana costs reduction;"
+				"- with the full set, you recover 2 HP (1 ♥) every 4 seconds;"
+				"- the full set generates 20 mana every 0.5 seconds for your mana containers;"
+				"- you can combine the helmet with Wills that you will loot on the Gaia boss that grants you special effects on critical hits."
+				""
+				"And it's really stylish."
+			]
+			dependencies: [
+				"00000000000003EB"
+				"0000000000000403"
+				"0000000000000404"
+				"0000000000000405"
+				"0000000000000406"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000407"
+			tasks: [
+				{
+					id: "0000000000000408"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000409"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000040A"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000040B"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "79C7B370B3EFB547"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				count: 6
+				random_bonus: 6
+			}]
+		}
+		{
+			title: "Alfsteel Armor"
+			x: 16.0d
+			y: 2.5d
+			shape: "circle"
+			description: [
+				"The Alfsteel armor is an upgraded version of the Terrasteel set and a very strong set. In addition to the Terrasteel set bonuses, this one has the following advantages:"
+				"- the helmet increases your reach by 2 blocks;"
+				"- the chestplate contains the whole 100% of knockback resistance of the set;"
+				"- the leggings increases your speed and swim speed by 5%."
+				""
+				"And it's really awesome."
+			]
+			dependencies: [
+				"00000000000003DF"
+				"0000000000000408"
+				"0000000000000409"
+				"000000000000040A"
+				"000000000000040B"
+				"113D3F44F9F6C45C"
+			]
+			id: "000000000000040C"
+			tasks: [
+				{
+					id: "000000000000040D"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000040E"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000040F"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000410"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3E57A0A13F0CFB01"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "5576A1C1D9D2A984"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Catalysts"
+			x: 5.0d
+			y: 1.0d
+			shape: "circle"
+			description: [
+				"The Alchemy Catalyst allows you to infuse items with mana to transmute them, like Gunpowder into Flint or Quartz into Prismarine Shard."
+				""
+				"The Conjuration Catalyst allows you to duplicate some items, check JEI for more information."
+			]
+			dependencies: [
+				"4E8017A427B96DC5"
+				"00000000000003D2"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000411"
+			tasks: [
+				{
+					id: "0000000000000412"
+					type: "item"
+					item: "botania:alchemy_catalyst"
+				}
+				{
+					id: "0A1AD78C837D5109"
+					type: "item"
+					item: "botania:conjuration_catalyst"
+				}
+			]
+			rewards: [{
+				id: "3BB3EED9E49C2E05"
+				type: "item"
+				item: "minecraft:lily_pad"
+				random_bonus: 15
+			}]
+		}
+		{
+			icon: "botania:terra_plate"
+			x: 12.0d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"The Terrestrial Agglomeration Plate is used to craft Terrasteel."
+				"You need to make a small structure to make it work (check the Lexica Botania to view the structure)."
+			]
+			dependencies: [
+				"00000000000003A2"
+				"113D3F44F9F6C45C"
+			]
+			size: 2.0d
+			id: "0000000000000416"
+			tasks: [
+				{
+					id: "0000000000000417"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "2460BB5780EA5082"
+					type: "item"
+					item: "botania:livingrock"
+					count: 5L
+				}
+				{
+					id: "62CB6324AC826C3C"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "05B63B6D67728EDC"
+				type: "item"
+				item: "minecraft:lapis_block"
+				random_bonus: 3
+			}]
+		}
+		{
+			icon: "mythicbotany:mana_infuser"
+			x: 16.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["The Mana-Infuser is an upgraded version of the Terrestrial Agglomeration Plate, but it requires its Spark to have a Dominant Augment."]
+			dependencies: [
+				"00000000000003F1"
+				"00000000000003B9"
+				"0BA79AE0B09F3F0E"
+				"113D3F44F9F6C45C"
+			]
+			size: 2.0d
+			id: "0000000000000418"
+			tasks: [
+				{
+					id: "0000000000000419"
+					type: "item"
+					item: "mythicbotany:mana_infuser"
+				}
+				{
+					id: "52005E9110F1E8F6"
+					type: "item"
+					item: "botania:shimmerrock"
+					count: 5L
+				}
+				{
+					id: "0E984CBF7FCF3EFA"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "7B9DBFAFD04F8F64"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.5d
+			shape: "circle"
+			description: [
+				"Sparks are used to move mana between Mana Pools but also to feed the Terrestrial Agglomeration Plate with mana."
+				""
+				"They can send 1,000 mana per tick to every other Spark within their spherical range of 12 blocks radius."
+			]
+			dependencies: [
+				"0000000000000416"
+				"113D3F44F9F6C45C"
+			]
+			id: "000000000000041A"
+			tasks: [{
+				id: "000000000000041B"
+				type: "item"
+				item: "botania:spark"
+			}]
+			rewards: [{
+				id: "4874337100DFB7C5"
+				type: "item"
+				item: "botania:spark"
+				random_bonus: 3
+			}]
+		}
+		{
+			title: "Basic Rings"
+			x: 8.0d
+			y: -1.5d
+			shape: "circle"
+			description: [
+				"The Band of Aura slowly generates Mana, at a rate of 5 mana every 2.5 seconds."
+				"The Band of Mana can store up to 500,000 Mana (half a Mana Pool)."
+				"The Ring of Magnetization is basically a magnet, with a range of 6 blocks. It doesn't need mana to work and you can temporarily disable the magnetization by crouching."
+			]
+			dependencies: [
+				"00000000000003F9"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000422"
+			tasks: [
+				{
+					id: "0000000000000423"
+					type: "item"
+					item: "botania:aura_ring"
+				}
+				{
+					id: "570F0C1E65D61CBD"
+					type: "item"
+					item: {
+						id: "botania:mana_ring"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "08EF77FD0CB69359"
+					type: "item"
+					item: {
+						id: "botania:magnet_ring"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "05B8F538EEE85732"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				random_bonus: 7
+			}]
+		}
+		{
+			title: "Greater Rings"
+			x: 9.0d
+			y: -2.0d
+			shape: "circle"
+			description: [
+				"The Greater Band of Aura generates Mana, at a rate of 5 mana every 0.5 seconds."
+				"The Greater Band of Mana can store up to 2,000,000 Mana (2 Mana Pools)."
+				"The Greater Ring of Magnetization is a better magnet, with a range of 16 blocks."
+			]
+			dependencies: [
+				"0000000000000422"
+				"00000000000003EC"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000424"
+			tasks: [
+				{
+					id: "0000000000000425"
+					type: "item"
+					item: "botania:aura_ring_greater"
+				}
+				{
+					id: "47C963FAA1CE49DC"
+					type: "item"
+					item: {
+						id: "botania:mana_ring_greater"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "02A8A09FAEB10925"
+					type: "item"
+					item: {
+						id: "botania:magnet_ring_greater"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "342168A6538F524C"
+				type: "item"
+				item: "botania:rune_mana"
+				count: 2
+			}]
+		}
+		{
+			title: "Greatest Rings"
+			x: 10.0d
+			y: -2.5d
+			shape: "circle"
+			description: [
+				"The Greatest Band of Aura fastly generates Mana, at a rate of 20 mana every tick."
+				"The Greatest Band of Mana can store up to 4,000,000 Mana (4 Mana Pools)."
+			]
+			dependencies: [
+				"0000000000000424"
+				"00000000000003E0"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000426"
+			tasks: [
+				{
+					id: "0000000000000427"
+					type: "item"
+					item: "mythicbotany:aura_ring_greatest"
+				}
+				{
+					id: "33F6976B985B3166"
+					type: "item"
+					item: {
+						id: "mythicbotany:mana_ring_greatest"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "58EC8711A6FEA84A"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"The Pure Daisy is used to transmute blocks or fluids into other blocks or fluids."
+				""
+				"The flower has a range of 3x1x3 and the process takes 1 minute."
+			]
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			size: 2.0d
+			id: "000000000000042C"
+			tasks: [{
+				id: "000000000000042D"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "796D354320511CC3"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+		}
+		{
+			x: 17.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"The Endoflame produces mana by burning any Furnace fuel."
+				""
+				"The flower has an internal buffer of 300 mana, a 7x7x7 range, and produces 3 mana every 0.1 seconds for half of the fuel's burn time."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			id: "000000000000042E"
+			tasks: [{
+				id: "000000000000042F"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [{
+				id: "15AF57344877D9F2"
+				type: "item"
+				item: "minecraft:coal"
+				count: 16
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"The Thermalily produces mana by absorbing Lava sources."
+				""
+				"The flower has an internal buffer of 500 mana and, when absorbing a Lava source within its 3x1x3 range, generates 20 mana per tick for 45 seconds for a total of 18,000 mana, and cannot absorb any new Lava source."
+				"Then it enters in cooldown for 5 minutes, resetted each time it absorbs a new Lava source."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"28ABFC44933FF6D9"
+				"00000000000003A3"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000430"
+			tasks: [{
+				id: "0000000000000431"
+				type: "item"
+				item: "botania:thermalily"
+			}]
+			rewards: [{
+				id: "446E1E04EA059688"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 20.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"The Rosa Arcana produces mana by absorbing player's XP or Experience Orbs."
+				""
+				"The flower has an internal buffer of 6,000 mana and a 3x3x3 range."
+				"When absorbing the player's experience, the flower generates 50 mana per point each tick."
+				"When consuming Experience Orbs, it instantly generates 35 mana per point."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"58245BA9CF6838B2"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000432"
+			tasks: [{
+				id: "0000000000000433"
+				type: "item"
+				item: "botania:rosa_arcana"
+			}]
+			rewards: [{
+				id: "6BD54B9D46E3381A"
+				type: "item"
+				item: "minecraft:experience_bottle"
+				count: 64
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"The Exoflame fuels nearby Furnaces."
+				""
+				"The flower has an internal buffer of 300 mana which is fully used to allow 1 Furnace every tick to burn 1 item within its 11x5x11 range."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"555D46B3277DC518"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000434"
+			tasks: [{
+				id: "0000000000000435"
+				type: "item"
+				item: "botania:exoflame"
+			}]
+			rewards: [{
+				id: "11D6CB0176C2024D"
+				type: "item"
+				item: "minecraft:furnace"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			x: 13.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"The Entropinnyum produces mana by absorbing a TNT explosion that occured nearby, negating all damages to blocks and entities that would have occured. Only TNT work, but TNT exploding in the water won't work. The flower also have a TNT dupper detection system."
+				""
+				"The flower has an internal buffer of 6,500 mana, entirely filled by an absorbed explosion, a 25x25x25 range, and is unable to absorb any new explosion as long as some mana remains in it. This means that, if an explosion is not absorbed by the flower, blocks and entities around will be damaged as usual."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"00000000000003A3"
+				"0000000000000389"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000436"
+			tasks: [{
+				id: "0000000000000437"
+				type: "item"
+				item: "botania:entropinnyum"
+			}]
+			rewards: [{
+				id: "5CA92607F8E56F02"
+				type: "item"
+				item: "minecraft:tnt"
+				count: 4
+			}]
+		}
+		{
+			x: 19.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"The Kekimurus produces mana by eating Cakes."
+				""
+				"The flower has an internal buffer of 9,000 mana, finds a slice to eat within its 11x11x11 range every 4 seconds and produces 1,800 mana per slice."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"060B00064AAE4FFD"
+				"00000000000003F0"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000438"
+			tasks: [{
+				id: "0000000000000439"
+				type: "item"
+				item: "botania:kekimurus"
+			}]
+			rewards: [{
+				id: "25F2649CDA83C28B"
+				type: "item"
+				item: "minecraft:cake"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"The Narslimmus produces mana by killing &nnaturally&r spawned Slimes."
+				""
+				"The flower has an internal buffer of 19,200 mana and, when killing a Slime within its 5x3x5 range, produces 1,200 mana for a small one, 2,400 for a medium, and 9,600 for a big."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"20BBF26689A2F152"
+				"555D46B3277DC518"
+				"113D3F44F9F6C45C"
+			]
+			id: "000000000000043A"
+			tasks: [{
+				id: "000000000000043B"
+				type: "item"
+				item: "botania:narslimmus"
+			}]
+			rewards: [{
+				id: "5AA3AE0E797F81D6"
+				type: "item"
+				item: {
+					id: "minecraft:slime_spawn_egg"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							Size: 31
+							id: "minecraft:slime"
+						}
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"King Slime\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"The Orechid transmogrifies blocks into ores."
+				"You can disable the flower by applying a redstone signal to it."
+				""
+				"The flower consumes 17,500 mana every 5 seconds (or 700 mana every 0.1 seconds when Garden of Glass is present) to convert a random Stone block within its 11x7x11 range."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"1D9CF38B0A9E22BF"
+				"2DD691AAA99F6B30"
+				"00000000000003F0"
+				"113D3F44F9F6C45C"
+			]
+			id: "000000000000043C"
+			tasks: [{
+				id: "000000000000043D"
+				type: "item"
+				item: "botania:orechid"
+			}]
+			rewards: [{
+				id: "0E15149EA888ADF7"
+				type: "item"
+				item: "minecraft:diamond_ore"
+				count: 4
+			}]
+		}
+		{
+			x: 18.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"The Orechid Ingem transmogrifies blocks into ores. Only works in dimensions having a natural Bedrock ceiling."
+				"You can disable the flower by applying a redstone signal to it."
+				""
+				"The flower consumes 20,000 mana every 5 seconds (or every 0.1 seconds when Garden of Glass is present) to convert a random Netherrack block within its 11x7x11 range."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"1D9CF38B0A9E22BF"
+				"2DD691AAA99F6B30"
+				"00000000000003F0"
+				"113D3F44F9F6C45C"
+			]
+			id: "000000000000043E"
+			tasks: [{
+				id: "000000000000043F"
+				type: "item"
+				item: "botania:orechid_ignem"
+			}]
+			rewards: [{
+				id: "03ABAC6F8A6C2D73"
+				type: "item"
+				item: "minecraft:ancient_debris"
+				count: 2
+			}]
+		}
+		{
+			x: 11.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"The Marimorphosis transmogrifies Stone into Metamorphic Stones. These are mainly used for decoration. The different types may all generate everywhere, but each one is more frequent in specific biome types:"
+				"- Fuchsite: forests and taigas;"
+				"- Talc: plains and beaches;"
+				"- Gneiss: mountains;"
+				"- Mycelite: mushroom fields and underground biomes;"
+				"- Cataclasite: swamps and jungles;"
+				"- Solite: deserts and savannas;"
+				"- Lunite: cold biomes and taigas;"
+				"- Rosy Talc: badlands and savannas."
+				""
+				"The flower has an internal buffer of 1,000 mana and consumes 12 mana to transmogrify a Stone block within its 17x11x17 range into a random Metamorphic Stone every 0.1 seconds."
+				""
+				"The Petite variant has a lower range of 5x3x5."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"28ABFC44933FF6D9"
+				"00000000000003A3"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000440"
+			tasks: [{
+				id: "0000000000000441"
+				type: "item"
+				item: "botania:marimorphosis"
+			}]
+			rewards: [{
+				id: "66439CC9BC2D91B2"
+				type: "item"
+				item: "botania:floating_marimorphosis"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"The Solegnolia prevents players' Rings of Magnetization from catching items dropped nearby."
+				"You can disable the flower by applying a redstone signal to it."
+				""
+				"The flower has an internal buffer of 1 mana but doesn't consume any to prevent all items dropped within its spherical range of 5 blocks radius to be pulled by players' Rings of Magnetization."
+				""
+				"The Petite variant has a smaller range of 1 block radius."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000442"
+			tasks: [{
+				id: "0000000000000443"
+				type: "item"
+				item: "botania:solegnolia"
+			}]
+			rewards: [{
+				id: "4C57AEE158BBD754"
+				type: "item"
+				item: "botania:floating_solegnolia"
+			}]
+		}
+		{
+			title: "Living Blocks"
+			x: 6.0d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"To get Livingrock you have to transform any type of stone from Blue Skies, using a Pure Daisy."
+				"For the Livingwood, transform any kind of wood from Blue Skies."
+			]
+			dependencies: [
+				"000000000000042C"
+				"113D3F44F9F6C45C"
+			]
+			size: 2.0d
+			id: "4E8017A427B96DC5"
+			tasks: [
+				{
+					id: "1E075F013A326011"
+					type: "item"
+					item: "botania:livingrock"
+					count: 16L
+				}
+				{
+					id: "065CA81DA38942DD"
+					type: "item"
+					item: "botania:livingwood_log"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "25FD296BADCDE1AC"
+					type: "item"
+					item: "botania:livingrock"
+					count: 8
+				}
+				{
+					id: "79707CA07BDAFEB5"
+					type: "item"
+					item: "botania:livingwood_log"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Alfsteel Pylons"
+			x: 18.0d
+			y: 2.0d
+			shape: "circle"
+			description: ["Alfsteel Pylons are just a step on the path to the Gaia Pylons."]
+			dependencies: [
+				"00000000000003DF"
+				"113D3F44F9F6C45C"
+			]
+			size: 2.0d
+			id: "7E165C3D21F39879"
+			tasks: [{
+				id: "2B33A4299C13D905"
+				type: "item"
+				item: "mythicbotany:alfsteel_pylon"
+				count: 4L
+			}]
+			rewards: [{
+				id: "4519D61889F3D558"
+				type: "item"
+				item: "minecraft:ghast_tear"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 14.0d
+			y: -2.5d
+			shape: "circle"
+			description: ["The Branch of Yggdrasil is used to fill your Gjallarhorn. Use Mana Spreaders to feed it with 6,240 mana."]
+			dependencies: [
+				"00000000000003EB"
+				"113D3F44F9F6C45C"
+			]
+			id: "3C5F7AE3FA712ED6"
+			tasks: [{
+				id: "2D9AAD5C54CB3848"
+				type: "item"
+				item: "mythicbotany:yggdrasil_branch"
+			}]
+			rewards: [{
+				id: "01CE12A0F8B2FCB9"
+				type: "item"
+				item: "botania:terrasteel_nugget"
+				count: 3
+			}]
+		}
+		{
+			x: 15.0d
+			y: -2.0d
+			shape: "circle"
+			description: [
+				""
+				"Craft the Gjallarhorn to use it on the Branch of Yggdrasil."
+			]
+			dependencies: [
+				"3C5F7AE3FA712ED6"
+				"113D3F44F9F6C45C"
+			]
+			id: "3B3690A73AE1221B"
+			tasks: [{
+				id: "6EFA460A87066C63"
+				type: "item"
+				item: "mythicbotany:gjallar_horn_empty"
+			}]
+			rewards: [{
+				id: "2D499E5C65712084"
+				type: "item"
+				item: "botania:avatar"
+				count: 2
+			}]
+		}
+		{
+			x: 16.0d
+			y: -2.5d
+			shape: "circle"
+			description: [
+				"Put the Gjallarhorn on a Branch of Yggdrasil with enough mana and you will get the Water from the Well of Mimir."
+				"Once you have it, drink it to get some knowledge to make rituals."
+			]
+			dependencies: [
+				"3B3690A73AE1221B"
+				"113D3F44F9F6C45C"
+			]
+			id: "17F4F882FBC93A4B"
+			tasks: [{
+				id: "2F06D18D19919CC9"
+				type: "item"
+				item: "mythicbotany:gjallar_horn_full"
+			}]
+			rewards: [
+				{
+					id: "6C6C4F52734BEF51"
+					type: "item"
+					item: "botania:livingwood_log"
+					count: 64
+				}
+				{
+					id: "75F03964A284933C"
+					type: "item"
+					item: "botania:livingrock"
+					count: 64
+				}
+			]
+		}
+		{
+			title: "Fight the Guardian of Gaia II"
+			icon: "mythicbotany:fimbultyr_tablet"
+			x: 17.0d
+			y: -1.0d
+			shape: "circle"
+			description: [
+				"Fight the Guardian of Gaia again. But be careful because this one is more powerful."
+				"If you drank the Water from the Well of Mimir, you should get a Rune Tablet of Fimbultyr by defeating them."
+			]
+			dependencies: [
+				"00000000000003DD"
+				"17F4F882FBC93A4B"
+				"113D3F44F9F6C45C"
+			]
+			id: "1F196D2F8EC9C7D3"
+			tasks: [
+				{
+					id: "7F76683FB736C6D8"
+					type: "kill"
+					icon: "botania:gaia_head"
+					entity: "botania:doppleganger"
+					value: 1L
+				}
+				{
+					id: "400E65C5038AA4C8"
+					type: "item"
+					item: "mythicbotany:fimbultyr_tablet"
+				}
+			]
+			rewards: [{
+				id: "392703B0A9F57A4F"
+				type: "item"
+				item: "botania:gaia_ingot"
+			}]
+		}
+		{
+			title: "Rune Holders"
+			x: 19.0d
+			y: -1.0d
+			shape: "circle"
+			description: ["You need these to perform rituals."]
+			dependencies: [
+				"1F196D2F8EC9C7D3"
+				"113D3F44F9F6C45C"
+			]
+			id: "0A092542A77AFA9D"
+			tasks: [
+				{
+					id: "7CA8324CF35CA549"
+					type: "item"
+					item: "mythicbotany:central_rune_holder"
+				}
+				{
+					id: "0609329FCC3206AC"
+					type: "item"
+					item: "mythicbotany:rune_holder"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "0C4E1699DE229801"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 9
+				random_bonus: 9
+			}]
+		}
+		{
+			x: 19.5d
+			y: -2.0d
+			shape: "circle"
+			description: [
+				"Create the Blood of Kvasir by performing the ritual in the image below."
+				"{image:ftbquests:textures/quests/mythicbotany_bloodofkvasir.png width:150 height:100 align:1}"
+				"Once all runes are on their respective holder, the other items is within 2 blocks of the central one, and the Wandering Trader within 3 blocks, activate the Central Rune Holder by right-clicking it with your Wand of the Forest and 20,000 mana on you to perform the ritual."
+			]
+			dependencies: [
+				"0A092542A77AFA9D"
+				"04527CEB8BB22A79"
+				"0000000000000395"
+				"113D3F44F9F6C45C"
+			]
+			id: "5EBB91A231A640CE"
+			tasks: [{
+				id: "1A4BA3F82FB67E2B"
+				type: "item"
+				item: "mythicbotany:kvasir_blood"
+			}]
+			rewards: [{
+				id: "7A8C3E14D7E9427A"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+			}]
+		}
+		{
+			icon: "mythicbotany:kvasir_mead"
+			x: 20.0d
+			y: -1.0d
+			shape: "circle"
+			description: [
+				"Drink the Mead of Kvasir to get the ability to go in the Alfheim dimension."
+				""
+				"Note that you can only go to Alfheim from the Overworld."
+			]
+			dependencies: [
+				"5EBB91A231A640CE"
+				"113D3F44F9F6C45C"
+			]
+			id: "09F4E13303AF49A3"
+			tasks: [
+				{
+					id: "4A458D0651A84CD9"
+					type: "item"
+					item: "mythicbotany:kvasir_mead"
+				}
+				{
+					id: "31FDCF0F83BE95F5"
+					type: "dimension"
+					icon: "mythicbotany:dreamwood_leaves"
+					dimension: "mythicbotany:alfheim"
+				}
+			]
+			rewards: [{
+				id: "7F2EE87B2F38FF59"
+				type: "item"
+				item: "create_confectionery:honey_candy"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -2.0d
+			shape: "circle"
+			description: ["Mjöllnir is Thor's hammer. Only those who are strong enough can carry it, so you must have Absorption Hearts in order to be blessed with its power."]
+			dependencies: [
+				"0A092542A77AFA9D"
+				"113D3F44F9F6C45C"
+			]
+			size: 2.0d
+			id: "6702BC20FA6C1003"
+			tasks: [{
+				id: "42C45CF1B5EF5DD5"
+				type: "item"
+				item: "mythicbotany:mjoellnir"
+			}]
+			rewards: [{
+				id: "36CBCB5B79628927"
+				type: "item"
+				item: "thermal:lightning_grenade"
+				count: 16
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			shape: "circle"
+			description: [
+				"The Teru Teru Bozu becomes sad when it rains and smiles again if you feed them with a Sunflower."
+				"When you make them happy the sunlight comes back!"
+				""
+				"If you feed them with enough Blue Orchids, they may make it rain but will become sad again..."
+			]
+			dependencies: [
+				"00000000000003CB"
+				"113D3F44F9F6C45C"
+			]
+			id: "4475A45570C9CBB9"
+			tasks: [{
+				id: "76247FBD67F99F56"
+				type: "item"
+				item: "botania:teru_teru_bozu"
+			}]
+			rewards: [{
+				id: "39431529D51761E1"
+				type: "item"
+				item: "minecraft:sunflower"
+				random_bonus: 15
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			shape: "circle"
+			description: [
+				"The Hovering Hourglass is a timer whose delay can be configured using sand!"
+				"It emits a redstone signal when it flips to reset its timer."
+				""
+				"Sand gives 1 second per item, up to 1 minute and 4 seconds."
+				"Red Sand gives 10 seconds per item, up to 10 minutes and 40 seconds."
+				"Soul Sand gives 1 minute per item, up to 1 hour and 4 minutes."
+			]
+			dependencies: [
+				"00000000000003D3"
+				"4176DCF2028E1027"
+				"113D3F44F9F6C45C"
+			]
+			id: "170161AEFCAA46C1"
+			tasks: [{
+				id: "16B41BBC66E8009F"
+				type: "item"
+				item: "botania:hourglass"
+			}]
+			rewards: [
+				{
+					id: "6BF98F869B77C9D4"
+					type: "item"
+					item: "minecraft:sand"
+					count: 64
+				}
+				{
+					id: "78E6489B9F5FBAE8"
+					type: "item"
+					item: "minecraft:red_sand"
+					count: 64
+				}
+				{
+					id: "3D8B28B63CC28388"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 64
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 2.5d
+			shape: "circle"
+			description: [
+				"The Cocoon of Caprice will turn into a baby animal after 2 minutes."
+				"You can get aquatic mobs by waterlogging the cocoon, rarer mobs with a Gaia Spirit, or special mobs by right clicking some items on it, like a Shulker (with Chorus Fruits) or a Villager (with Emeralds)."
+				"Each item used increase the chance by 5%, so 20 items = 100%."
+			]
+			dependencies: [
+				"00000000000003EF"
+				"444180FD972487DA"
+				"113D3F44F9F6C45C"
+			]
+			id: "1500FA008C576712"
+			tasks: [{
+				id: "1F78DA87569C4751"
+				type: "item"
+				item: "botania:cocoon"
+			}]
+			rewards: [{
+				id: "65D499EAE94027E3"
+				type: "item"
+				item: "botania:cocoon"
+			}]
+		}
+		{
+			title: "Elementium Rings"
+			x: 15.0d
+			y: 2.0d
+			shape: "circle"
+			description: [
+				"These rings grant you several abilities:"
+				"- the Great Fairy Ring increases your chance to spawn a Pixie when hit by 25%, for a total of 77% with the full elementium armor set;"
+				"- the Ring of the Far Reach increases your reach by 3.5 blocks;"
+				"- the Ring of Muspelheim makes you immune to Fire and Lava damages;"
+				"- the Ring of Niflheim makes you immune to suffocation."
+			]
+			dependencies: [
+				"00000000000003F1"
+				"113D3F44F9F6C45C"
+			]
+			id: "0661817CFFE04049"
+			tasks: [
+				{
+					id: "4F49E660A1C0595B"
+					type: "item"
+					item: {
+						id: "botania:pixie_ring"
+						Count: 1b
+						tag: {
+							baubleUUID: [I;
+								-2090615922
+								327303706
+								-1265205892
+								-80264876
+							]
+						}
+					}
+				}
+				{
+					id: "60BEC3FF3AB99C30"
+					type: "item"
+					item: {
+						id: "botania:reach_ring"
+						Count: 1b
+						tag: {
+							baubleUUID: [I;
+								-1637254641
+								-554219928
+								-1465456293
+								-1897416371
+							]
+						}
+					}
+				}
+				{
+					id: "56EEC30EBB7D35C0"
+					type: "item"
+					item: "mythicbotany:fire_ring"
+				}
+				{
+					id: "6C832E0611D47EF0"
+					type: "item"
+					item: "mythicbotany:ice_ring"
+				}
+			]
+			rewards: [{
+				id: "45CE27F26649BB49"
+				type: "item"
+				item: "botania:elementium_block"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"The Shulk Me Not is a very tricky flower that produces mana by killing a levitating monster and the Shulker that made it fly."
+				"No loot or XP are generated by the Shulker and the monster."
+				""
+				"The flower has an internal buffer of 75,000 mana, which is also its production for each mobs pair killed within its spherical range of 8 blocks radius. This can occur as often as you can make a shulker attack a monster, if the flower's buffer is empty."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"350ACAF37AD1780A"
+				"1B3EBF81C5D4EA65"
+				"0000000000000389"
+				"113D3F44F9F6C45C"
+			]
+			id: "4F69084ED286BE3D"
+			tasks: [{
+				id: "67A2C6EF34E232E5"
+				type: "item"
+				item: "botania:shulk_me_not"
+			}]
+			rewards: [{
+				id: "43E419081265156D"
+				type: "item"
+				item: "minecraft:shulker_spawn_egg"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"The Rafflowsia is a cannibal: it produces mana by eating other flowers!"
+				"The more different flowers it eats, the more mana is produced. But if it eats the same flower continuously, its production will lessen."
+				"Only generating and functional flowers will work, mystical or glimmering won't. Floating and MythicBotany won't ether, but petites will, and they are considered as different from their big sisters."
+				""
+				"The flower has an internal buffer of 638,554 mana and will eat a flower within its 11x11x11 range every 2 seconds."
+				"The mana production is... arbitrary. The first flower will produce 2,000 mana, then if you alternate between 2 flowers they will produce 2,100 mana each. If you loop through 3 different flowers, they will produce 2,200 mana each. For each additional flower in the loop, the mana production will raise as follow: 2,300; 3,280; 4,033; 4,657; 5,150; 6,622; 7,860; 10,418; 12,600; 14,769; 16,671; 19,000; 25,400; 33,471; 40,900; 47,579; 53,600; 59,057; 64,264; 69,217; 74,483; 79,352; 83,869; 88,059; 92,129; 96,669; 100,940; 105,239; 112,044; 118,442; 124,612; 130,583; 136,228; 141,703; 178,442; 213,959; 247,725; 279,956; 313,671; 345,833; 377,227; 437,689; 495,526; 553,702; 638,554."
+				""
+				"Note that, if you manage to automate the flower supply, a Gaia Mana Spreader bound as the flower's output will only be able to handle the production of a loop of 12 flowers at full speed."
+				"If you really want an insane production, you may consider the Mana Collector from MythicBotany. This block acts as a generating flower's mana output and can handle up to 10,000 mana per tick (its internal buffer), i.e. a loop of 44 different flowers at full speed."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"28ABFC44933FF6D9"
+				"1D9CF38B0A9E22BF"
+				"00000000000003F0"
+				"113D3F44F9F6C45C"
+			]
+			id: "7D69936207D6D4B6"
+			tasks: [{
+				id: "3AE1356F0611A351"
+				type: "item"
+				item: "botania:rafflowsia"
+			}]
+			rewards: [{
+				id: "2C95380A18F2E5D1"
+				type: "item"
+				item: "botania:floating_rafflowsia"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"The Spectrolus generates mana by eating wool. But only in a specific order of colors, always the same:"
+				"&fwhite&r > &6orange&r > &dmagenta&r > &blight blue&r > §eyellow&r > &alime&r > &dpink&r > &8gray&r > &7light gray&r > &3cyan&r > &5purple&r > &1blue&r > &4brown&r > &2green&r > &cred&r > &0black&r."
+				"If you give any other color than the one it's expecting, the wool will still be eaten but without producing any mana."
+				"You can also feed it with living Sheeps of the good color to produce more mana, but the poor thing will be killed without laying any loot nor XP."
+				""
+				"The flower has a internal buffer of 16,000 mana and produces 1,200 mana per Wool or 5,000 per Sheep eaten within its 3x3x3 range, as fast as you can feed it and empty its buffer."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"1191C9C9939572EF"
+				"58CFB604287FFE3E"
+				"00000000000003F0"
+				"113D3F44F9F6C45C"
+			]
+			id: "5F96C097913A6940"
+			tasks: [{
+				id: "02BB8EB16A84A3E2"
+				type: "item"
+				item: "botania:spectrolus"
+			}]
+			rewards: [{
+				id: "43AF1ED4BECF4B70"
+				type: "item"
+				item: "minecraft:white_wool"
+				count: 16
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"The Gourmaryllis likes food and eats any edible stuff to produce mana."
+				"It doesn't like to eat the same thing again and again, so its mana production is divided by the number of times you fed it with the same item in a row."
+				"The mana production directly depends on the food points of the item, so better foods will produce more mana. Saturation isn't taken into account at all."
+				"When you feed it, it must take the time to chew the food, meanwhile every edible item found within its range will be eaten without producing any mana."
+				""
+				"The flower has an internal buffer of 9,000 mana, a 3x3x3 range, produces an amount of mana equal to 70 times the squared food points (a food point is half a drumstick on your food bar), and chews its food for 0.5 seconds per food point."
+				"Note that any food above 11 food points would produce more mana than its internal buffer can carry (for example: 10,800 mana for 6 drumsticks), so it will only produce 9,000 mana."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"00000000000003A3"
+				"555D46B3277DC518"
+				"113D3F44F9F6C45C"
+			]
+			id: "41FD117163A5DA72"
+			tasks: [{
+				id: "2665650B1267CEFE"
+				type: "item"
+				item: "botania:gourmaryllis"
+			}]
+			rewards: [{
+				id: "6897867CC088FCA1"
+				type: "item"
+				item: "minecraft:cookie"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"The Wither Aconite produces mana by consuming Nether Stars."
+				"When you give it a Nether Star, it will be converted into Faded Nether Star with a durability of 1,200,000. Each durability point consumed will produce 1 mana, so you can fill 1.2 Mana Pools with one Nether Star."
+				"Also, don't give it more than one Nether Star at a time or it will just stop working."
+				""
+				"The flower has an internal buffer of 2,400 mana an produces 1,200 mana per tick. But strangely its output rate is only of 600 mana per tick, so in practice that will be its true production rate."
+				"Its range is only 1x1x1 so the Nether Stars need to be dropped litterally \"in\" the flower."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"1D9CF38B0A9E22BF"
+				"113D3F44F9F6C45C"
+			]
+			id: "0F45CD20647F5E92"
+			tasks: [{
+				id: "749FF463B57AC7FF"
+				type: "item"
+				item: "mythicbotany:wither_aconite"
+			}]
+			rewards: [{
+				id: "52800227070C4EE4"
+				type: "item"
+				item: "minecraft:wither_rose"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"Contrary to what its name might suggest, the Raindeletia doesn't delete the rain. Instead, it only produces mana when it's raining, and even more during thunderstorms."
+				""
+				"The flower has an internal buffer of 300 mana and, while raining, produces... no mana if not planted on any special soil, 1 mana per tick when planted on Vivid Grass and 2 mana per tick when planted on Enchanted Soil. While thundering, it produces 15 mana per tick if not planted on any special soil, 30 mana per tick on Vivid Grass and 75 mana per tick on Enchanted Soil."
+				"Strangely, it only has a maximum output of 30 mana per tick."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"20BBF26689A2F152"
+				"113D3F44F9F6C45C"
+			]
+			id: "0635DEED6824AC7A"
+			tasks: [{
+				id: "197CBD7C270C1C21"
+				type: "item"
+				item: "mythicbotany:raindeletia"
+			}]
+			rewards: [{
+				id: "4C145F6B05D51068"
+				type: "item"
+				item: "botania:vivid_seeds"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"The Hydroangeas simply produces mana by consuming Water sources. It's very simple to setup but it has 2 major downsides: the production is really low and the flower will decay after a while."
+				""
+				"The flower has an internal buffer of 150 mana, produces 1 mana every 0.1 seconds for 1.3 seconds per Water source consumed within its 3x1x3 range, and decays (= disappears) after 1 hour, whether it has worked or not."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			id: "3215785B14482E48"
+			tasks: [{
+				id: "2361C3ED9B6D094F"
+				type: "item"
+				item: "botania:hydroangeas"
+			}]
+			rewards: [{
+				id: "046DCB0FDA38DCFC"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"The Daffomill is basically a fan: it will push items to the end of its area of effect."
+				"You can see the direction in which it blows through the thin smoke it makes. You can rotate the flower by sneak+interacting it with your Wand of the Forest in Function Mode. The wind passes through blocks."
+				"You can disable the flower by applying a redstone signal to it."
+				""
+				"The flower has an internal buffer of 100 mana and consumes 1 mana every second to pushes items within its 5 wide, 7 tall and 16 long range at the speed of 0.12 blocks per tick (2.4 blocks per second)."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"1191C9C9939572EF"
+				"113D3F44F9F6C45C"
+			]
+			id: "744A8A46047536E7"
+			tasks: [{
+				id: "72F61F124AED6398"
+				type: "item"
+				item: "botania:daffomill"
+			}]
+			rewards: [{
+				id: "514C2C071052CA71"
+				type: "item"
+				item: "botania:floating_daffomill"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"The Jaded Amaranthus is able to create Mystical Flowers out of mana."
+				"You can disable the flower by applying a redstone signal to it."
+				""
+				"The flower has an internal buffer of 100 mana, which it consumes to create a randomly colored Mystical Flower on a viable block every 1.5 seconds within its 9x8x9 range (2 below and 5 above)."
+				"Note that at each work process the flower will chose a random X;Z position and try to plant a flower from the top to the bottom until a plantable soil is found at said position, and fail its work if none is found."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"2A30C3E8DA526676"
+				"113D3F44F9F6C45C"
+			]
+			id: "3D07911E068CE27B"
+			tasks: [{
+				id: "286352DE4BD66267"
+				type: "item"
+				item: "botania:jaded_amaranthus"
+			}]
+			rewards: [{
+				id: "322D5C967E087EB4"
+				type: "item"
+				item: "botania:floating_jaded_amaranthus"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"The Jiyuulia keeps all mobs away from a restricted area, like an invisible force field."
+				"It's a reverse version of the Tangleberrie."
+				""
+				"The flower has an internal buffer of 20 mana and consumes 1 mana every 0.2 seconds to push away any mob within its spherical range of 8 blocks radius."
+				""
+				"The Petite variant has a smaller range of 3 blocks radius."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			id: "34B6300D053DC0D0"
+			tasks: [{
+				id: "54AE112E6AADFD1D"
+				type: "item"
+				item: "botania:jiyuulia"
+			}]
+			rewards: [{
+				id: "6EDA1BC2C0702614"
+				type: "item"
+				item: "botania:floating_jiyuulia"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"The Dandelifeon is certainly the most complicated generating flower to deal with."
+				"You must first put Cellular Blocks within its 25x1x25 working area. Then, every 0.5 seconds when the flower is powered by a redstone signal, it will play the \"Conway's game of life\" (search internet for the rules) with the blocks by creating and removing blocks, increasing their \"generation\". Blocks that would be created outside its working area are just lost. If all blocks vanish, no mana is produced."
+				"If, after a work, a single block has been created in the center 3x1x3 area, all existing blocks are instantly destroyed to be converted into mana."
+				""
+				"The flower has an internal buffer of 50,000 mana and produces 5 mana per block per generation, up to 18,000 mana at once."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"00000000000003A2"
+				"350ACAF37AD1780A"
+				"113D3F44F9F6C45C"
+			]
+			id: "222B4A0DE676E195"
+			tasks: [{
+				id: "3D7C21D5480D5A01"
+				type: "item"
+				item: "botania:dandelifeon"
+			}]
+			rewards: [{
+				id: "354E574EB09EBA6C"
+				type: "item"
+				item: "botania:cell_block"
+				count: 16
+			}]
+		}
+		{
+			x: 16.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"The Munchdew produces mana by eating leaves."
+				"After having eaten all reachable leaves, it will enter in cooldown for a while, being unable to eat anything."
+				""
+				"The flower has an internal buffer of 10,000 mana, eats a block of leaves within its 17x17x17 range (with the flower at the bottom center) every 0.2 seconds to produce 160 mana, and has a cooldown of 80 seconds."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"060B00064AAE4FFD"
+				"113D3F44F9F6C45C"
+			]
+			id: "72C067D0A6FBBABE"
+			tasks: [{
+				id: "063741428149780E"
+				type: "item"
+				item: "botania:munchdew"
+			}]
+			rewards: [{
+				id: "704E9576C846041C"
+				type: "item"
+				item: "mythicbotany:dreamwood_leaves"
+				count: 16
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.5d
+			shape: "square"
+			description: ["When placed next to Mana Pools, the Manastar checks their total amount of mana every 3 seconds to show if it is increasing by emitting blue particles or decreasing with red particles."]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			id: "17813C5BB2BE4FD2"
+			tasks: [{
+				id: "0092F93742C33D9C"
+				type: "item"
+				item: "botania:manastar"
+			}]
+			rewards: [{
+				id: "0156F01174AAA2F5"
+				type: "item"
+				item: "botania:floating_manastar"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"The Medumone completely prevents any nearby mob (excluding players) from moving."
+				"You can disable the flower by applying a redstone signal to it."
+				""
+				"The flower has an internal buffer of 4,000 mana and consumes 1 mana per tick and per mob to apply a 0.1 seconds Slowness 99 effects to all mobs within its 13x13x13 range."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"28ABFC44933FF6D9"
+				"113D3F44F9F6C45C"
+			]
+			id: "2C5D2B78B84ADDFF"
+			tasks: [{
+				id: "27223635C93B6686"
+				type: "item"
+				item: "botania:medumone"
+			}]
+			rewards: [{
+				id: "5B0D389C4D8C7E01"
+				type: "item"
+				item: "botania:floating_medumone"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"When put under water, the Bubbell pushes out the water to create an air bubble to allow you to build quietly."
+				"But beware! This air is not permanent and, as soon as you remove the flower, the water will come back! So you can't use this flower to \"remove\" water like a Sponge. Expect strange behaviors when the water comes back after you have placed and removed blocks in its bubble."
+				""
+				"The flower has an internal buffer of 2,000 mana and will consume 4 mana per tick, even when there is no water nearby. When placed, it will first have a spherical range of 2 blocks radius, and will increase it by 1 block every 0.5 seconds if it has mana, up to 12 blocks."
+				""
+				"The Petite variant has a smaller maximum range of 6 blocks radius."
+				""
+				"&4&lWARNING:&r This flower is known to cause crashes when placed and removed too often and/or too fast, so use it with care."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"555D46B3277DC518"
+				"00000000000003F0"
+				"113D3F44F9F6C45C"
+			]
+			id: "29EC378574FA560F"
+			tasks: [{
+				id: "0914CA77F303DFE6"
+				type: "item"
+				item: "botania:bubbell"
+			}]
+			rewards: [{
+				id: "553D084FC1FFF4CF"
+				type: "item"
+				item: {
+					id: "supplementaries:bubble_blower"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"The Spectranthemum teleports items further at the cost of mana. Items already teleported by a Spectranthemum can't be teleported again by another one, you must first put them in an inventory and drop them again (a Hopper and an Open Crate will do the trick)."
+				"Item stacks are teleported in one go, but the mana cost is per item, so if you don't have enough mana to teleport the full stack, none of its items will be teleported."
+				"You can disable the flower by applying a redstone signal to it."
+				""
+				"The flower has an internal buffer of 16,000 mana and consumes 24 mana per item (1,536 for a full stack) dropped within its 5x5x5 central area to teleport them to the destination bound in its spherical range of 12 blocks radius."
+				""
+				"&6&lNOTE:&r Due to a bug, even if the destination range is displayed as a square, it's actually a sphere."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"1B3EBF81C5D4EA65"
+				"00000000000003F0"
+				"113D3F44F9F6C45C"
+			]
+			id: "6C43771388E6DDBA"
+			tasks: [{
+				id: "2AC887D1F08E33E3"
+				type: "item"
+				item: "botania:spectranthemum"
+			}]
+			rewards: [{
+				id: "0BE5F637F8B58BCE"
+				type: "item"
+				item: "botania:floating_spectranthemum"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"The Exoblaze fills the fuel gauge of nearby Brewing Stands, so you don't need to fill them with Blaze Powder anymore."
+				""
+				"The flower has an internal buffer of 300 mana and consumes 50 mana every 0.5 seconds to fill up 1 charge of every Brewing Stands within its 7x3x7 range. A Brewing Stand has 20 charges, so filling one will consume 1,000 mana."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"00000000000003A3"
+				"113D3F44F9F6C45C"
+			]
+			id: "4CBDC4164637EEF3"
+			tasks: [{
+				id: "2421BCB7D5BF57D6"
+				type: "item"
+				item: "mythicbotany:exoblaze"
+			}]
+			rewards: [{
+				id: "297A9DCA9055D3CA"
+				type: "item"
+				item: "minecraft:brewing_stand"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 19.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"The Pollidisiac takes dropped items to feed mobs that players can breed. The items must be foods that said mobs can eat."
+				""
+				"The flower has an internal buffer of 120 mana and consumes 12 mana to feed 1 item to 1 mob, putting them in love mode for 1 minute."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"501048AA650BB8EF"
+				"113D3F44F9F6C45C"
+			]
+			id: "73A16187B8BF52BC"
+			tasks: [{
+				id: "232E211C1160C201"
+				type: "item"
+				item: "botania:pollidisiac"
+			}]
+			rewards: [{
+				id: "649963E200963C00"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			x: 14.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"The Fallen Kanade heals nearby players and tamed pets."
+				""
+				"The flower has an internal buffer of 900 mana and consumes 120 mana to apply a Regeneration III effect for 59 ticks (about 3 seconds) to a players or tamed pets within its 5x5x5 range. The refresh timer of the effect is handled independently for each target."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"2A30C3E8DA526676"
+				"113D3F44F9F6C45C"
+			]
+			id: "333C3B5342D4B8A7"
+			tasks: [{
+				id: "0C54A1C5C7B4BACF"
+				type: "item"
+				item: "botania:fallen_kanade"
+			}]
+			rewards: [{
+				id: "512AF242262E6ABF"
+				type: "item"
+				item: "minecraft:golden_apple"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"The Bellethorne harms nearby mobs until they die, excluding players."
+				"It's a less specialized version of the Dreadthorne."
+				"You can disable the flower by applying a redstone signal to it."
+				""
+				"The flower has an internal buffer of 1,000 mana and consumes 24 mana every 0.25 seconds to deal 4 damages (♥♥) to all mobs within its 13x13x13 range."
+				""
+				"The Petite variant has a lower range of 3x3x3."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			id: "1E982F1EA05B4FC3"
+			tasks: [{
+				id: "3842495B8610773D"
+				type: "item"
+				item: "botania:bellethorn"
+			}]
+			rewards: [{
+				id: "59AF52C8518AC849"
+				type: "item"
+				item: "minecraft:zombie_spawn_egg"
+			}]
+		}
+		{
+			x: 19.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"The Bergamute muffles noises that occur nearby. The more Bergamutes in range of a sound, the more it will be dampen."
+				"You can also use it to prevent Horns and Drums from breaking blocks in the flower's range."
+				""
+				"The flower has a spherical range of 4 blocks radius."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			id: "75C7BBAA46DBB6DB"
+			tasks: [{
+				id: "2A7D200CA3E3C220"
+				type: "item"
+				item: "botania:bergamute"
+			}]
+			rewards: [{
+				id: "5B7D7A2E8DDAA5F5"
+				type: "item"
+				item: {
+					id: "botania:cacophonium"
+					Count: 1b
+					tag: {
+						soundName: "entity.minecraft.villager"
+						sound: "minecraft:entity.villager.ambient"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"The Heisei Dream brainwashes nearby hostile mobs in order to turn them against each others. When infected by the flower, they will completely forget about other things they would normally target (players, passive creatures, Turtle Eggs...) to fight other infected mobs until every single one of them has died."
+				"Note that infected mobs will only chase after mobs infected by the same flower."
+				""
+				"The flower has an internal buffer of 1,000 mana and consumes 100 mana to brainwash 1 mob per tick within its 11x11x11 range."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"0000000000000389"
+				"00000000000003F0"
+				"113D3F44F9F6C45C"
+			]
+			id: "0168099695957982"
+			tasks: [{
+				id: "1D12EF45852517EB"
+				type: "item"
+				item: "botania:heisei_dream"
+			}]
+			rewards: [{
+				id: "176D46E94B5072A7"
+				type: "item"
+				item: "botania:floating_heisei_dream"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"The Labellia allows you to mass rename items and mobs. Throw a Name Tag inside the flower and all item stacks and mobs nearby will be renamed to whatever you renamed the Name Tag in an Anvil."
+				"Note that if multiple Name Tags with different names are available simultaneously, the first to be found will also rename other Name Tags."
+				"You can disable the flower by applying a redstone signal to it."
+				""
+				"The flower has an internal buffer of 6,000 mana and consumes 500 mana and a renamed Name Tag to rename all item stacks and mobs within at once its 5x5x5 range."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"7C275C683FD97C97"
+				"00000000000003F0"
+				"113D3F44F9F6C45C"
+			]
+			id: "4867C2BD1BCFC852"
+			tasks: [{
+				id: "25299319F8FD2176"
+				type: "item"
+				item: "botania:labellia"
+			}]
+			rewards: [{
+				id: "7B9370BEF8915BA0"
+				type: "item"
+				item: "minecraft:name_tag"
+				random_bonus: 5
+			}]
+		}
+		{
+			x: 20.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"The Clayconia moistens nearby Sand with mana to produce Clay Balls."
+				""
+				"The flower has an internal buffer of 640 mana and consumes 80 mana every 0.25 seconds to transmute a random Sand block within its 11x7x11 range into a Clay Ball."
+				""
+				"The Petite variant has a smaller range of 5x3x5."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"28ABFC44933FF6D9"
+				"113D3F44F9F6C45C"
+			]
+			id: "6759DB47E7294DEE"
+			tasks: [{
+				id: "5418BA4A1373EFC4"
+				type: "item"
+				item: "botania:clayconia"
+			}]
+			rewards: [{
+				id: "20F75AA487E37445"
+				type: "item"
+				item: "minecraft:clay_ball"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"The Loonium summons monsters without their usual loots but with a random loot normally generated in structure chests."
+				"You can than farm very rare and powerful items, but also LOADS of trash. It's up to you to sort that out."
+				"You can disable the flower by applying a redstone signal to it."
+				""
+				"The flower has an internal buffer of 35,000 mana which is fully consumed every 5 seconds to spawn a mob 1 block above the lowest non-suffocable block found above a randomly picked X;Z position in the flower's 11x1x11 range. This means that mobs can spawn up to the maximum build height if all block below are filled. Mobs have infinite Fire Resistance and Regeneration effects (except Creepers which keep these for 5 seconds) and have the following spawn chances:"
+				"- Skeleton: 26.46%;"
+				"- Spider: 26.46%;"
+				"- Zombie: 21.168%;"
+				"- Creeper: 9.751%;"
+				"- Drowned: 5.292%;"
+				"- Stray: 2.94%;"
+				"- Cave Spider: 2.94%;"
+				"- Husk: 2.94%;"
+				"- Enderman: 2%;"
+				"- Charged Creeper: 0.049%."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"7877B5E8469528E8"
+				"1B3EBF81C5D4EA65"
+				"060B00064AAE4FFD"
+				"00000000000003F0"
+				"113D3F44F9F6C45C"
+			]
+			id: "394CE4DC82CC4EA0"
+			tasks: [{
+				id: "0E8407A74659D835"
+				type: "item"
+				item: "botania:loonium"
+			}]
+			rewards: [{
+				id: "769E2403A215DE37"
+				type: "item"
+				item: "botania:floating_loonium"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"The Hyacidus poisons any nearby entity, allowing you to one hit kill them."
+				"Note that players aren't affected and &msteel&r undead mobs are immune to poison."
+				"You can disable the flower by applying a redstone signal to it."
+				""
+				"The flower has an internal buffer of 180 mana and consumes 20 mana to apply a Poison I effect for 3 seconds to any living entity within its 13x13x13 range."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"7C275C683FD97C97"
+				"113D3F44F9F6C45C"
+			]
+			id: "20BFED5C1E582E68"
+			tasks: [{
+				id: "07486D2BBE02676E"
+				type: "item"
+				item: "botania:hyacidus"
+			}]
+			rewards: [{
+				id: "440623C6D5B51CDB"
+				type: "item"
+				item: "botania:floating_hyacidus"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"The Tigerseye pacifies Creepers to prevent them from exploding in the worst place. A pacified Creeper will do everything possible to avoid the player, even when leaving the flower's area of effect. However, no matter what you do, no Creeper will ever explode within this area."
+				""
+				"The flower has an internal buffer of 1,000 mana and consumes 70 mana per Creeper pacified within its 21x9x21 range."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"7C275C683FD97C97"
+				"113D3F44F9F6C45C"
+			]
+			id: "72F22960DB7D8FB3"
+			tasks: [{
+				id: "55216328A19BE8F8"
+				type: "item"
+				item: "botania:tigerseye"
+			}]
+			rewards: [{
+				id: "1267D27794626C73"
+				type: "item"
+				item: "minecraft:creeper_spawn_egg"
+			}]
+		}
+		{
+			x: 17.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"The Petrunia instantly activates any nearby valid runes ritual."
+				""
+				"The flower has an internal buffer of 300 mana but, oddly, doesn't consume any mana to activate runes rituals having their Central Runes Holder within its 7x3x7 range."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"2F06D18D19919CC9"
+				"113D3F44F9F6C45C"
+			]
+			id: "66B4577722BACD64"
+			tasks: [{
+				id: "72962B4A842E31FB"
+				type: "item"
+				item: "mythicbotany:petrunia"
+			}]
+			rewards: [{
+				id: "28FC3E497287DA4C"
+				type: "item"
+				item: "botania:horn_grass"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"The Rannuncarpus picks up items dropped nearby and place them as blocks in the world, if possible. Placing rules still apply, so for example you need dirt and water to place Sugar Cane."
+				"The block where the flower may place their items can be specified by placing one such block directly below the flower's soil. If there is no block, the flower may place blocks anywhere, including mid-air."
+				"If you place Item Frames against the destination block \"filter\", you can also filter which items may be picked up to be placed."
+				"When provided with mana, the flower's range increases and it consumes a few mana to place blocks."
+				"You can disable the flower by applying a redstone signal to it."
+				""
+				"The flower has an internal buffer of 20 mana and consumes 1 mana if available to take 1 item within its 5x7x5 pick up range and place it within its 13x13x13 placing range, or 17x13x17 when mana is provided."
+				""
+				"The Petite variant has a lower placing range of 5x5x5, or 7x5x7 when mana is provided."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"28ABFC44933FF6D9"
+				"113D3F44F9F6C45C"
+			]
+			id: "697036438A8D2F61"
+			tasks: [{
+				id: "2BD53FD8926EEC38"
+				type: "item"
+				item: "botania:rannuncarpus"
+			}]
+			rewards: [{
+				id: "5F388BB333308B83"
+				type: "item"
+				item: "botania:floating_rannuncarpus"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"The Dreadthorne harms nearby passive adult mobs."
+				"It's a more specialized version of the Bellethorne."
+				"You can disable the flower by applying a redstone signal to it."
+				""
+				"The flower has an internal buffer of 1,000 mana and consumes 30 mana every 0.25 seconds to deal 4 damages (♥♥) to all passive adult mobs within its 13x13x13 range."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			id: "63C81303E6DD4B9F"
+			tasks: [{
+				id: "64918FDC31745196"
+				type: "item"
+				item: "botania:dreadthorn"
+			}]
+			rewards: [{
+				id: "2E7DD49930AEFD96"
+				type: "item"
+				item: "botania:floating_dreadthorn"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"The Hopperhock is basically a remote hopper. It absorbs nearby items and inserts them in adjacent inventories."
+				"If mana is provided by a Mana Pool, the flower's range increases and it consumes a few mana."
+				"If you put Item Frames against the inventory in which the flower inserts items, the flower will only insert items displayed in said Item Frames. This behavior can be tweaked by sneak+interacting the flower with a Wand of the Forest in Function Mode. Looking at the flower with your wand will display its current mode."
+				"You can disable the flower by applying a redstone signal to it."
+				""
+				"The flower has an internal buffer of 20 mana but doesn't need mana to absorb items within its 13x13x13 base range, or consumes 1 mana per item stack absorbed within a 21x21x21 range if mana if provided."
+				""
+				"The Petite variant has a lower range of 3x3x3 without mana and 5x5x5 with mana."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"1191C9C9939572EF"
+				"113D3F44F9F6C45C"
+			]
+			id: "3A1FB6A0DAC8D4B3"
+			tasks: [{
+				id: "6925E30FD8ABFD06"
+				type: "item"
+				item: "botania:hopperhock"
+			}]
+			rewards: [{
+				id: "4E8570F442B49D1C"
+				type: "item"
+				item: "botania:floating_hopperhock"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"The Tangleberrie is a flower that keeps all mobs in a narrow area, like an invisible force field."
+				"It's a reverse version of the Jiyuulia."
+				""
+				"The flower has an internal buffer of 20 mana and consumes 1 mana every 0.2 seconds to pull any mob within its spherical range of 7 blocks radius toward a sphere with a radius 1 block smaller."
+				""
+				"The Petite variant has a smaller pulling range of 3 blocks radius."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"1191C9C9939572EF"
+				"28ABFC44933FF6D9"
+				"113D3F44F9F6C45C"
+			]
+			id: "4030877A1EFE6697"
+			tasks: [{
+				id: "5E8676CDF79EF924"
+				type: "item"
+				item: "botania:tangleberrie"
+			}]
+			rewards: [{
+				id: "67B71E6E155E59E7"
+				type: "item"
+				item: "botania:floating_tangleberrie"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"The Vinculotus hijacks Endermen's teleportations to redirect them to the flower."
+				"You can disable the flower by applying a redstone signal to it."
+				""
+				"The flower has an internal buffer of 500 mana and consumes 50 mana to redirect any Enderman teleporting &nto&r within its spherical range of 64 blocks radius."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"7877B5E8469528E8"
+				"501048AA650BB8EF"
+				"113D3F44F9F6C45C"
+			]
+			id: "73CB7CBF2E1AD05D"
+			tasks: [{
+				id: "42E20415F6193EB2"
+				type: "item"
+				item: "botania:vinculotus"
+			}]
+			rewards: [{
+				id: "657CFE22C629AE83"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			x: 13.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"Normally, when Piglins and Hoglins are outside the Nether, they turn into zombies after 15 seconds. The Hellebore can avoid this: as long as they remain nearby and the flower has sufficient mana, they won't zombify."
+				""
+				"The Flower has an internal buffer of 300 mana and consumes 150 mana to reset the zombification timer when it gets higher than 20, which means the flower will activate every 21 ticks (about 1 second) for each mob, within its 11x5x11 range."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"00000000000003A3"
+				"113D3F44F9F6C45C"
+			]
+			id: "2DC31890B7AA1B6A"
+			tasks: [{
+				id: "1D82117CE515AD82"
+				type: "item"
+				item: "mythicbotany:hellebore"
+			}]
+			rewards: [{
+				id: "0D63A4620E0B1BBD"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			x: 17.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"The Aquapanthus consumes a few mana to fill nearby Cauldrons and Petal Apothecaries."
+				""
+				"The flower has an internal buffer of 300 mana, consumes 2 mana to fill a container within its 7x1x7 range after a 1 second animation, and then waits for 0.25 seconds before checking for a new container."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			id: "1F09DA2A680C565F"
+			tasks: [{
+				id: "6BE312A4BBEE2D1F"
+				type: "item"
+				item: "mythicbotany:aquapanthus"
+			}]
+			rewards: [{
+				id: "2F0BB302FC19F38E"
+				type: "item"
+				item: "botania:apothecary_taiga"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"The Agricarnation helps plants to grow by applying a weak bonemeal effect to them."
+				"You can disable the flower by applying a redstone signal to it."
+				""
+				"The flower has an internal buffer of 200 mana and tries every 0.6 seconds to find a crop to boost within its 11x6x11 (4 blocks above and 1 below) range and, if one is found, consumes 5 mana to do so."
+				"Note that it checks bonemealable blocks from the top to the bottom, and if a bonemealable block is found on a higher level, lower ones won't get boosted. The more an 11x11 field at a higher level is full of bonemealable crops, the closer to zero the chances of boosting crops at a lower level."
+				""
+				"The Petite variant has a lower horizontal range of 2 blocks."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"2A30C3E8DA526676"
+				"113D3F44F9F6C45C"
+			]
+			id: "201D9AB4906D9A76"
+			tasks: [{
+				id: "38530EFEE118A8BD"
+				type: "item"
+				item: "botania:agricarnation"
+			}]
+			rewards: [{
+				id: "1F73D2F0FD0DCCAE"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			title: "Functional Flowers"
+			x: 2.0d
+			y: 3.8d
+			shape: "square"
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			size: 0.07d
+			id: "293FF6EF1E542435"
+			tasks: [{
+				id: "16A23611222C84BF"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+		{
+			title: "Generating Flowers"
+			x: 2.0d
+			y: -3.9d
+			shape: "square"
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			size: 0.07d
+			id: "4E79B855518D3EC0"
+			tasks: [{
+				id: "2AB677FCC2AE89BE"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

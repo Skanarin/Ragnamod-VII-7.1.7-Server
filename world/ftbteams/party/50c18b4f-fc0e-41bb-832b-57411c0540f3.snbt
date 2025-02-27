@@ -1,0 +1,38 @@
+{
+	id: "50c18b4f-fc0e-41bb-832b-57411c0540f3"
+	type: "party"
+	owner: "65e5a8b0-1d38-4b1b-9b59-a2ad8495cee5"
+	ranks: {
+		65e5a8b0-1d38-4b1b-9b59-a2ad8495cee5: "owner"
+		ccb09cf1-baab-467a-bfe3-bf595b9ca445: "member"
+		b2c8da85-5284-4f94-9f1b-650f67cb2176: "member"
+		5d974e75-f64c-4f68-b68e-f9f528409472: "member"
+	}
+	properties: {
+		"ftbteams:display_name": "KentinNsS's Party"
+		"ftbteams:description": ""
+		"ftbteams:color": "#D859FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_fake_players": 0b
+		"ftbchunks:allow_named_fake_players": [ ]
+		"ftbchunks:allow_fake_players_by_id": 1b
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbchunks:entity_interact_mode": "allies"
+		"ftbchunks:nonliving_entity_attack_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "allies"
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1740001164837L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"KentinNsS\"}]}" }
+		{ from: "65e5a8b0-1d38-4b1b-9b59-a2ad8495cee5", date: 1740001164840L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"CaillouTagada\"}]}" }
+		{ from: "65e5a8b0-1d38-4b1b-9b59-a2ad8495cee5", date: 1740001164840L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"Skanarin\"}]}" }
+		{ from: "65e5a8b0-1d38-4b1b-9b59-a2ad8495cee5", date: 1740001164840L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"Jules_boo\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1740001170735L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Jules_boo\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1740001172348L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Skanarin\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1740001175995L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"CaillouTagada\"}]}" }
+	]
+	extra: { }
+}

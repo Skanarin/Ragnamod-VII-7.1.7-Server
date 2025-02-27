@@ -1,0 +1,15 @@
+{
+	version: 1
+	uuid: "b2c8da8552844f949f1b650f67cb2176"
+	name: "CaillouTagada"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	chapter_pinned: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

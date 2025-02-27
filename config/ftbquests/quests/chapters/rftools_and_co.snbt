@@ -1,0 +1,614 @@
+{
+	id: "58253107FB138B0D"
+	group: ""
+	order_index: 24
+	filename: "rftools_and_co"
+	title: " RFTools and Xnet"
+	icon: "rftoolsbase:machine_frame"
+	subtitle: ["Old School but still relevant"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			description: ["The Machine Frame is the base of all RFTools machines."]
+			dependencies: [
+				"6BAADB4B4E44097C"
+				"7B83F39A4381DA06"
+			]
+			size: 2.0d
+			id: "0000000000000ACA"
+			tasks: [{
+				id: "0000000000000ACB"
+				type: "item"
+				item: "rftoolsbase:machine_frame"
+			}]
+			rewards: [{
+				id: "07E4BB865B1534F9"
+				type: "item"
+				item: "rftoolsbase:machine_frame"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			shape: "square"
+			description: ["The Machine Infuser is used to improve the efficiency of lot of machines using Dimensional Shards."]
+			dependencies: [
+				"0000000000000ACA"
+				"0000000000000AF5"
+				"6BAADB4B4E44097C"
+			]
+			id: "0000000000000ACC"
+			tasks: [{
+				id: "0000000000000ACD"
+				type: "item"
+				item: "rftoolsbase:machine_infuser"
+			}]
+			rewards: [{
+				id: "29B8AA882B137437"
+				type: "item"
+				item: "rftoolsbase:machine_infuser"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			shape: "square"
+			description: ["The Matter Transmitter is used with a Dialing Device to teleport you to a Matter Receiver."]
+			dependencies: [
+				"0000000000000ACA"
+				"6BAADB4B4E44097C"
+			]
+			id: "0000000000000AD0"
+			tasks: [{
+				id: "0000000000000AD1"
+				type: "item"
+				item: "rftoolsutility:matter_transmitter"
+			}]
+			rewards: [{
+				id: "22FEEFC471DCB0E6"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			shape: "square"
+			description: ["The Matter Receiver is used to create a point of teleportation, place this block anywhere in the world, then you can dial to it using a Dialing Device."]
+			dependencies: [
+				"0000000000000ACA"
+				"6BAADB4B4E44097C"
+			]
+			id: "0000000000000AD2"
+			tasks: [{
+				id: "0000000000000AD3"
+				type: "item"
+				item: "rftoolsutility:matter_receiver"
+			}]
+			rewards: [{
+				id: "31CB8E039CF59FBB"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 2
+			}]
+		}
+		{
+			title: "Dimensional Shard"
+			x: -3.0d
+			y: 0.0d
+			shape: "octagon"
+			description: ["Craft a stack of Dimensional Shard."]
+			dependencies: ["6BAADB4B4E44097C"]
+			size: 1.5d
+			id: "0000000000000AF5"
+			tasks: [{
+				id: "0000000000000AF6"
+				type: "item"
+				item: "rftoolsbase:dimensionalshard"
+				count: 32L
+			}]
+			rewards: [{
+				id: "4F91A2D97758A8F1"
+				type: "item"
+				item: "rftoolsbase:dimensionalshard"
+				count: 32
+				random_bonus: 32
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			shape: "square"
+			description: ["The Dialing Device can \"dial\" any matter transmitter to any matter receiver existing."]
+			dependencies: [
+				"0000000000000ACA"
+				"6BAADB4B4E44097C"
+			]
+			id: "0000000000000B07"
+			tasks: [{
+				id: "0000000000000B08"
+				type: "item"
+				item: "rftoolsutility:dialing_device"
+			}]
+			rewards: [{
+				id: "2605E0E685A2478A"
+				type: "item"
+				item: "rftoolsbase:machine_frame"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			shape: "square"
+			description: ["The Builder can quarry areas, pump liquids, move/copy/swap structures, collect item and XP, move entities, build structures, etc..."]
+			dependencies: [
+				"0000000000000ACA"
+				"6BAADB4B4E44097C"
+			]
+			id: "0000000000000B09"
+			tasks: [{
+				id: "0000000000000B0A"
+				type: "item"
+				item: "rftoolsbuilder:builder"
+			}]
+			rewards: [{
+				id: "1E129A48525777F8"
+				type: "item"
+				item: "rftoolsbuilder:builder"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"Every card is used in a Builder."
+				"The Sharp card is used to build."
+				"The Quarry card is used to quarry areas."
+				"The Pump card is used to pump areas."
+				"The Void card is used to void areas."
+			]
+			dependencies: [
+				"0000000000000B09"
+				"6BAADB4B4E44097C"
+			]
+			id: "0000000000000B0B"
+			tasks: [
+				{
+					id: "0000000000000B0C"
+					type: "item"
+					item: "rftoolsbuilder:shape_card_def"
+				}
+				{
+					id: "0000000000000B0D"
+					type: "item"
+					item: "rftoolsbuilder:shape_card_quarry"
+				}
+				{
+					id: "0000000000000B0E"
+					type: "item"
+					item: "rftoolsbuilder:shape_card_pump"
+				}
+				{
+					id: "0000000000000B0F"
+					type: "item"
+					item: "rftoolsbuilder:shape_card_void"
+				}
+			]
+			rewards: [{
+				id: "4248245FAE58975B"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry_clear"
+			}]
+		}
+		{
+			icon: "rftoolspower:dimensionalcell_simple"
+			x: 3.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"Dimensional Cell (Simple) can store RF and re distribute it through another Cell with powercell card."
+				"Can store 250kRF."
+				""
+				"The powercell Card is used to connect dimensional cells."
+			]
+			dependencies: [
+				"0000000000000ACA"
+				"6BAADB4B4E44097C"
+			]
+			id: "0000000000000B10"
+			tasks: [
+				{
+					id: "0000000000000B11"
+					type: "item"
+					item: "rftoolspower:dimensionalcell_simple"
+				}
+				{
+					id: "0000000000000B16"
+					type: "item"
+					item: "rftoolspower:powercell_card"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "236CF355265DA8B4"
+				type: "item"
+				item: "rftoolspower:dimensionalcell_simple"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			shape: "square"
+			description: ["The dimensional Cell work like the Simple version but can store up to 1 MRF."]
+			dependencies: [
+				"0000000000000B10"
+				"6BAADB4B4E44097C"
+			]
+			id: "0000000000000B12"
+			tasks: [{
+				id: "0000000000000B13"
+				type: "item"
+				item: "rftoolspower:dimensionalcell"
+			}]
+			rewards: [{
+				id: "30E5726BCBD5AD56"
+				type: "item"
+				item: "rftoolspower:dimensionalcell"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			shape: "square"
+			description: ["The dimensional Cell (Advanced) work like the Simple version but can store up to 4 MRF."]
+			dependencies: [
+				"0000000000000B12"
+				"6BAADB4B4E44097C"
+			]
+			id: "0000000000000B14"
+			tasks: [{
+				id: "0000000000000B15"
+				type: "item"
+				item: "rftoolspower:dimensionalcell_advanced"
+			}]
+			rewards: [{
+				id: "43092171A7F5D8FC"
+				type: "item"
+				item: "rftoolspower:dimensionalcell_advanced"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			shape: "square"
+			description: ["The Advanced Charged Porter allow you to teleport to a previously set matter receiver, shift-right click on a receiver to set the destination."]
+			dependencies: ["6BAADB4B4E44097C"]
+			id: "0000000000000B17"
+			tasks: [{
+				id: "0000000000000B18"
+				type: "item"
+				item: {
+					id: "rftoolsutility:advanced_charged_porter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "68C53092B9B0854F"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 8
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			shape: "square"
+			description: ["The Storage Scanner will scan all nearby inventories and show them in a list, you can then search and access items from those inventories."]
+			dependencies: [
+				"0000000000000ACA"
+				"6BAADB4B4E44097C"
+			]
+			id: "0000000000000B19"
+			tasks: [{
+				id: "0000000000000B1A"
+				type: "item"
+				item: "rftoolsstorage:storage_scanner"
+			}]
+			rewards: [{
+				id: "427A9C0FF7BF6974"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			shape: "square"
+			description: ["The Modular Storage can store a lot of items and allows easy searching and filtering using a storage module in it."]
+			dependencies: [
+				"0000000000000ACA"
+				"6BAADB4B4E44097C"
+			]
+			id: "0000000000000B1B"
+			tasks: [{
+				id: "0000000000000B1C"
+				type: "item"
+				item: "rftoolsstorage:modular_storage"
+			}]
+			rewards: [{
+				id: "7E83ECB86D770717"
+				type: "item"
+				item: "rftoolsstorage:modular_storage"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			shape: "square"
+			description: ["The Tier 1 Storage Module can old 100 stacks."]
+			dependencies: [
+				"0000000000000B1B"
+				"6BAADB4B4E44097C"
+			]
+			id: "0000000000000B1D"
+			tasks: [{
+				id: "0000000000000B1E"
+				type: "item"
+				item: "rftoolsstorage:storage_module0"
+			}]
+			rewards: [{
+				id: "200A15B2BA786BC0"
+				type: "item"
+				item: "rftoolsstorage:storage_module0"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			shape: "square"
+			description: ["The Tier 2 Storage Module can old 200 stacks."]
+			dependencies: [
+				"0000000000000B1D"
+				"6BAADB4B4E44097C"
+			]
+			id: "0000000000000B1F"
+			tasks: [{
+				id: "0000000000000B20"
+				type: "item"
+				item: "rftoolsstorage:storage_module1"
+			}]
+			rewards: [{
+				id: "0D07484711561EFE"
+				type: "item"
+				item: "rftoolsstorage:storage_module1"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			shape: "square"
+			description: ["The Tier 3 Storage Module can old 300 stacks."]
+			dependencies: [
+				"0000000000000B1F"
+				"6BAADB4B4E44097C"
+			]
+			id: "0000000000000B21"
+			tasks: [{
+				id: "0000000000000B22"
+				type: "item"
+				item: "rftoolsstorage:storage_module2"
+			}]
+			rewards: [{
+				id: "2813C8352B81CEF5"
+				type: "item"
+				item: "rftoolsstorage:storage_module2"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			shape: "square"
+			description: ["The Tier 4 Storage Module can old 500 stacks."]
+			dependencies: [
+				"0000000000000B21"
+				"6BAADB4B4E44097C"
+			]
+			id: "0000000000000B23"
+			tasks: [{
+				id: "0000000000000B24"
+				type: "item"
+				item: "rftoolsstorage:storage_module3"
+			}]
+			rewards: [{
+				id: "36DFD37213BCCC8A"
+				type: "item"
+				item: "rftoolsstorage:storage_module3"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			shape: "square"
+			description: ["The Controller is the brain of all automatization with Xnet."]
+			dependencies: [
+				"0000000000000ACA"
+				"6BAADB4B4E44097C"
+			]
+			id: "7E4A67963D11BE48"
+			tasks: [{
+				id: "6555A59BDDA7A227"
+				type: "item"
+				item: "xnet:controller"
+			}]
+			rewards: [{
+				id: "5A901EC338C81416"
+				type: "item"
+				item: "xnet:controller"
+			}]
+		}
+		{
+			title: "Network Cables"
+			x: 1.5d
+			y: 2.0d
+			shape: "square"
+			description: ["The Network Cables are used to link your connectors together in your Xnet Network."]
+			dependencies: [
+				"7E4A67963D11BE48"
+				"6BAADB4B4E44097C"
+			]
+			id: "5DEC564FC643F344"
+			tasks: [{
+				id: "3AEFEEBEB02F1FAC"
+				type: "item"
+				item: "xnet:netcable_red"
+				count: 16L
+			}]
+			rewards: [{
+				id: "1DF7826AC416E704"
+				type: "item"
+				item: "xnet:netcable_blue"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			title: "Connectors"
+			x: 2.5d
+			y: 2.0d
+			shape: "square"
+			description: ["The Connectors ares used to link, in your Xnet Network, your machines, storages, tank etc..."]
+			dependencies: [
+				"5DEC564FC643F344"
+				"6BAADB4B4E44097C"
+			]
+			id: "08B4975CC7077DF0"
+			tasks: [{
+				id: "51162437E592CEF9"
+				type: "item"
+				item: "xnet:connector_red"
+				count: 16L
+			}]
+			rewards: [{
+				id: "64564D121E4112DF"
+				type: "item"
+				item: "xnet:connector_blue"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			title: "Advanced Connectors"
+			x: 3.5d
+			y: 2.0d
+			shape: "square"
+			description: ["Advanced connectors are used in the same way as connectors, but the advanced version can control all sides of all machines, storages, tanks to which it's connected."]
+			dependencies: [
+				"08B4975CC7077DF0"
+				"6BAADB4B4E44097C"
+			]
+			id: "734F49C4762BA967"
+			tasks: [{
+				id: "24E58720E57BD69C"
+				type: "item"
+				item: "xnet:advanced_connector_red"
+				count: 16L
+			}]
+			rewards: [{
+				id: "03C38A0C96DEAD9C"
+				type: "item"
+				item: "xnet:advanced_connector_blue"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			title: "Remote Storage"
+			x: -0.5d
+			y: -2.5d
+			shape: "square"
+			description: ["The Storage Control Screen Module is used to register a Storage Scanner and when it's in a Tablet, you can access your Modular Scanner from anywhere (of course if your Modular Scanner is in a loaded chunk)."]
+			dependencies: [
+				"0000000000000B19"
+				"6BAADB4B4E44097C"
+			]
+			id: "25ACE1C1A60E4D38"
+			tasks: [
+				{
+					id: "2F2ABAA6E9846A9E"
+					type: "item"
+					item: "rftoolsbase:tablet"
+				}
+				{
+					id: "6D3A66275D59846D"
+					type: "item"
+					item: {
+						id: "rftoolsstorage:storage_control_module"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "07A842566AA1E31B"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 16
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			shape: "square"
+			description: ["The Crafter can handle up to 8 recipes at once and allows recipes to use the crafting results of previous steps."]
+			dependencies: [
+				"0000000000000ACA"
+				"6BAADB4B4E44097C"
+			]
+			id: "520DC4800966F859"
+			tasks: [{
+				id: "673849F6F7D68532"
+				type: "item"
+				item: "rftoolsutility:crafter3"
+			}]
+			rewards: [{
+				id: "6146EF35938CF178"
+				type: "item"
+				item: "rftoolsutility:crafter3"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			shape: "square"
+			description: ["The Environmental Controller can be used to apply various effects to a large area."]
+			dependencies: [
+				"0000000000000ACA"
+				"6BAADB4B4E44097C"
+			]
+			id: "41738FB567065B41"
+			tasks: [{
+				id: "1E8D8DE5B9DA0F95"
+				type: "item"
+				item: "rftoolsutility:environmental_controller"
+			}]
+			rewards: [{
+				id: "4869E66CCCECC2DD"
+				type: "item"
+				item: "rftoolsutility:regeneration_module"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,798 @@
+{
+	id: "525F2BEC4ECAE9ED"
+	group: ""
+	order_index: 21
+	filename: "powah"
+	title: " Powah"
+	icon: "powah:energizing_rod_nitro"
+	subtitle: ["OP RF Generation"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Solar Panel"
+			x: 8.0d
+			y: -1.0d
+			shape: "square"
+			description: ["Solar Panel generate RF with the sun, you can use on it a Lens Of Ender to see through blocks."]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
+			id: "00000000000009D0"
+			tasks: [{
+				id: "00000000000009D1"
+				type: "item"
+				title: "Solar Panel"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "powah:solar_panel"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2131C23869EF65F0"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			title: "Reactor"
+			x: 9.0d
+			y: -1.0d
+			shape: "square"
+			description: [
+				"The Reactor is a multiblock generator that use Uraninite, fuel like coal, solid coolant like Dry Ice and liquid coolant like water to generate RF."
+				""
+				"You just need to right-click on the ground with your 36 blocks in your inventory for the multiblock to form by itself."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
+			id: "00000000000009D2"
+			tasks: [{
+				id: "00000000000009D3"
+				type: "item"
+				title: "Reactor"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "powah:reactor"
+					}
+				}
+				count: 36L
+			}]
+			rewards: [{
+				id: "2B03BFF5F6681060"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			title: "Energy Cell"
+			x: 7.0d
+			y: -1.0d
+			shape: "square"
+			description: ["The Energy Cell is used to store RF."]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
+			id: "00000000000009D4"
+			tasks: [{
+				id: "00000000000009D5"
+				type: "item"
+				title: "Energy Cell"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "powah:energy_cell"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1481D4821C0DD6EF"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			title: "Ender Cell"
+			x: 6.0d
+			y: 1.0d
+			shape: "square"
+			description: ["The Ender Cell is a block used to store energy to a specific channel of the Ender Network of the owner."]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
+			id: "00000000000009D6"
+			tasks: [{
+				id: "00000000000009D7"
+				type: "item"
+				title: "Ender Cell"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "powah:ender_cell"
+					}
+				}
+			}]
+			rewards: [{
+				id: "13864C24B6D919ED"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			title: "Energy Cables"
+			x: 7.0d
+			y: 1.0d
+			shape: "square"
+			description: ["Energy Cables are used to transfer energy."]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
+			id: "00000000000009D8"
+			tasks: [{
+				id: "00000000000009D9"
+				type: "item"
+				title: "Energy Cables"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "powah:energy_cable"
+					}
+				}
+				count: 12L
+			}]
+			rewards: [{
+				id: "44CB05F290569D07"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			title: "Energizing Rod"
+			x: 4.5d
+			y: 0.0d
+			shape: "square"
+			description: ["Energizing Rods are used to provide energy to the Orb for crafting various things."]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
+			id: "00000000000009DA"
+			tasks: [{
+				id: "00000000000009DB"
+				type: "item"
+				title: "Energizing Rod"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "powah:energizing_rod"
+					}
+				}
+			}]
+			rewards: [{
+				id: "650B249DE0C24E5A"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			title: "Thermo Generator"
+			x: 5.0d
+			y: 1.0d
+			shape: "square"
+			description: ["The Thermo Generator can generate power using a liquid coolant and by sitting on top of a heat source."]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
+			id: "00000000000009DC"
+			tasks: [{
+				id: "00000000000009DD"
+				type: "item"
+				title: "Thermo Generator"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "powah:thermo_generator"
+					}
+				}
+			}]
+			rewards: [{
+				id: "520B3C8681796F9A"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			title: "Magmator"
+			x: 9.0d
+			y: 1.0d
+			shape: "square"
+			description: ["The Magmator generate RF with Lava."]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
+			id: "00000000000009DE"
+			tasks: [{
+				id: "00000000000009DF"
+				type: "item"
+				title: "Magmator"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "powah:magmator"
+					}
+				}
+			}]
+			rewards: [{
+				id: "62E0FE1C0A486372"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			title: "Furnator"
+			x: 5.0d
+			y: -1.0d
+			shape: "square"
+			description: ["The Furnator generate RF with furnace fuel."]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
+			id: "00000000000009E0"
+			tasks: [{
+				id: "00000000000009E1"
+				type: "item"
+				title: "Furnator"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "powah:furnator"
+					}
+				}
+			}]
+			rewards: [{
+				id: "128EB11E03BC1890"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			shape: "octagon"
+			description: ["The Energizing Orb is used to energize items, require at least one Energized Rod in range of 9x9 to work."]
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
+			size: 2.0d
+			id: "00000000000009E2"
+			tasks: [{
+				id: "00000000000009E3"
+				type: "item"
+				item: "powah:energizing_orb"
+			}]
+			rewards: [{
+				id: "50B3B36CE10244B6"
+				type: "item"
+				item: "powah:energizing_orb"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			shape: "square"
+			description: ["The Binding Card is used to link you with a Player Transmitter in the same dimension."]
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
+			id: "00000000000009E4"
+			tasks: [{
+				id: "00000000000009E5"
+				type: "item"
+				item: "powah:binding_card"
+			}]
+			rewards: [{
+				id: "47FABB0BA7768238"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 16
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			shape: "square"
+			description: [
+				""
+				"The Dimensional Binding Card is used like the Binding Card, but it's interdimensional."
+			]
+			dependencies: [
+				"00000000000009E4"
+				"46019F50846AAFD0"
+			]
+			id: "00000000000009E6"
+			tasks: [{
+				id: "00000000000009E7"
+				type: "item"
+				item: "powah:binding_card_dim"
+			}]
+			rewards: [{
+				id: "308D7385AAB429AB"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 16
+			}]
+		}
+		{
+			title: "Uraninite"
+			x: 3.0d
+			y: -1.5d
+			shape: "square"
+			description: ["The Uraninite is used to craft Reactor Blocks, and its use in the Reactor."]
+			dependencies: ["46019F50846AAFD0"]
+			id: "00000000000009E8"
+			tasks: [{
+				id: "00000000000009E9"
+				type: "item"
+				item: "powah:uraninite"
+				count: 16L
+			}]
+			rewards: [{
+				id: "2BD5A107B30A5389"
+				type: "item"
+				item: "powah:uraninite_ore_dense"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"The Wrench has 3 modes:"
+				"Config Mode: used to change cables I/O configuration."
+				"Link Mode: used to link linkable blocks like energizing and rods."
+				"Rotate Mode: used to rotate blocks horizontally."
+			]
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
+			id: "00000000000009EA"
+			tasks: [{
+				id: "00000000000009EB"
+				type: "item"
+				item: {
+					id: "powah:wrench"
+					Count: 1b
+					tag: {
+						PowahWrenchNBT: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "767130A763B99C35"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 16
+			}]
+		}
+		{
+			title: "Dry Ice"
+			x: 3.0d
+			y: 1.5d
+			shape: "square"
+			description: ["Dry Ice is mainly used to cool down reactors, it can be found underground in cold biomes, or you can craft it with 2 Blue Ice in the Energizing Orb."]
+			dependencies: [
+				"00000000000009E2"
+				"46019F50846AAFD0"
+			]
+			id: "00000000000009EC"
+			tasks: [{
+				id: "00000000000009ED"
+				type: "item"
+				item: "powah:dry_ice"
+				count: 16L
+			}]
+			rewards: [{
+				id: "014DD06508F0E45C"
+				type: "item"
+				item: "powah:dry_ice"
+				random_bonus: 31
+			}]
+		}
+		{
+			title: "Dielectric Paste"
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			description: ["The Dielectric Paste is the core of every craft in Powah."]
+			dependencies: ["46019F50846AAFD0"]
+			size: 2.0d
+			id: "00000000000009EE"
+			tasks: [{
+				id: "00000000000009EF"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 24L
+			}]
+			rewards: [{
+				id: "126F5472F59301B1"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			title: "Ender Gate"
+			x: 8.0d
+			y: 1.0d
+			shape: "square"
+			description: ["Ender Gate can transfer energy between the adjacent block from the Ender Network."]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000009D8"
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
+			id: "00000000000009F0"
+			tasks: [{
+				id: "00000000000009F1"
+				type: "item"
+				title: "Ender Gate"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "powah:ender_gate"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7854DD7F7FFD566D"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			title: "Player Transmitter"
+			x: 6.0d
+			y: -1.0d
+			shape: "square"
+			description: ["The Player Transmitter is used to charge items wirelessly in linked player inventory, including armor slots and off-hand anywhere."]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
+			id: "00000000000009F2"
+			tasks: [{
+				id: "00000000000009F3"
+				type: "item"
+				title: "Player Transmitter"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "powah:player_transmitter"
+					}
+				}
+			}]
+			rewards: [{
+				id: "42B7DE9EA055682E"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			title: "Energized Steel"
+			x: 5.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"The Energized Steel is made with Gold and Iron."
+				"It's used to make hardened stuff."
+			]
+			dependencies: [
+				"00000000000009E2"
+				"46019F50846AAFD0"
+			]
+			id: "1C0EE50619DE24B2"
+			tasks: [{
+				id: "22F9B375A9295687"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 16L
+			}]
+			rewards: [{
+				id: "2F97DE4EFB6A04DD"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			title: "Blazing Crystal"
+			x: 6.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"The Blazing Crystal is made with Blaze Rod or Blaze Powder."
+				"It's used to make Blazing stuff."
+			]
+			dependencies: [
+				"00000000000009E2"
+				"46019F50846AAFD0"
+			]
+			id: "1329A2E89B6FEF59"
+			tasks: [{
+				id: "46823E09C403A9E5"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 16L
+			}]
+			rewards: [{
+				id: "1EAD746E52BDA8E2"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			title: "Niotic Crystal"
+			x: 7.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"The Niotic Crystal is made with a Diamond."
+				"It's used to make Niotic stuff."
+			]
+			dependencies: [
+				"00000000000009E2"
+				"46019F50846AAFD0"
+			]
+			id: "4383AF63E5E6FC8D"
+			tasks: [{
+				id: "0751E13E35FB3150"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 16L
+			}]
+			rewards: [{
+				id: "16569077278441D3"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			title: "Spirited Crystal"
+			x: 8.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"The Spirited Crystal is made with an Emerald."
+				"It's used to make Spirited stuff."
+			]
+			dependencies: [
+				"00000000000009E2"
+				"46019F50846AAFD0"
+			]
+			id: "3267C71EB8176867"
+			tasks: [{
+				id: "0B1E153B0C325C83"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 16L
+			}]
+			rewards: [{
+				id: "30311102F917AA7C"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "Nitro Crystal"
+			x: 9.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"The Nitro Crystal is made with an Nether Star, two block of Redstone and a Blazing Crystal Block."
+				"It's used to make Nitro stuff."
+			]
+			dependencies: [
+				"00000000000009E2"
+				"46019F50846AAFD0"
+			]
+			id: "2EFACC7A03425555"
+			tasks: [{
+				id: "4EB22198AC3AFB20"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 16L
+			}]
+			rewards: [{
+				id: "203A016477B278D2"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"Use a Photoelectric Pane on Enderman or Endermite to get this item."
+				""
+				"When applied on a Solar Panel, it will make the panel see through blocks."
+			]
+			dependencies: [
+				"747456C7DC9E9028"
+				"46019F50846AAFD0"
+			]
+			id: "59646D1520A512AA"
+			tasks: [{
+				id: "217A9A42880C828F"
+				type: "item"
+				item: "powah:lens_of_ender"
+			}]
+			rewards: [{
+				id: "42E9F99E38671855"
+				type: "item"
+				item: "powah:lens_of_ender"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			shape: "square"
+			description: ["The Photoelectric Pane is used to craft solar panel but also Lens Of Ender !"]
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
+			id: "747456C7DC9E9028"
+			tasks: [{
+				id: "2EAB90A26913379F"
+				type: "item"
+				item: "powah:photoelectric_pane"
+			}]
+			rewards: [{
+				id: "3804937F7BB83FEA"
+				type: "item"
+				item: "powah:photoelectric_pane"
+			}]
+		}
+		{
+			title: "Energy Hopper"
+			x: 10.0d
+			y: -1.0d
+			shape: "square"
+			description: [
+				"The Energy Hopper is used to charge chargeable items inside an adjacent inventory, like a chest."
+				""
+				"For example, connect your hopper (facing a chest) with energy and every item in your chest that can be charge, will be charge."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
+			id: "53210BA3505E7E13"
+			tasks: [{
+				id: "162A9F4E66222755"
+				type: "item"
+				title: "Energy Hopper"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "powah:energy_hopper"
+					}
+				}
+			}]
+			rewards: [{
+				id: "01410C8C9D950BE2"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			title: "Energy Discharger"
+			x: 10.0d
+			y: 1.0d
+			shape: "square"
+			description: ["The Energy Discharger is used to drain RF out of items."]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
+			id: "5A1DD668DC3E22EE"
+			tasks: [{
+				id: "14B09DC852B25C51"
+				type: "item"
+				title: "Energy Discharger"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "powah:energy_discharger"
+					}
+				}
+			}]
+			rewards: [{
+				id: "329C6B32F8CFD112"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+	]
+	quest_links: [ ]
+}

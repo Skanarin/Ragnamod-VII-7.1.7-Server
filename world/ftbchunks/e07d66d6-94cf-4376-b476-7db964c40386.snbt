@@ -1,0 +1,19 @@
+{
+	max_claim_chunks: 500
+	max_force_load_chunks: 25
+	last_login_time: 1740501990921L
+	chunks: {
+		"twilightforest:twilight_forest": [
+			{ x: -18, z: 3, time: 1740176347244L }
+			{ x: -27, z: -41, time: 1740182202367L }
+			{ x: -40, z: 14, time: 1740176682086L }
+		]
+	}
+	member_data: {
+		e07d66d6-94cf-4376-b476-7db964c40386: {
+			max_force_loaded_chunks: 25
+			max_claimed_chunks: 500
+			offline_force_loader: 0b
+		}
+	}
+}

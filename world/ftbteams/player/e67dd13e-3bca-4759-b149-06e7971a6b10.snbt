@@ -1,0 +1,27 @@
+{
+	id: "e67dd13e-3bca-4759-b149-06e7971a6b10"
+	type: "player"
+	player_name: "Ghoxs"
+	ranks: {
+		e67dd13e-3bca-4759-b149-06e7971a6b10: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Ghoxs"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF598C"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_fake_players": 0b
+		"ftbchunks:allow_named_fake_players": [ ]
+		"ftbchunks:allow_fake_players_by_id": 1b
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbchunks:entity_interact_mode": "allies"
+		"ftbchunks:nonliving_entity_attack_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "allies"
+	}
+	message_history: [ ]
+	extra: { }
+}

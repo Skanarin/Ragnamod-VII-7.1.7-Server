@@ -1,0 +1,15 @@
+{
+	version: 1
+	uuid: "e67dd13e3bca4759b14906e7971a6b10"
+	name: "Ghoxs"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	chapter_pinned: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

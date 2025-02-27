@@ -1,0 +1,16 @@
+{
+  "heartEntries": {
+    "red": {
+      "minecraft:cow": 0.0
+    },
+    "green": {
+      "minecraft:ender_dragon": 0.0
+    },
+    "blue": {
+      "mythicbotany:alf_pixie": 0.0
+    },
+    "yellow": {
+      "boss": 0.0
+    }
+  }
+}

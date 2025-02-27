@@ -1,0 +1,2393 @@
+{
+	id: "5CD29C53E589AD7F"
+	group: ""
+	order_index: 5
+	filename: "create"
+	title: " Create"
+	icon: "create:wrench"
+	subtitle: ["Rotational madness"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Andesite Alloy"
+			x: 0.0d
+			y: 0.0d
+			shape: "octagon"
+			description: ["Andesite Alloy is the most basic component construction material in Create."]
+			dependencies: ["298A3F9171009D45"]
+			size: 2.0d
+			id: "073310C4A43FCF55"
+			tasks: [{
+				id: "69918931169B3434"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [{
+				id: "6B464AB57947B479"
+				type: "item"
+				item: "create:andesite_alloy_block"
+				random_bonus: 7
+			}]
+		}
+		{
+			title: "Water Wheel"
+			x: -1.0d
+			y: 2.0d
+			shape: "square"
+			description: [
+				"The Water Wheel is a source of rotation power. It generates rotational force when water flow over it."
+				""
+				"Total stress capacity can be increased by adding more wheels in sequence."
+				""
+				"You can also change her wood type by simply right-click a plank into it. (compatible with any planks, except Chipped)"
+			]
+			dependencies: [
+				"7E5C72750017BBA4"
+				"298A3F9171009D45"
+			]
+			id: "0BFAEEF599FEA7D7"
+			tasks: [{
+				id: "2F3155D9064B1943"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [{
+				id: "2E1D22888033CE2A"
+				type: "item"
+				item: "create:water_wheel"
+				count: 2
+			}]
+		}
+		{
+			title: "Large Water Wheel"
+			x: -1.0d
+			y: 3.0d
+			shape: "square"
+			description: [
+				"The Large Water Wheel is a bigger version of the Water Wheel."
+				"Can generate more stress unit."
+				""
+				"You can also change her wood type by simply right-click a plank into it. (compatible with any planks, except Chipped)"
+			]
+			dependencies: [
+				"0BFAEEF599FEA7D7"
+				"298A3F9171009D45"
+			]
+			id: "353657F699F6DCE6"
+			tasks: [{
+				id: "3D52A38A57FEBB33"
+				type: "item"
+				item: "create:large_water_wheel"
+			}]
+			rewards: [{
+				id: "04A2A7A7B8CE7B8F"
+				type: "item"
+				item: "create:large_water_wheel"
+			}]
+		}
+		{
+			title: "Shaft"
+			x: 0.0d
+			y: 1.5d
+			shape: "square"
+			description: ["The shaft is a basic mechanical component in Create. A shaft can be used to connect two mechanical components such that the rotation of one rotates the other, and shafts serve as the only blocks upon which Mechanical Belts can be placed. "]
+			dependencies: [
+				"073310C4A43FCF55"
+				"298A3F9171009D45"
+			]
+			id: "7E5C72750017BBA4"
+			tasks: [{
+				id: "1BE26BC806D7F0D7"
+				type: "item"
+				title: "Shaft"
+				item: "create:shaft"
+				count: 8L
+			}]
+			rewards: [{
+				id: "5B8B5AEC2E1D0A21"
+				type: "item"
+				item: "create:shaft"
+				count: 8
+				random_bonus: 16
+			}]
+		}
+		{
+			title: "Cogwheel"
+			x: 1.0d
+			y: 2.0d
+			shape: "square"
+			description: ["The Cogwheel is a basic mechanical component in Create that relays rotation."]
+			dependencies: [
+				"7E5C72750017BBA4"
+				"298A3F9171009D45"
+			]
+			id: "12779E7CC3A93EB4"
+			tasks: [{
+				id: "409BB9F5C783F36A"
+				type: "item"
+				item: "create:cogwheel"
+			}]
+			rewards: [{
+				id: "1624A8314398F980"
+				type: "item"
+				item: "create:cogwheel"
+				random_bonus: 7
+			}]
+		}
+		{
+			title: "Large Cogwheel"
+			x: 0.0d
+			y: 2.5d
+			shape: "square"
+			description: ["The Large Cogwheel is a larger variant of the cogwheel that can relay rotation around corners and power Rotation Speed Controllers."]
+			dependencies: [
+				"7E5C72750017BBA4"
+				"298A3F9171009D45"
+			]
+			id: "1CE221491F9152C6"
+			tasks: [{
+				id: "27464C18F80DE131"
+				type: "item"
+				item: "create:large_cogwheel"
+			}]
+			rewards: [{
+				id: "0C929163DE9E2469"
+				type: "item"
+				item: "create:large_cogwheel"
+				count: 2
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "Andesite Casing"
+			x: 3.0d
+			y: 0.0d
+			shape: "octagon"
+			description: ["Note: There is a built-in guide for Create. To access it, you need to hold a key on the wanted item in JEI. The animated guide will then appear."]
+			dependencies: [
+				"073310C4A43FCF55"
+				"298A3F9171009D45"
+			]
+			size: 2.0d
+			id: "39718B6A5A7BEC15"
+			tasks: [{
+				id: "2D408D4D9768DDD1"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+			rewards: [{
+				id: "3EBF24442495FEC9"
+				type: "item"
+				item: "create:andesite_casing"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "Gearbox"
+			x: 1.5d
+			y: 1.0d
+			shape: "square"
+			description: [
+				"The Gearbox can relay rotational power in four horizontal directions."
+				"The vertical counterpart, like the normal version, can relay power in four vertical directions."
+			]
+			dependencies: [
+				"12779E7CC3A93EB4"
+				"39718B6A5A7BEC15"
+				"298A3F9171009D45"
+			]
+			id: "06698FAA93E75EB3"
+			tasks: [{
+				id: "32E3601F11277DBB"
+				type: "item"
+				item: "create:gearbox"
+			}]
+			rewards: [{
+				id: "6F8538D77F9334EC"
+				type: "item"
+				item: "create:vertical_gearbox"
+			}]
+		}
+		{
+			title: "Mechanical Press"
+			x: 5.0d
+			y: -1.5d
+			shape: "square"
+			description: ["The Mechanical Press is a mechanical component that applies Pressing, Packing, and Compacting recipes to items below it"]
+			dependencies: [
+				"39718B6A5A7BEC15"
+				"298A3F9171009D45"
+			]
+			id: "58FF2A849EA93A2B"
+			tasks: [{
+				id: "29A8378E5651461C"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [{
+				id: "1C10E31290592B3E"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			shape: "square"
+			description: ["The Mechanical Mixer is a mechanical component that applies Mixing recipes and shapeless Crafting recipes to items in Basins."]
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
+			id: "3DB4CDB19FD3915F"
+			tasks: [{
+				id: "26C4CD9EC5E21117"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+			rewards: [{
+				id: "746D96E93CBA02CC"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"The Basin is a block that hold items and fluids used in Packing, Compacting, and Mixing recipes"
+				""
+				"A Basin can also function as an interaction point in fluid systems as fluids can be placed in or removed from a Basin direclty by a player"
+			]
+			dependencies: [
+				"3DB4CDB19FD3915F"
+				"298A3F9171009D45"
+			]
+			id: "5262697B2954997E"
+			tasks: [{
+				id: "3EF843CC05D6BF20"
+				type: "item"
+				item: "create:basin"
+			}]
+			rewards: [{
+				id: "2A61B3572F2FF4A6"
+				type: "item"
+				item: "create:basin"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			shape: "square"
+			description: ["A Blaze Burner is a heating component required for certain Mixing recipes."]
+			hide_dependency_lines: true
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
+			size: 1.5d
+			id: "4BC7D64DB4ACB7A5"
+			tasks: [{
+				id: "4137C8668EBAD035"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [{
+				id: "5333E430DE1C904A"
+				type: "item"
+				item: "create:empty_blaze_burner"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "Andesite Funnel"
+			x: -1.5d
+			y: -0.5d
+			shape: "square"
+			description: ["Andesite Funnels are used to extract or insert materials into inventories."]
+			dependencies: [
+				"7856C9C95751E9B3"
+				"073310C4A43FCF55"
+				"298A3F9171009D45"
+			]
+			id: "0E6A146274C136A1"
+			tasks: [{
+				id: "6B27CAEE816AE915"
+				type: "item"
+				item: "create:andesite_funnel"
+				count: 2L
+			}]
+			rewards: [{
+				id: "50EA5D31E403C781"
+				type: "item"
+				item: "create:andesite_funnel"
+				count: 2
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "Andesite Tunnel"
+			x: -1.5d
+			y: 0.5d
+			shape: "square"
+			description: ["The Andesite Tunnel is decorative Tunnel for Mechanical Belts."]
+			dependencies: [
+				"073310C4A43FCF55"
+				"7856C9C95751E9B3"
+				"298A3F9171009D45"
+			]
+			id: "6E21ABA22491A8AC"
+			tasks: [{
+				id: "7C19DF01AA982AA6"
+				type: "item"
+				item: "create:andesite_tunnel"
+				count: 2L
+			}]
+			rewards: [{
+				id: "3A52233933BB871D"
+				type: "item"
+				item: "create:andesite_tunnel"
+				count: 2
+				random_bonus: 4
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			shape: "square"
+			description: ["Dried Kelp can be used to craft Mechanical Belt"]
+			dependencies: ["298A3F9171009D45"]
+			id: "7856C9C95751E9B3"
+			tasks: [{
+				id: "56A04BDF50F47F91"
+				type: "item"
+				item: "minecraft:dried_kelp"
+			}]
+			rewards: [{
+				id: "575D33885E347139"
+				type: "item"
+				item: "minecraft:dried_kelp"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			shape: "square"
+			description: ["A Mechanical Belt is a mechanical component that conveys rotation and moves items and entities."]
+			dependencies: [
+				"7856C9C95751E9B3"
+				"298A3F9171009D45"
+			]
+			id: "3A882BAB0F731B55"
+			tasks: [{
+				id: "0A4EB7A0E7ECAA81"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+			rewards: [{
+				id: "41841427703C85E8"
+				type: "item"
+				item: "create:belt_connector"
+				count: 3
+				random_bonus: 3
+			}]
+		}
+		{
+			title: "Chute"
+			x: 5.0d
+			y: -2.5d
+			shape: "square"
+			description: ["Chutes transport items vertically, similarly to Mechanical Belts."]
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
+			id: "5B972F523E694CCB"
+			tasks: [{
+				id: "4DA5317A58E391DB"
+				type: "item"
+				item: "create:chute"
+				count: 4L
+			}]
+			rewards: [{
+				id: "50530AAEB24C7F67"
+				type: "item"
+				item: "create:chute"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "Windmill"
+			icon: "create:white_sail"
+			x: 0.0d
+			y: 3.5d
+			shape: "square"
+			description: [
+				"Wind mill have to be attached to the Windmill Bearing"
+				""
+				"0-7 sails  /    0su / 0 RPM"
+				"8-15 sails / 512su / 1 RPM"
+				"16-23 sails / 1024su / 2 RPM"
+				"24-31 sails / 1536su / 3 RPM"
+				"32-39 sails / 2048su / 4 RPM"
+				"40-47 sails / 2560su / 5 RPM"
+				"48-55 sails / 3072su / 6 RPM"
+				"56-63 sails / 3584su / 7 RPM"
+				"64-71 sails / 4096su / 8 RPM"
+				"72-79 sails / 4608su / 9 RPM"
+				"80-87 sails / 5120su / 10 RPM"
+				"88-95 sails / 5632su / 11 RPM"
+				"96-103 sails / 6144su / 12 RPM"
+				"104-111 sails / 6656su / 13 RPM"
+				"112-119 sails / 7168su / 14 RPM"
+				"120-127 sails / 7680su / 15 RPM"
+				"128+ sails / 8192su / 16 RPM"
+				""
+				"Any other block can also be attached with Super Glue, though it will not yield any benefit."
+			]
+			dependencies: [
+				"073310C4A43FCF55"
+				"298A3F9171009D45"
+			]
+			id: "01680B8DD58DDE94"
+			tasks: [
+				{
+					id: "3A976974F2C31366"
+					type: "item"
+					item: "create:white_sail"
+					count: 2L
+				}
+				{
+					id: "3F7C5033B45EEB30"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+			]
+			rewards: [{
+				id: "76C6049472EFC9BE"
+				type: "item"
+				item: "create:white_sail"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			shape: "octagon"
+			description: ["This casing is used to make most of the advanced stuff of Create."]
+			dependencies: [
+				"28A1FE67951514B7"
+				"298A3F9171009D45"
+			]
+			size: 2.0d
+			id: "63D160B52E8918C4"
+			tasks: [{
+				id: "68915B45506A3FC2"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+			rewards: [{
+				id: "0A84D7BAA5642DDA"
+				type: "item"
+				item: "create:brass_casing"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.0d
+			shape: "square"
+			description: ["Polished Rose Quartz is a material used to craft Electron Tubes and Chromatic Compound"]
+			dependencies: [
+				"11A6AE8869E30BA1"
+				"298A3F9171009D45"
+			]
+			id: "0F21B16927A39E9A"
+			tasks: [{
+				id: "052BF8C688598D67"
+				type: "item"
+				item: "create:polished_rose_quartz"
+			}]
+			rewards: [{
+				id: "6F81698FDDBCB798"
+				type: "item"
+				item: "create:polished_rose_quartz"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.5d
+			shape: "square"
+			description: ["Electron Tubes is a material used to craft various components from Create"]
+			dependencies: [
+				"0F21B16927A39E9A"
+				"298A3F9171009D45"
+			]
+			size: 1.5d
+			id: "16B1F60A0D8DAD6D"
+			tasks: [{
+				id: "03597FA12E857685"
+				type: "item"
+				item: "create:electron_tube"
+			}]
+			rewards: [{
+				id: "7BD24E3CB0E41603"
+				type: "item"
+				item: "create:electron_tube"
+				random_bonus: 3
+			}]
+		}
+		{
+			title: "Mechanical Crafter"
+			x: 11.0d
+			y: -2.5d
+			shape: "square"
+			description: ["Mechanical Crafters are the machines thar can automatically craft items"]
+			dependencies: [
+				"63D160B52E8918C4"
+				"16B1F60A0D8DAD6D"
+				"298A3F9171009D45"
+			]
+			id: "67680115E55B9C8B"
+			tasks: [{
+				id: "2F161B16CBE13555"
+				type: "item"
+				item: "create:mechanical_crafter"
+				count: 3L
+			}]
+			rewards: [{
+				id: "703D9290F90A5868"
+				type: "item"
+				item: "create:mechanical_crafter"
+				count: 3
+				random_bonus: 9
+			}]
+		}
+		{
+			title: "Brass Funnel"
+			x: 6.5d
+			y: -6.0d
+			shape: "square"
+			description: [
+				"Upgraded version of Andesite Funnel."
+				"You can put a filter on this funnel, and it can extract a stack at a time !"
+			]
+			dependencies: [
+				"16B1F60A0D8DAD6D"
+				"298A3F9171009D45"
+			]
+			id: "34C4BDA645A04E1F"
+			tasks: [{
+				id: "65E6DC0C8FE2533E"
+				type: "item"
+				item: "create:brass_funnel"
+				count: 2L
+			}]
+			rewards: [{
+				id: "396EC76F809B8FF8"
+				type: "item"
+				item: "create:brass_funnel"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			title: "Brass Tunnel"
+			x: 6.5d
+			y: -5.0d
+			shape: "square"
+			description: [
+				"The Brass Tunnel is a machine that can only be placed on Mechanical Belts. It can sort items that pass through."
+				""
+				"You can put a filter on this funnel, and it can extract a stack at a time !"
+			]
+			dependencies: [
+				"16B1F60A0D8DAD6D"
+				"298A3F9171009D45"
+			]
+			id: "2E9F87E12C2688A5"
+			tasks: [{
+				id: "5BB96D2610E5021F"
+				type: "item"
+				item: "create:brass_tunnel"
+				count: 2L
+			}]
+			rewards: [{
+				id: "068255619FF0693F"
+				type: "item"
+				item: "create:brass_tunnel"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			shape: "square"
+			description: ["Smart Chutes behave similarly to Brass Funnels. They can be filtered to only allow certain items through, and be stopped with a redstone signal. Unlike funnels, they can insert and extract at the same time, but can only function vertically."]
+			dependencies: [
+				"5B972F523E694CCB"
+				"16B1F60A0D8DAD6D"
+				"298A3F9171009D45"
+			]
+			id: "60DFC7FBE95E6BE5"
+			tasks: [{
+				id: "0A5745E8208AF968"
+				type: "item"
+				item: "create:smart_chute"
+			}]
+			rewards: [{
+				id: "4A82B61E406DA0D7"
+				type: "item"
+				item: "create:smart_chute"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"Display Boards are a scalable alternative to the Sign."
+				""
+				"Display Boards can be aligned to share text. Display Boards can be expanded up to 32 blocks above, below, and to either side, allowing a maximum Display Board size of 32x32. More Display Boards can be placed beyond the limit, however they will not function as part of the main board. "
+				""
+				"The Display Board must be powered at an RPM of 30+ to display text. Faster RPMs will reduce the time between updates to the Display Board. The Display Board has no stress impact."
+				""
+				"Display Links can write information to Display Boards. "
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"16B1F60A0D8DAD6D"
+				"298A3F9171009D45"
+			]
+			id: "7F011DB567E42439"
+			tasks: [{
+				id: "5EC5869120A03AFF"
+				type: "item"
+				item: "create:display_board"
+			}]
+			rewards: [{
+				id: "3584E240769EB63F"
+				type: "item"
+				item: "create:display_board"
+				random_bonus: 5
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"A Display Link is used to get information from a block and send it to blocks that can display it. "
+				""
+				"Display links have a range of 64 blocks by default"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"63D160B52E8918C4"
+				"298A3F9171009D45"
+			]
+			id: "2A6205E787F7931A"
+			tasks: [{
+				id: "53FD3D0C4CEFE2CB"
+				type: "item"
+				item: "create:display_link"
+			}]
+			rewards: [{
+				id: "0DF381F68C22197D"
+				type: "item"
+				item: "create:nixie_tube"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"By default, each Item Vault block has a storage space of 20 stacks"
+				""
+				"Item Vaults will connect with other Item Vaults. 1 tall vaults can be up to 3 blocks long, 2x2 tall item vaults can be 6 blocks long, and 3x3 tall vaults can be 9 blocks long, resulting in a maximum storage space of 1620 stacks in one Item Vault multiblock."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
+			id: "2C52FC379CE4C378"
+			tasks: [{
+				id: "222E8A127B432BB8"
+				type: "item"
+				item: "create:item_vault"
+			}]
+			rewards: [{
+				id: "0A8D1433DEC32ACD"
+				type: "item"
+				item: "create:item_vault"
+				random_bonus: 3
+			}]
+		}
+		{
+			title: "Crushing Wheel"
+			x: 13.0d
+			y: 0.0d
+			shape: "square"
+			description: ["Crushing Wheels are the most advanced version of the Millstone. It applies Crushing recipes to any items inserted from the direction they are spinning away from"]
+			dependencies: [
+				"67680115E55B9C8B"
+				"298A3F9171009D45"
+			]
+			size: 1.5d
+			id: "1552AE931A4AEF0E"
+			tasks: [{
+				id: "3B121E13B2B78E5B"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+			rewards: [{
+				id: "27376F7F43D6B9D9"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 5.5d
+			y: -5.0d
+			shape: "square"
+			description: [
+				"The Smart Observer is a machine that emits a redstone signal dependent on the block or items inside a container in front of it. "
+				""
+				"A Display Link can be used to display the inventory the Smart Observer observes."
+			]
+			dependencies: [
+				"16B1F60A0D8DAD6D"
+				"298A3F9171009D45"
+			]
+			id: "14E0B2F94E4705BA"
+			tasks: [{
+				id: "706718C5935AF0A7"
+				type: "item"
+				item: "create:content_observer"
+			}]
+			rewards: [{
+				id: "3748FAF1DBA93C79"
+				type: "item"
+				item: "create:content_observer"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 9.5d
+			y: -5.0d
+			shape: "square"
+			description: [
+				"The Threshold Switch measures how full an inventory is and can emit a Redstone signal at adjustable thresholds. "
+				""
+				"A Display Link can be used to display how full an inventory is with either a percentage or a progress bar. "
+			]
+			dependencies: [
+				"16B1F60A0D8DAD6D"
+				"298A3F9171009D45"
+			]
+			id: "65636E9C9C021051"
+			tasks: [{
+				id: "4844141844BF821F"
+				type: "item"
+				item: "create:stockpile_switch"
+			}]
+			rewards: [{
+				id: "2C631F8B7964FCC8"
+				type: "item"
+				item: "create:stockpile_switch"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 10.5d
+			y: -5.0d
+			shape: "square"
+			description: ["The Rotation Speed Controller is a mechanical component that allows the player to precisely control rotational speed."]
+			dependencies: [
+				"013250199EBFD737"
+				"298A3F9171009D45"
+			]
+			id: "45F18D23AEB34F3E"
+			tasks: [{
+				id: "34E5406CD7BBF325"
+				type: "item"
+				item: "create:rotation_speed_controller"
+			}]
+			rewards: [{
+				id: "3FE9850C65A6B26E"
+				type: "item"
+				item: "create:large_cogwheel"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -1.5d
+			shape: "square"
+			description: ["Powered Obsidian is used to make Sturdy Sheet"]
+			dependencies: [
+				"1552AE931A4AEF0E"
+				"298A3F9171009D45"
+			]
+			id: "0D957F61D0FFDEAD"
+			tasks: [{
+				id: "3172BC0B37019E06"
+				type: "item"
+				item: "create:powdered_obsidian"
+			}]
+			rewards: [{
+				id: "01DBDCA0712C757F"
+				type: "item"
+				item: "create:powdered_obsidian"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 15.0d
+			y: -1.5d
+			shape: "square"
+			description: ["Those Sheet are used to make train stuff and flamethrower"]
+			dependencies: [
+				"0D957F61D0FFDEAD"
+				"298A3F9171009D45"
+			]
+			id: "7726E320E30DB57B"
+			tasks: [{
+				id: "42C6A19650A47BC5"
+				type: "item"
+				item: "create:sturdy_sheet"
+			}]
+			rewards: [{
+				id: "437F66A7A1FACB53"
+				type: "item"
+				item: "create:sturdy_sheet"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			shape: "square"
+			description: [
+				"The Encased Fan is a mechanical component that can create air streams and generate power."
+				"Its air streams are used for moving entities or for Bulk Washing, Bulk Blasting, and Bulk Smoking."
+			]
+			dependencies: [
+				"39718B6A5A7BEC15"
+				"298A3F9171009D45"
+			]
+			id: "5F0D6FB5448862E1"
+			tasks: [{
+				id: "2D40736059CA201C"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [{
+				id: "44805CB5807023CE"
+				type: "item"
+				item: "create:encased_fan"
+				random_bonus: 2
+			}]
+		}
+		{
+			title: "Fluid Pipe"
+			x: 5.0d
+			y: -0.5d
+			shape: "square"
+			description: ["Fluid Pipes are blocks used to transport and deal with fluids."]
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
+			id: "383139A22A980A32"
+			tasks: [{
+				id: "53CB386D9D17C424"
+				type: "item"
+				item: "create:fluid_pipe"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0D8892A0D45AAA28"
+				type: "item"
+				item: "create:fluid_pipe"
+				count: 4
+				random_bonus: 8
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			shape: "square"
+			description: ["Mechanical Pump is used to extract fluid from a fluid pipe or a fluid tank."]
+			dependencies: [
+				"383139A22A980A32"
+				"298A3F9171009D45"
+			]
+			id: "608F2716B3429CCD"
+			tasks: [{
+				id: "7906065A3F0C22FC"
+				type: "item"
+				item: "create:mechanical_pump"
+			}]
+			rewards: [{
+				id: "7042611C0E902BE9"
+				type: "item"
+				item: "create:mechanical_pump"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			shape: "square"
+			description: ["Fluid Valves can be used to close or open the flow in the pipe. Fluid Valves can be switched between open and closed by providing Rotational Force to the side."]
+			dependencies: [
+				"383139A22A980A32"
+				"298A3F9171009D45"
+			]
+			id: "4288B8D4393D7212"
+			tasks: [{
+				id: "736FCF979E78BE31"
+				type: "item"
+				item: "create:fluid_valve"
+			}]
+			rewards: [{
+				id: "7F51A88A0F0D30D6"
+				type: "item"
+				item: "create:fluid_valve"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"The Fluid Tank is a fluid storage that can store up to 8 buckets of fluid per block."
+				"Fluid tanks will also merge with adjacent tanks up to 3x32x3, allowing to store up 2,304 buckets of any fluid."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
+			id: "59715C99CC58A407"
+			tasks: [{
+				id: "4E1C6677E3792F6C"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+			rewards: [{
+				id: "25A9C0941C885DC3"
+				type: "item"
+				item: "create:fluid_tank"
+				count: 4
+				random_bonus: 8
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			shape: "square"
+			description: ["The Hose Pulley lets down a hose that can drain bodies of liquids."]
+			dependencies: [
+				"0EF14F0D3E9267D6"
+				"298A3F9171009D45"
+			]
+			id: "3E70077BADA57BBD"
+			tasks: [{
+				id: "3184016064E82500"
+				type: "item"
+				item: "create:hose_pulley"
+			}]
+			rewards: [{
+				id: "54FE6B26BF6A76BC"
+				type: "item"
+				item: "create:copper_casing"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			shape: "square"
+			description: ["The Item Drain drains fluid from items such as buckets and bottles inserted onto it. "]
+			dependencies: [
+				"0EF14F0D3E9267D6"
+				"298A3F9171009D45"
+			]
+			id: "3A50E9847D0436A4"
+			tasks: [{
+				id: "5DDD6B02D2F03F1C"
+				type: "item"
+				item: "create:item_drain"
+			}]
+			rewards: [{
+				id: "481161D95A414F21"
+				type: "item"
+				item: "create:item_drain"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.0d
+			shape: "square"
+			description: ["The Spout is a block used for filling liquid containers such as bottles or buckets, or crafting with liquids."]
+			dependencies: [
+				"0EF14F0D3E9267D6"
+				"298A3F9171009D45"
+			]
+			id: "06DF3BC64FD7EDE0"
+			tasks: [{
+				id: "041E12BCB769F059"
+				type: "item"
+				item: "create:spout"
+			}]
+			rewards: [{
+				id: "66C3125B80405252"
+				type: "item"
+				item: "create:spout"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			shape: "square"
+			description: ["The Portable Fluid Interface is the fluid version of the Portable Storage Interface. It is used to insert or extract from the fluid inventory of a Contraption."]
+			dependencies: [
+				"0EF14F0D3E9267D6"
+				"298A3F9171009D45"
+			]
+			id: "7CF3A317B503AD7C"
+			tasks: [{
+				id: "6AF5BC5249FF808A"
+				type: "item"
+				item: "create:portable_fluid_interface"
+			}]
+			rewards: [{
+				id: "155E31AB5D9ED41A"
+				type: "item"
+				item: "create:portable_fluid_interface"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"The Steam Engine is a block that provides Rotational Force. It has the highest Stress (SU) capacity of all the survival-mode power-generating blocks. It converts the pressure caused by heating Water in a Fluid Tank into Rotational Force, allowing for large scale item production and multiple contraptions."
+				"{image:ftbquests:textures/quests/create_boiler.png width:150 height:100 align:1}"
+			]
+			dependencies: [
+				"59715C99CC58A407"
+				"298A3F9171009D45"
+			]
+			id: "6FCDB1E491DE78FF"
+			tasks: [{
+				id: "0AF8D3E72F18B4E3"
+				type: "item"
+				item: "create:steam_engine"
+			}]
+			rewards: [{
+				id: "3935994A9E39C31A"
+				type: "item"
+				item: "create:steam_engine"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			shape: "octagon"
+			description: ["One of the casing use to craft Create components"]
+			dependencies: ["298A3F9171009D45"]
+			size: 2.0d
+			id: "0EF14F0D3E9267D6"
+			tasks: [{
+				id: "39CCCD36291DE1AC"
+				type: "item"
+				item: "create:copper_casing"
+			}]
+			rewards: [{
+				id: "2E0CDAD260338284"
+				type: "item"
+				item: "create:copper_casing"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.5d
+			shape: "square"
+			description: ["The Cart Assembler can attach a Contraption to carts that pass through it when supplied with a Redstone signal. Cart contraptions will not travel through nether portals. "]
+			hide_dependency_lines: true
+			dependencies: [
+				"073310C4A43FCF55"
+				"298A3F9171009D45"
+			]
+			id: "7D5A52B0F1D9A26D"
+			tasks: [{
+				id: "587897FB65049A57"
+				type: "item"
+				item: "create:cart_assembler"
+			}]
+			rewards: [{
+				id: "7DFF889D46B314A9"
+				type: "item"
+				item: "minecraft:minecart"
+			}]
+		}
+		{
+			title: "Controller Rail"
+			x: 5.5d
+			y: -6.0d
+			shape: "square"
+			description: ["Controller Rails are used to control the speed of Minecarts or Minecart Contraptions. "]
+			dependencies: [
+				"16B1F60A0D8DAD6D"
+				"298A3F9171009D45"
+			]
+			id: "4570EFBA2B1001FC"
+			tasks: [{
+				id: "405F59AD538012C8"
+				type: "item"
+				item: "create:controller_rail"
+				count: 6L
+			}]
+			rewards: [{
+				id: "6A5AE88B36C28CC6"
+				type: "item"
+				item: "create:controller_rail"
+				count: 6
+				random_bonus: 6
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			shape: "square"
+			description: ["The Speedometer measures the speed of Rotational Force"]
+			dependencies: [
+				"39718B6A5A7BEC15"
+				"298A3F9171009D45"
+			]
+			id: "33187D40C49EF688"
+			tasks: [{
+				id: "161B2D7825232A02"
+				type: "item"
+				item: "create:speedometer"
+			}]
+			rewards: [{
+				id: "4E85E428B6ED25D3"
+				type: "item"
+				item: "create:andesite_casing"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			shape: "square"
+			description: ["The Stressometer is used to measure the amount of Stress on a Shaft"]
+			dependencies: [
+				"33187D40C49EF688"
+				"298A3F9171009D45"
+			]
+			id: "643E0D419EDC85F2"
+			tasks: [{
+				id: "0467916678200EA1"
+				type: "item"
+				item: "create:stressometer"
+			}]
+			rewards: [{
+				id: "3D6DA9EF313F5C0B"
+				type: "item"
+				item: "create:andesite_casing"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			shape: "square"
+			description: ["The Mechanical Bearing is used to create and rotate Contraptions. "]
+			dependencies: [
+				"7E5C72750017BBA4"
+				"298A3F9171009D45"
+			]
+			id: "74DC739681BF86AA"
+			tasks: [{
+				id: "1BFAD1096678603B"
+				type: "item"
+				item: "create:mechanical_bearing"
+			}]
+			rewards: [{
+				id: "772907BB1E131299"
+				type: "item"
+				item: "create:mechanical_bearing"
+			}]
+		}
+		{
+			title: "Linear Chassis"
+			x: -0.5d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"The Linear Chassis is one method of connecting up Contraptions. "
+				"Linear Chassis will automatically connect to adjacent and equally aligned chassis"
+			]
+			hide_dependency_lines: false
+			dependencies: [
+				"073310C4A43FCF55"
+				"298A3F9171009D45"
+			]
+			id: "25B25D7A328B248D"
+			tasks: [{
+				id: "0100CD5DE7DEA3E5"
+				type: "item"
+				item: "create:linear_chassis"
+				count: 3L
+			}]
+			rewards: [{
+				id: "32AE608792E1A554"
+				type: "item"
+				item: "create:linear_chassis"
+				count: 3
+				random_bonus: 6
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"The Radial Chassis is a block used to connect Contraptions. "
+				"Unlike Linear Chassis, the Radial Chassis connects to a radius of blocks around it rather than a straight line of blocks"
+			]
+			dependencies: [
+				"073310C4A43FCF55"
+				"298A3F9171009D45"
+			]
+			id: "172C81EF8A61B42E"
+			tasks: [{
+				id: "6738E1D17CA741AE"
+				type: "item"
+				title: "Radial Chassis"
+				item: "create:radial_chassis"
+				count: 3L
+			}]
+			rewards: [{
+				id: "5E5DACBD30D3C0F1"
+				type: "item"
+				item: "create:radial_chassis"
+				count: 3
+				random_bonus: 6
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			shape: "square"
+			description: ["The Mechanical Drill is a block used to break blocks."]
+			hide_dependency_lines: true
+			dependencies: [
+				"39718B6A5A7BEC15"
+				"298A3F9171009D45"
+			]
+			id: "3DA16F8AEBB6323B"
+			tasks: [{
+				id: "75CCBB3C0A106478"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+			rewards: [{
+				id: "1B371CA11D4B42BB"
+				type: "item"
+				item: "create:mechanical_drill"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			shape: "square"
+			description: ["The Portable Storage Interface is a block that allows Item Transporters to directly interact with Contraption inventories. "]
+			hide_dependency_lines: false
+			dependencies: [
+				"5B972F523E694CCB"
+				"39718B6A5A7BEC15"
+				"298A3F9171009D45"
+			]
+			id: "5D09328C1ABE02B6"
+			tasks: [{
+				id: "0780AD5D0BAB724B"
+				type: "item"
+				item: "create:portable_storage_interface"
+			}]
+			rewards: [{
+				id: "756B614237DD8E30"
+				type: "item"
+				item: "create:portable_storage_interface"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			shape: "square"
+			description: [
+				"The Mechanical Harvester will harvest all mature crops it comes in contact with while moving forward."
+				"It will then either deposit the items on a inventory attach to the contraption, or, if no inventories are available, it will drop the items to the ground."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
+			id: "1909ED480E48557C"
+			tasks: [{
+				id: "6F40B1C90B0973D6"
+				type: "item"
+				item: "create:mechanical_harvester"
+			}]
+			rewards: [{
+				id: "75C3D4897660A834"
+				type: "item"
+				item: "create:mechanical_harvester"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			shape: "square"
+			description: [
+				"While attached to a contraption, the Mechanical Plough will break non-collidable blocks in contact with (ex: Snow Layers)."
+				"The Mechanical Plough will also move entities and till soil blocks"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
+			id: "4E87EABAC8A266E7"
+			tasks: [{
+				id: "3BC3E58DDE86DB77"
+				type: "item"
+				item: "create:mechanical_plough"
+			}]
+			rewards: [{
+				id: "7C87510EEB07E0C5"
+				type: "item"
+				item: "create:mechanical_plough"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			shape: "square"
+			description: ["The Rope Pulley creates Contraptions much like a Mechanical Piston, but in only one direction and without the need for Piston Extension Poles."]
+			dependencies: [
+				"39718B6A5A7BEC15"
+				"298A3F9171009D45"
+			]
+			id: "4664DB700BB005E7"
+			tasks: [{
+				id: "46CBC5F0A21DA8B5"
+				type: "item"
+				item: "create:rope_pulley"
+			}]
+			rewards: [{
+				id: "1F20A86EDAE2C69F"
+				type: "item"
+				item: "create:andesite_casing"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 16.0d
+			y: 2.5d
+			shape: "square"
+			description: ["The Mechanical Roller can be used on Contraptions to clear and pave a path."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1552AE931A4AEF0E"
+				"16B1F60A0D8DAD6D"
+				"298A3F9171009D45"
+			]
+			id: "07660601C3DC4480"
+			tasks: [{
+				id: "695C9C7C716F9AC9"
+				type: "item"
+				item: "create:mechanical_roller"
+			}]
+			rewards: [{
+				id: "402AC1B18410E39C"
+				type: "item"
+				item: "create:mechanical_roller"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 15.0d
+			y: 0.0d
+			shape: "octagon"
+			description: ["Train Casing is used to make all the machine in relation with train"]
+			dependencies: [
+				"7726E320E30DB57B"
+				"298A3F9171009D45"
+			]
+			size: 2.0d
+			id: "1502B96487B5F720"
+			tasks: [{
+				id: "589A4148FA7C346D"
+				type: "item"
+				item: "create:railway_casing"
+			}]
+			rewards: [{
+				id: "0A44DFDC60614355"
+				type: "item"
+				item: "create:railway_casing"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 15.0d
+			y: -2.5d
+			shape: "square"
+			description: ["Train Schedules are used to instruct non-player Train conductors. "]
+			dependencies: [
+				"7726E320E30DB57B"
+				"298A3F9171009D45"
+			]
+			id: "7678ED45A4F6AFAF"
+			tasks: [{
+				id: "4782A74D90CB0255"
+				type: "item"
+				item: "create:schedule"
+			}]
+			rewards: [{
+				id: "10F3FEA3ECFEB393"
+				type: "item"
+				item: "create:sturdy_sheet"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 11.5d
+			y: -4.5d
+			shape: "square"
+			description: ["Train Tracks are special blocks used to support Trains."]
+			dependencies: [
+				"2714A2EC7A917167"
+				"298A3F9171009D45"
+			]
+			id: "4D9B4F317758E44F"
+			tasks: [{
+				id: "07FD5C7B084A39AC"
+				type: "item"
+				item: "create:track"
+			}]
+			rewards: [{
+				id: "231E99B1950078E8"
+				type: "item"
+				item: "create:track"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 15.0d
+			y: 3.0d
+			shape: "square"
+			description: ["Train Stations are used to create, disassemble, and guide Trains."]
+			dependencies: [
+				"1502B96487B5F720"
+				"298A3F9171009D45"
+			]
+			id: "17D7A2D76CD2E45B"
+			tasks: [{
+				id: "74F9EA510D7F91C9"
+				type: "item"
+				item: "create:track_station"
+			}]
+			rewards: [{
+				id: "6577A81E7E05C037"
+				type: "item"
+				item: "create:track_station"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 1.5d
+			shape: "square"
+			description: ["Train Signals are used to control the flow of Trains not driven by players."]
+			dependencies: [
+				"1502B96487B5F720"
+				"298A3F9171009D45"
+			]
+			id: "538B5A290B549058"
+			tasks: [{
+				id: "734ACCD7EB7D27A1"
+				type: "item"
+				item: "create:track_signal"
+			}]
+			rewards: [{
+				id: "52DC794BDED10269"
+				type: "item"
+				item: "create:track_signal"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 2.0d
+			shape: "square"
+			description: ["The Train Observer is used to detect passing Trains."]
+			dependencies: [
+				"1502B96487B5F720"
+				"298A3F9171009D45"
+			]
+			id: "0B08BFBBC2A427AB"
+			tasks: [{
+				id: "126A8FD9709189FD"
+				type: "item"
+				item: "create:track_observer"
+			}]
+			rewards: [{
+				id: "242A5C910FFDFC6C"
+				type: "item"
+				item: "create:track_observer"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 1.5d
+			shape: "square"
+			description: ["Train Controls are required in the creation of Trains."]
+			hide_dependency_lines: false
+			dependencies: [
+				"1502B96487B5F720"
+				"298A3F9171009D45"
+			]
+			id: "541FD6EC9A08F96A"
+			tasks: [{
+				id: "264D972D4BEE1B76"
+				type: "item"
+				item: "create:controls"
+			}]
+			rewards: [{
+				id: "42EA9BF2DD3264D2"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 2.5d
+			shape: "square"
+			description: ["An Elevator Pulley is a Contraption useful for creating multi-floor elevators easily. "]
+			dependencies: [
+				"63D160B52E8918C4"
+				"298A3F9171009D45"
+			]
+			id: "64082570BCC2312A"
+			tasks: [{
+				id: "3C90E5A31F6DB7CA"
+				type: "item"
+				item: "create:elevator_pulley"
+			}]
+			rewards: [{
+				id: "17E2F3B70DAE5A76"
+				type: "item"
+				item: "create:brass_casing"
+				random_bonus: 3
+			}]
+		}
+		{
+			title: "Redstone Contact"
+			x: 10.0d
+			y: 3.0d
+			shape: "square"
+			description: ["Redstone Contacts allow Contraptions to convey redstone signals or activate Redstone Circuits. "]
+			hide_dependency_lines: true
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
+			id: "1A55861188EC9CA0"
+			tasks: [{
+				id: "6781C16438A6D4C0"
+				type: "item"
+				item: "create:redstone_contact"
+				count: 2L
+			}]
+			rewards: [{
+				id: "6C85CABEC1DD6DA5"
+				type: "item"
+				item: "create:redstone_contact"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 12.0d
+			y: 3.0d
+			shape: "square"
+			description: [
+				"Contraption Controls are used to control Contraption Actors. "
+				""
+				"While on an Elevator, all Contraption Controls will be used to display and select elevator floors, regardless of if the controls have a filter. "
+			]
+			hide_dependency_lines: false
+			dependencies: [
+				"64082570BCC2312A"
+				"298A3F9171009D45"
+			]
+			id: "03F9BDD2F33B6A79"
+			tasks: [{
+				id: "3D64BA9B3EABCB20"
+				type: "item"
+				item: "create:contraption_controls"
+			}]
+			rewards: [{
+				id: "3AA06A993AD7371D"
+				type: "item"
+				item: "create:electron_tube"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			shape: "square"
+			description: ["Engineer's goggles are a wearable item that allow the user to see more details about placed machines"]
+			hide_dependency_lines: true
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
+			id: "4E4D999C8145C662"
+			tasks: [{
+				id: "559DB656C978FF55"
+				type: "item"
+				item: "create:goggles"
+			}]
+			rewards: [{
+				id: "7EDCBC8E44B3B0B7"
+				type: "item"
+				item: "botania:cosmetic_googly_eyes"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			shape: "square"
+			description: [
+				"Super Glue holds structures in contraptions together, lime Slimeballs."
+				""
+				"The main difference between Super Glue and Slimeballs is that Super Glue does not need to use the wooden face of a Linear Chassis to adhere blocks to each other"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
+			id: "4C3442628AC11914"
+			tasks: [{
+				id: "10A495AFF79ABC9D"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "61DAFBD6D3729C63"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 2.5d
+			shape: "square"
+			description: ["Minecart Coupling is used to make minecart or minecart contraption trains. "]
+			hide_dependency_lines: true
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
+			id: "5C4656243EB3EB53"
+			tasks: [{
+				id: "68C80FCFE1F92F8A"
+				type: "item"
+				item: "create:minecart_coupling"
+			}]
+			rewards: [{
+				id: "538684CDB750267C"
+				type: "item"
+				item: "create:minecart_coupling"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			shape: "square"
+			description: ["The Wrench is a tool used to rotate, dismantle and configure components"]
+			hide_dependency_lines: true
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"12779E7CC3A93EB4"
+				"298A3F9171009D45"
+			]
+			id: "52C396F7C7274709"
+			tasks: [{
+				id: "37CAA5B72E1657C9"
+				type: "item"
+				item: "create:wrench"
+			}]
+			rewards: [{
+				id: "6E839DD590130206"
+				type: "item"
+				item: "create:cogwheel"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			shape: "square"
+			description: ["The Toolbox can hold up to 256 items per slot and up to 8 different types of items"]
+			hide_dependency_lines: true
+			dependencies: [
+				"12779E7CC3A93EB4"
+				"298A3F9171009D45"
+			]
+			id: "5F31490CB71F1B9E"
+			tasks: [{
+				id: "6D0858EF46C91387"
+				type: "item"
+				item: "create:brown_toolbox"
+			}]
+			rewards: [{
+				id: "64E3CB80B700F26C"
+				type: "item"
+				item: "create:black_toolbox"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -2.5d
+			shape: "square"
+			description: ["The Electric Motor generates kinetic energy from Forge Energy"]
+			dependencies: [
+				"67680115E55B9C8B"
+				"2977B0A071166015"
+				"298A3F9171009D45"
+			]
+			id: "75498C2A9307FC24"
+			tasks: [{
+				id: "3D6B4ABB23840585"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+			rewards: [{
+				id: "143A020F0D5CD0A3"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+		}
+		{
+			title: "Copper Wire"
+			x: 13.5d
+			y: -3.5d
+			shape: "square"
+			description: ["Just craft some wires"]
+			dependencies: [
+				"4CA3D6B7B6F566BB"
+				"298A3F9171009D45"
+			]
+			id: "2FA54518AEEC0CEF"
+			tasks: [{
+				id: "30CA26D9D3006539"
+				type: "item"
+				item: "ftbic:copper_wire"
+				count: 2L
+			}]
+			rewards: [{
+				id: "0D743D88AF51DAD8"
+				type: "item"
+				item: "ftbic:copper_wire"
+				count: 2
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 12.5d
+			y: -3.5d
+			shape: "square"
+			description: ["The Copper Spool is used to make Alternator, Electric Motor or Tesla Coil"]
+			dependencies: [
+				"2FA54518AEEC0CEF"
+				"298A3F9171009D45"
+			]
+			id: "2977B0A071166015"
+			tasks: [{
+				id: "43D266D346F8DD58"
+				type: "item"
+				item: "createaddition:copper_spool"
+			}]
+			rewards: [{
+				id: "134A8D60B9D221B6"
+				type: "item"
+				item: "createaddition:festive_spool"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 13.0d
+			y: -2.5d
+			shape: "square"
+			description: ["The Alternator generates Forge Energy from kinetic energy"]
+			dependencies: [
+				"2977B0A071166015"
+				"67680115E55B9C8B"
+				"298A3F9171009D45"
+			]
+			id: "78DDAE9857E2EF26"
+			tasks: [{
+				id: "0DB9CC7A8AE3FCB8"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+			rewards: [{
+				id: "1F48F365FA56E146"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -4.5d
+			shape: "square"
+			description: ["The Rolling Mill is used to craft Wires and Rods"]
+			hide_dependency_lines: true
+			dependencies: [
+				"39718B6A5A7BEC15"
+				"298A3F9171009D45"
+			]
+			id: "4CA3D6B7B6F566BB"
+			tasks: [{
+				id: "0949D15030A75C79"
+				type: "item"
+				item: "createaddition:rolling_mill"
+			}]
+			rewards: [{
+				id: "1719DC32CF4C39FC"
+				type: "item"
+				item: "createaddition:rolling_mill"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.5d
+			shape: "square"
+			description: ["Tesla Coil use Forge Energy to charge item"]
+			dependencies: [
+				"67680115E55B9C8B"
+				"2977B0A071166015"
+				"298A3F9171009D45"
+			]
+			id: "2748A6302CE3ACC6"
+			tasks: [{
+				id: "6D941B82DAE339C4"
+				type: "item"
+				item: "createaddition:tesla_coil"
+			}]
+			rewards: [{
+				id: "091E144A1EFC7F56"
+				type: "item"
+				item: "createaddition:tesla_coil"
+			}]
+		}
+		{
+			title: "Redstone Link"
+			x: 11.0d
+			y: 1.5d
+			shape: "square"
+			description: ["Redstone Link can transfer redstone wiressly"]
+			hide_dependency_lines: false
+			dependencies: [
+				"63D160B52E8918C4"
+				"298A3F9171009D45"
+			]
+			id: "55BCE52CB5E284DE"
+			tasks: [{
+				id: "3274F4DC6C9768A1"
+				type: "item"
+				item: "create:redstone_link"
+				count: 2L
+			}]
+			rewards: [{
+				id: "03D9FC20066497F2"
+				type: "item"
+				item: "create:redstone_link"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"The Starbuncle Wheel can generate 256 stress unit and turn at 16 rotation per minute."
+				""
+				"You can get more stress and speed by placing a block of gold in front of it. (up to 384su and 24RPM)"
+			]
+			dependencies: [
+				"0BFAEEF599FEA7D7"
+				"298A3F9171009D45"
+			]
+			id: "6E034F4BB726CEC3"
+			tasks: [{
+				id: "36F24F4185BEC6C0"
+				type: "item"
+				item: "ars_creo:starbuncle_wheel"
+			}]
+			rewards: [{
+				id: "5BB86C26575027BB"
+				type: "item"
+				item: "minecraft:gold_block"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.5d
+			shape: "square"
+			subtitle: "The age of Brass"
+			description: ["You can get Brass Ingot using the Mixer."]
+			dependencies: [
+				"5B7594939BB7C888"
+				"5262697B2954997E"
+				"4BC7D64DB4ACB7A5"
+				"3DB4CDB19FD3915F"
+				"298A3F9171009D45"
+			]
+			id: "28A1FE67951514B7"
+			tasks: [{
+				id: "4695853F2DDB4C0E"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+			rewards: [{
+				id: "746C691E01160292"
+				type: "item"
+				item: {
+					id: "create_sa:brass_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -6.0d
+			shape: "square"
+			subtitle: "autoclicker"
+			description: ["The deployer will be useful for making assembly crafts."]
+			dependencies: [
+				"16B1F60A0D8DAD6D"
+				"298A3F9171009D45"
+			]
+			id: "0E24A6FDB7149DE6"
+			tasks: [{
+				id: "52700167B6E83BBA"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [{
+				id: "16D7B2FE636C6F53"
+				type: "item"
+				item: "create:brass_hand"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.0d
+			shape: "square"
+			description: [
+				"In this pack to make Rose Quartz you will need Fluorite and Redstone."
+				"There will be a way to make Rose Quartz with Quartz later."
+			]
+			dependencies: [
+				"608B0D64957C2EC8"
+				"298A3F9171009D45"
+			]
+			id: "11A6AE8869E30BA1"
+			tasks: [{
+				id: "31BAAE493B2CB247"
+				type: "item"
+				item: "create:rose_quartz"
+			}]
+			rewards: [{
+				id: "651DBC490FBF33B6"
+				type: "item"
+				item: {
+					id: "create:red_sand_paper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: -6.0d
+			shape: "square"
+			subtitle: "Precision"
+			description: [
+				"The Precision Mechanism is mainly used to make Mechanical Arms or Rotation Speed Controller."
+				""
+				"Be careful though because the craft has a 20% chance of missing and giving you a junk item"
+			]
+			dependencies: [
+				"0E24A6FDB7149DE6"
+				"298A3F9171009D45"
+			]
+			id: "013250199EBFD737"
+			tasks: [{
+				id: "2452739E819A02A5"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+			rewards: [{
+				id: "53A95BBC1035B118"
+				type: "item"
+				item: "create_sa:brass_cube"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -5.5d
+			shape: "square"
+			description: [
+				"Right now your mechanical arm you'll use it in the craft of the Nasa Workbench, but this one can be useful in automation of Create devices!"
+				""
+				"The Mechanical Arm is a block used to transfer items."
+				"The Mechanical Arm can take or deposit items from various blocks within a 5 block radius of where it is placed. The order it does this in is determined by its behavior as well as the order the blocks were selected in during placement. A placed Mechanical Arm's selected blocks can be viewed by hovering over it with a Wrench. "
+			]
+			dependencies: [
+				"5836EBA421A25364"
+				"013250199EBFD737"
+				"298A3F9171009D45"
+			]
+			id: "2714A2EC7A917167"
+			tasks: [{
+				id: "453D6AA280EC95F0"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [{
+				id: "38C1633609504B50"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.0d
+			shape: "square"
+			description: [
+				"The Accumulator is a multi-block structure, it can store large amount of RF."
+				"{image:ftbquests:textures/quests/create_accumulator.png width:150 height:100 align:1}"
+				"The maximum size is a 3x5x3 and can hold 188.8MRF"
+			]
+			dependencies: [
+				"63D160B52E8918C4"
+				"298A3F9171009D45"
+			]
+			id: "4A49AEFC31374580"
+			tasks: [{
+				id: "31909A4D87B0D803"
+				type: "item"
+				item: "createaddition:modular_accumulator"
+			}]
+			rewards: [{
+				id: "4274AFC1D2F7B267"
+				type: "item"
+				item: "createaddition:modular_accumulator"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.0d
+			shape: "square"
+			description: ["The Portable Energy Interface is the energy version of the Portable Storage Interface. It is used to insert or extract from the energy inventory of a Contraption."]
+			dependencies: [
+				"63D160B52E8918C4"
+				"298A3F9171009D45"
+			]
+			id: "13418BA96C23EFCA"
+			tasks: [{
+				id: "4867E3799A377D57"
+				type: "item"
+				item: "createaddition:portable_energy_interface"
+			}]
+			rewards: [{
+				id: "3F00DAEF26901E1D"
+				type: "item"
+				item: "createaddition:portable_energy_interface"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"Giving a Blaze Burner a Straw will allow it to accept liquid fuels by buckets or by pipes."
+				""
+				"he's also going to put a nice helmet on blaze's head =3"
+			]
+			dependencies: [
+				"4BC7D64DB4ACB7A5"
+				"298A3F9171009D45"
+			]
+			id: "68EC102A4B4E57D5"
+			tasks: [{
+				id: "1A5726579FFC14C1"
+				type: "item"
+				item: "createaddition:straw"
+			}]
+			rewards: [{
+				id: "2621744383A485B4"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			shape: "square"
+			description: ["The Disenchanter allows you to disenchant enchanted items as well as players experience into Liquid Experience."]
+			dependencies: ["0EF14F0D3E9267D6"]
+			id: "0A0D8693EEC50094"
+			tasks: [{
+				id: "4934EE5D704F0F67"
+				type: "item"
+				item: "create_enchantment_industry:disenchanter"
+			}]
+			rewards: [{
+				id: "69F1D632FA35133A"
+				type: "item"
+				item: "minecraft:experience_bottle"
+				count: 8
+				random_bonus: 16
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			shape: "square"
+			description: ["The printer allows you to copy enchanted book, copy written book as well as copy the Train Schedule and name tag."]
+			dependencies: ["0EF14F0D3E9267D6"]
+			id: "277E2786F6E832C2"
+			tasks: [{
+				id: "3202CF5EF310C3B2"
+				type: "item"
+				item: "create_enchantment_industry:printer"
+			}]
+			rewards: [{
+				id: "1602C888995D35B7"
+				type: "item"
+				item: "minecraft:experience_bottle"
+				count: 8
+				random_bonus: 16
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"The Slicer is used to automate Farmer's Delight cutting board crafts. "
+				""
+				"Be careful that your Slicer turns in the right direction so that the crafts work on a belt."
+			]
+			dependencies: ["39718B6A5A7BEC15"]
+			id: "37007948ACB367AE"
+			tasks: [{
+				id: "3B99027D6E08F548"
+				type: "item"
+				item: "sliceanddice:slicer"
+			}]
+			rewards: [{
+				id: "13B403B74A988E55"
+				type: "item"
+				item: "sliceanddice:slicer"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			shape: "square"
+			description: ["Chromatic Compound is used to make Shadow Steel and Refined Radiant."]
+			dependencies: [
+				"0F21B16927A39E9A"
+				"3DB4CDB19FD3915F"
+			]
+			id: "664DE56E7C145E46"
+			tasks: [{
+				id: "3B1F13937E9FB2E9"
+				type: "item"
+				item: {
+					id: "create:chromatic_compound"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5C4904F223D78D55"
+				type: "item"
+				item: {
+					id: "create:chromatic_compound"
+					Count: 1b
+					tag: { }
+				}
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.5d
+			shape: "square"
+			description: [
+				"Shadows Steel is obtained by throwing Chromatic Compound in the End Void."
+				""
+				"Refined Radiant is obtained by throwing Chromatic Compound in a beacon beam (you can also charge your Compound in Glowstone, Torche, shroomlight, etc. But it's very slow)"
+			]
+			dependencies: ["664DE56E7C145E46"]
+			id: "38E0112BECD74268"
+			tasks: [
+				{
+					id: "23F8CBF27081A9E8"
+					type: "item"
+					item: "create:shadow_steel"
+				}
+				{
+					id: "0A64BC8F83B40A71"
+					type: "item"
+					item: "create:refined_radiance"
+				}
+			]
+			rewards: [
+				{
+					id: "3F28314D09B68A09"
+					type: "item"
+					item: "create:shadow_steel"
+					random_bonus: 3
+				}
+				{
+					id: "370A4EB419A82DDB"
+					type: "item"
+					item: "create:refined_radiance"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -3.0d
+			shape: "square"
+			description: [
+				"Shadow Radiance is an alloy made with Shadows Steel and Refined Radiance."
+				"It's used to make the Inventory Linker from Create Quality of Life !"
+			]
+			dependencies: ["38E0112BECD74268"]
+			id: "479A49B3A97E49D3"
+			tasks: [{
+				id: "12DEA739EAA3C5DD"
+				type: "item"
+				item: "createqol:shadow_radiance"
+			}]
+			rewards: [{
+				id: "68C4175EB9D9C047"
+				type: "item"
+				item: "createqol:shadow_radiance"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.5d
+			description: [
+				"The Inventory Linker is a powerful block who can be link with your inventory using a Player Paper."
+				""
+				"It needs rotational force underneath to work, you can output from it and input inside using Funnel (for example)."
+				""
+				"You have 3 different configuration on top."
+				"Inventory, Armor and Off Hand."
+				""
+				"Each configuration is link to you, so you can, for example, extract cobblestone from your inventory using a funnel with a filter."
+				"Or you can equip an armor automatically, injecting an armor into it."
+			]
+			dependencies: [
+				"479A49B3A97E49D3"
+				"67680115E55B9C8B"
+			]
+			id: "1ECE67F6DA1294FC"
+			tasks: [
+				{
+					id: "048DDEC79B03B990"
+					type: "item"
+					item: "createqol:inventory_linker"
+				}
+				{
+					id: "7A586698A6F174B9"
+					type: "item"
+					item: {
+						id: "createqol:player_paper"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "679A860F4D6B4D07"
+				type: "item"
+				item: "createqol:shadow_radiance"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

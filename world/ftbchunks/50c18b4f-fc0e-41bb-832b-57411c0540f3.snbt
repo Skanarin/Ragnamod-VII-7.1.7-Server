@@ -1,0 +1,86 @@
+{
+	max_claim_chunks: 500
+	max_force_load_chunks: 25
+	last_login_time: 1740684547317L
+	chunks: {
+		"twilightforest:twilight_forest": [
+			{ x: -14, z: -3, time: 1740092641539L }
+			{ x: -14, z: -1, time: 1740092638819L }
+			{ x: -14, z: -2, time: 1740092638819L }
+			{ x: -14, z: 1, time: 1740092638819L }
+			{ x: -14, z: 0, time: 1740092638819L }
+			{ x: -14, z: 3, time: 1740092638818L }
+			{ x: -14, z: 2, time: 1740092638819L }
+			{ x: 76, z: -113, time: 1740069725088L }
+			{ x: 76, z: -114, time: 1740069725088L }
+			{ x: 76, z: -112, time: 1740069725088L }
+			{ x: 77, z: -116, time: 1740069725088L }
+			{ x: 77, z: -114, time: 1740069725088L }
+			{ x: 77, z: -115, time: 1740069725088L }
+			{ x: -13, z: -2, time: 1740092641539L }
+			{ x: -13, z: -3, time: 1740092641539L }
+			{ x: -13, z: 0, time: 1740092638819L }
+			{ x: -13, z: -1, time: 1740092638819L }
+			{ x: -13, z: 2, time: 1740092640484L }
+			{ x: -13, z: 1, time: 1740092640484L }
+			{ x: -13, z: 3, time: 1740092640484L }
+			{ x: 77, z: -112, time: 1740069725088L }
+			{ x: 77, z: -113, time: 1740069725088L }
+			{ x: 78, z: -115, time: 1740069725088L }
+			{ x: 90, z: -103, time: 1740070095683L }
+			{ x: 78, z: -116, time: 1740069725088L }
+			{ x: 78, z: -113, time: 1740069725088L }
+			{ x: 78, z: -114, time: 1740069725088L }
+			{ x: 49, z: -98, time: 1740069543435L }
+			{ x: -16, z: -3, time: 1740092638819L }
+			{ x: -16, z: -1, time: 1740092638819L }
+			{ x: -16, z: -2, time: 1740092638819L }
+			{ x: -16, z: 1, time: 1740092638819L }
+			{ x: -16, z: 0, time: 1740092638819L }
+			{ x: 78, z: -112, time: 1740069725088L }
+			{ x: 79, z: -116, time: 1740069725088L }
+			{ x: 79, z: -114, time: 1740069725088L }
+			{ x: 79, z: -115, time: 1740069725088L }
+			{ x: 75, z: -116, time: 1740069725087L }
+			{ x: 79, z: -112, time: 1740069725088L }
+			{ x: 79, z: -113, time: 1740069725088L }
+			{ x: -16, z: 3, time: 1740092638819L }
+			{ x: -16, z: 2, time: 1740092638819L }
+			{ x: -15, z: -2, time: 1740092638819L }
+			{ x: -15, z: -3, time: 1740092638819L }
+			{ x: -15, z: 0, time: 1740092638819L }
+			{ x: -15, z: -1, time: 1740092638819L }
+			{ x: -15, z: 2, time: 1740092638819L }
+			{ x: -15, z: 1, time: 1740092638819L }
+			{ x: 75, z: -114, time: 1740069725088L }
+			{ x: 75, z: -115, time: 1740069725088L }
+			{ x: 75, z: -112, time: 1740069725088L }
+			{ x: 75, z: -113, time: 1740069725088L }
+			{ x: 76, z: -115, time: 1740069725088L }
+			{ x: 76, z: -116, time: 1740069725088L }
+			{ x: -15, z: 3, time: 1740092638819L }
+		]
+	}
+	member_data: {
+		5d974e75-f64c-4f68-b68e-f9f528409472: {
+			max_force_loaded_chunks: 25
+			max_claimed_chunks: 500
+			offline_force_loader: 0b
+		}
+		ccb09cf1-baab-467a-bfe3-bf595b9ca445: {
+			max_force_loaded_chunks: 25
+			max_claimed_chunks: 500
+			offline_force_loader: 0b
+		}
+		b2c8da85-5284-4f94-9f1b-650f67cb2176: {
+			max_force_loaded_chunks: 25
+			max_claimed_chunks: 500
+			offline_force_loader: 0b
+		}
+		65e5a8b0-1d38-4b1b-9b59-a2ad8495cee5: {
+			max_force_loaded_chunks: 25
+			max_claimed_chunks: 500
+			offline_force_loader: 0b
+		}
+	}
+}
