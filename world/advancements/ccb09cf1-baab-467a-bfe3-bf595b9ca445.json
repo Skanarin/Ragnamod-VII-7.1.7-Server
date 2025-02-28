@@ -60,6 +60,12 @@
     },
     "done": true
   },
+  "farmersdelight:main/harvest_straw": {
+    "criteria": {
+      "harvest_straw": "2025-02-28 02:54:45 +0100"
+    },
+    "done": true
+  },
   "naturescompass:natures_compass": {
     "criteria": {
       "has_recipe": "2025-02-19 20:15:32 +0100"
@@ -295,6 +301,7 @@
       "chicken": "2025-02-21 01:06:43 +0100",
       "cooked_mutton": "2025-02-20 00:33:08 +0100",
       "sweet_berries": "2025-02-21 01:10:14 +0100",
+      "cooked_beef": "2025-02-27 23:40:25 +0100",
       "baked_potato": "2025-02-20 21:37:29 +0100",
       "porkchop": "2025-02-21 01:15:57 +0100",
       "apple": "2025-02-21 23:17:06 +0100",
@@ -306,6 +313,7 @@
       "pufferfish": "2025-02-27 00:44:37 +0100",
       "bread": "2025-02-20 01:52:31 +0100",
       "rotten_flesh": "2025-02-21 01:06:05 +0100",
+      "dried_kelp": "2025-02-28 02:58:09 +0100",
       "melon_slice": "2025-02-20 17:06:59 +0100",
       "golden_carrot": "2025-02-22 14:44:53 +0100",
       "cooked_chicken": "2025-02-26 14:54:00 +0100",
@@ -357,6 +365,12 @@
     },
     "done": true
   },
+  "naturesaura:gold_leaf": {
+    "criteria": {
+      "leaf": "2025-02-28 02:57:15 +0100"
+    },
+    "done": true
+  },
   "twilightforest:alt/entities/naga": {
     "criteria": {
       "hurt": "2025-02-20 17:11:05 +0100"
@@ -404,10 +418,12 @@
       "twilight_oak_fence": "2025-02-24 01:39:51 +0100",
       "time_sapling": "2025-02-24 00:35:42 +0100",
       "twilight_oak_planks": "2025-02-19 22:41:04 +0100",
+      "twilight_oak_door": "2025-02-27 22:44:38 +0100",
       "twilight_oak_button": "2025-02-21 18:20:31 +0100",
       "twilight_oak_log": "2025-02-19 20:28:27 +0100",
       "twilight_oak_wood": "2025-02-24 00:40:13 +0100",
       "mangrove_planks": "2025-02-20 15:43:40 +0100",
+      "dark_log": "2025-02-28 02:55:34 +0100",
       "canopy_stairs": "2025-02-19 22:13:52 +0100",
       "twilight_oak_sign": "2025-02-26 14:48:25 +0100",
       "canopy_leaves": "2025-02-24 01:07:57 +0100",
@@ -416,6 +432,7 @@
       "liveroot": "2025-02-19 22:55:09 +0100",
       "twilight_oak_fence_gate": "2025-02-24 01:40:22 +0100",
       "twilight_oak_stairs": "2025-02-26 15:01:23 +0100",
+      "mangrove_sapling": "2025-02-28 02:55:04 +0100",
       "darkwood_sapling": "2025-02-24 00:44:40 +0100",
       "twilight_oak_trapdoor": "2025-02-27 01:16:14 +0100",
       "twilight_oak_slab": "2025-02-19 22:23:48 +0100",
@@ -425,7 +442,8 @@
       "twilight_oak_leaves": "2025-02-24 01:04:00 +0100",
       "canopy_sapling": "2025-02-19 20:29:22 +0100",
       "canopy_slab": "2025-02-19 22:13:52 +0100",
-      "canopy_fence": "2025-02-19 22:13:54 +0100"
+      "canopy_fence": "2025-02-19 22:13:54 +0100",
+      "thorn_rose": "2025-02-28 02:22:06 +0100"
     },
     "done": false
   },
@@ -1176,6 +1194,12 @@
     },
     "done": true
   },
+  "undergarden:undergarden/mine_ore": {
+    "criteria": {
+      "has_regalium_crystal": "2025-02-28 02:19:54 +0100"
+    },
+    "done": true
+  },
   "twilightforest:alt/entities/undead": {
     "criteria": {
       "has_wraith": "2025-02-20 18:48:29 +0100"
@@ -1316,6 +1340,12 @@
     },
     "done": true
   },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "onion": "2025-02-27 23:38:35 +0100"
+    },
+    "done": true
+  },
   "psi:main/psimetal_assembly_pickup": {
     "criteria": {
       "flower": "2025-02-19 20:15:32 +0100"
@@ -1394,9 +1424,21 @@
     },
     "done": true
   },
+  "twilightforest:magic_map": {
+    "criteria": {
+      "magic_map": "2025-02-28 02:54:19 +0100"
+    },
+    "done": true
+  },
   "twilightforest:alt/biomes/dense_mushroom_forest": {
     "criteria": {
       "in_biome": "2025-02-22 14:55:11 +0100"
+    },
+    "done": true
+  },
+  "apotheosis:affix/gem": {
+    "criteria": {
+      "gem": "2025-02-28 02:19:57 +0100"
     },
     "done": true
   },
@@ -1778,6 +1820,12 @@
   "beautify:bookstack": {
     "criteria": {
       "requirement": "2025-02-21 00:29:04 +0100"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/bookshelf": {
+    "criteria": {
+      "bookshelf": "2025-02-28 02:29:53 +0100"
     },
     "done": true
   },

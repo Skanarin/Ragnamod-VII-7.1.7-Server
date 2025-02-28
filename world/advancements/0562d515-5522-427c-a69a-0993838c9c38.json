@@ -63,13 +63,21 @@
     "criteria": {
       "fiery_boots": "2025-02-26 23:36:05 +0100",
       "fiery_helmet": "2025-02-26 23:22:11 +0100",
-      "fiery_chestplate": "2025-02-26 23:36:12 +0100"
+      "fiery_sword": "2025-02-27 22:13:21 +0100",
+      "fiery_chestplate": "2025-02-26 23:36:12 +0100",
+      "fiery_leggings": "2025-02-27 22:11:53 +0100"
     },
-    "done": false
+    "done": true
   },
   "farmersdelight:main/harvest_straw": {
     "criteria": {
       "harvest_straw": "2025-02-20 18:12:14 +0100"
+    },
+    "done": true
+  },
+  "morevillagers:first_village": {
+    "criteria": {
+      "plains": "2025-02-27 23:26:19 +0100"
     },
     "done": true
   },
@@ -117,6 +125,18 @@
     },
     "done": true
   },
+  "pneumaticcraft:pneumatic_wrench_charged": {
+    "criteria": {
+      "0": "2025-02-28 00:00:20 +0100"
+    },
+    "done": true
+  },
+  "pneumaticcraft:air_compressor": {
+    "criteria": {
+      "0": "2025-02-28 00:00:37 +0100"
+    },
+    "done": true
+  },
   "psi:main/psimetal_pickup": {
     "criteria": {
       "flower": "2025-02-20 01:01:55 +0100"
@@ -153,6 +173,12 @@
     },
     "done": true
   },
+  "croptopia:gather_savanna": {
+    "criteria": {
+      "rutabaga_seed": "2025-02-27 23:47:15 +0100"
+    },
+    "done": false
+  },
   "comforts:hammock_red_from_white": {
     "criteria": {
       "has_the_recipe": "2025-02-20 01:01:55 +0100"
@@ -183,6 +209,19 @@
     },
     "done": true
   },
+  "croptopia:gather_all": {
+    "criteria": {
+      "tomato_seed": "2025-02-27 23:07:06 +0100",
+      "pepper_seed": "2025-02-27 23:03:20 +0100",
+      "blueberry_seed": "2025-02-27 23:05:17 +0100",
+      "rutabaga_seed": "2025-02-27 23:47:15 +0100",
+      "strawberry_seed": "2025-02-27 23:07:12 +0100",
+      "grape_seed": "2025-02-27 23:05:59 +0100",
+      "raspberry_seed": "2025-02-27 23:06:27 +0100",
+      "blackberry_seed": "2025-02-27 23:06:40 +0100"
+    },
+    "done": false
+  },
   "ae2:main/root": {
     "criteria": {
       "certus": "2025-02-20 01:14:54 +0100"
@@ -192,6 +231,12 @@
   "tombstone:adventure/cancel_ghostly_shape": {
     "criteria": {
       "coded_trigger": "2025-02-20 01:04:33 +0100"
+    },
+    "done": true
+  },
+  "morevillagers:first_trade": {
+    "criteria": {
+      "villagertrade": "2025-02-27 23:00:11 +0100"
     },
     "done": true
   },
@@ -212,6 +257,14 @@
       "has_magic_scroll": "2025-02-22 16:51:46 +0100"
     },
     "done": true
+  },
+  "morevillagers:all_villages": {
+    "criteria": {
+      "taiga": "2025-02-27 23:34:32 +0100",
+      "plains": "2025-02-27 23:26:19 +0100",
+      "savanna": "2025-02-27 23:59:53 +0100"
+    },
+    "done": false
   },
   "apotheosis:affix/root": {
     "criteria": {
@@ -286,6 +339,7 @@
       "cooked_beef": "2025-02-20 02:01:51 +0100",
       "baked_potato": "2025-02-20 02:30:47 +0100",
       "porkchop": "2025-02-20 18:15:16 +0100",
+      "tropical_fish": "2025-02-27 23:29:07 +0100",
       "apple": "2025-02-20 02:32:15 +0100",
       "spider_eye": "2025-02-20 02:30:24 +0100",
       "potato": "2025-02-20 02:50:52 +0100",
@@ -298,14 +352,17 @@
       "bread": "2025-02-20 18:05:00 +0100",
       "golden_apple": "2025-02-20 18:05:10 +0100",
       "rotten_flesh": "2025-02-20 02:28:26 +0100",
+      "cookie": "2025-02-27 23:17:15 +0100",
       "salmon": "2025-02-24 00:45:49 +0100",
       "dried_kelp": "2025-02-25 19:42:21 +0100",
       "melon_slice": "2025-02-20 02:31:22 +0100",
       "golden_carrot": "2025-02-20 02:32:25 +0100",
+      "beetroot": "2025-02-27 23:18:36 +0100",
       "cooked_rabbit": "2025-02-20 02:30:57 +0100",
       "cooked_chicken": "2025-02-20 02:31:48 +0100",
       "mushroom_stew": "2025-02-20 02:21:53 +0100",
       "cod": "2025-02-20 02:52:06 +0100",
+      "rabbit_stew": "2025-02-27 21:21:07 +0100",
       "cooked_salmon": "2025-02-24 00:56:39 +0100",
       "carrot": "2025-02-20 02:28:33 +0100"
     },
@@ -429,6 +486,12 @@
     },
     "done": false
   },
+  "pneumaticcraft:aphorism_tile": {
+    "criteria": {
+      "0": "2025-02-28 00:01:04 +0100"
+    },
+    "done": true
+  },
   "comforts:sleeping_bag_light_blue_from_white": {
     "criteria": {
       "has_the_recipe": "2025-02-20 01:01:55 +0100"
@@ -450,6 +513,12 @@
   "twilightforest:alt/entities/swarm_spider": {
     "criteria": {
       "hurt_by_indirect": "2025-02-23 15:20:14 +0100"
+    },
+    "done": true
+  },
+  "tombstone:adventure/fortuitous_militia": {
+    "criteria": {
+      "coded_trigger": "2025-02-27 23:48:30 +0100"
     },
     "done": true
   },
@@ -645,9 +714,21 @@
     },
     "done": true
   },
+  "twilightforest:alt/entities/hedge_spider": {
+    "criteria": {
+      "hurt_by_indirect": "2025-02-27 22:19:20 +0100"
+    },
+    "done": true
+  },
   "lootr:10loot": {
     "criteria": {
       "loot_stat": "2025-02-20 18:55:57 +0100"
+    },
+    "done": true
+  },
+  "apotheosis:affix/chests": {
+    "criteria": {
+      "sword": "2025-02-27 23:56:46 +0100"
     },
     "done": true
   },
@@ -697,6 +778,7 @@
       "roasted_nuts": "2025-02-22 15:21:46 +0100",
       "tortilla": "2025-02-22 15:21:49 +0100",
       "cooked_tuna": "2025-02-26 20:45:32 +0100",
+      "calamari": "2025-02-27 23:21:06 +0100",
       "peanut_butter": "2025-02-22 15:22:35 +0100",
       "tuna": "2025-02-26 20:45:32 +0100",
       "peanut_butter_and_jam": "2025-02-25 18:56:40 +0100",
@@ -756,6 +838,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/village_defender": {
+    "criteria": {
+      "coded_trigger": "2025-02-27 23:51:48 +0100"
+    },
+    "done": true
+  },
   "comforts:hammock_gray_from_white": {
     "criteria": {
       "has_the_recipe": "2025-02-20 01:01:55 +0100"
@@ -782,15 +870,26 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-02-27 23:48:04 +0100",
       "minecraft:skeleton": "2025-02-20 18:18:41 +0100",
+      "savage_and_ravage:creepie": "2025-02-27 23:53:04 +0100",
+      "minecraft:ravager": "2025-02-28 00:05:43 +0100",
+      "savage_and_ravage:executioner": "2025-02-28 00:04:39 +0100",
+      "minecraft:vindicator": "2025-02-27 23:56:05 +0100",
       "minecraft:spider": "2025-02-23 21:41:16 +0100",
       "minecraft:creeper": "2025-02-20 18:39:07 +0100",
+      "savage_and_ravage:trickster": "2025-02-28 00:08:37 +0100",
+      "minecraft:evoker": "2025-02-28 00:13:02 +0100",
       "minecraft:witch": "2025-02-21 00:25:56 +0100",
+      "minecraft:husk": "2025-02-27 23:48:47 +0100",
       "minecraft:shulker": "2025-02-20 18:03:34 +0100",
       "minecraft:cave_spider": "2025-02-20 18:18:50 +0100",
       "minecraft:enderman": "2025-02-20 20:38:47 +0100",
       "minecraft:silverfish": "2025-02-21 00:48:49 +0100",
-      "minecraft:zombie": "2025-02-20 19:17:09 +0100"
+      "minecraft:vex": "2025-02-28 00:12:58 +0100",
+      "minecraft:zombie": "2025-02-20 19:17:09 +0100",
+      "minecraft:drowned": "2025-02-27 23:49:15 +0100",
+      "minecraft:zombie_villager": "2025-02-27 22:42:21 +0100"
     },
     "done": false
   },
@@ -833,6 +932,12 @@
   "undergarden:undergarden/kill_rotling": {
     "criteria": {
       "kill_rotling": "2025-02-25 18:25:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-02-27 23:00:11 +0100"
     },
     "done": true
   },
@@ -887,6 +992,12 @@
   "undergarden:undergarden/underbeans": {
     "criteria": {
       "has_underbeans": "2025-02-25 18:18:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-02-27 23:50:30 +0100"
     },
     "done": true
   },
@@ -997,6 +1108,12 @@
     },
     "done": true
   },
+  "croptopia:getseeds": {
+    "criteria": {
+      "has_seeds": "2025-02-27 23:03:20 +0100"
+    },
+    "done": true
+  },
   "twilightforest:twilight_hunter": {
     "criteria": {
       "bighorn_sheep": "2025-02-20 01:27:20 +0100"
@@ -1060,6 +1177,12 @@
   "twilightforest:alt/treasures/magic_trees": {
     "criteria": {
       "has_mine": "2025-02-23 21:43:38 +0100"
+    },
+    "done": true
+  },
+  "byg:husbandry/forager": {
+    "criteria": {
+      "white_puffball_cap": "2025-02-28 00:20:06 +0100"
     },
     "done": true
   },
@@ -1279,6 +1402,12 @@
     },
     "done": true
   },
+  "apotheosis:affix/boss": {
+    "criteria": {
+      "sword": "2025-02-27 22:42:31 +0100"
+    },
+    "done": true
+  },
   "beautify:candleabras": {
     "criteria": {
       "requirement": "2025-02-20 02:33:32 +0100"
@@ -1335,6 +1464,12 @@
       "miningmaster:fire_ruby": "2025-02-20 20:38:15 +0100",
       "miningmaster:lucky_citrine": "2025-02-23 22:39:59 +0100",
       "miningmaster:spirit_garnet": "2025-02-23 15:02:51 +0100"
+    },
+    "done": false
+  },
+  "croptopia:gather_plains": {
+    "criteria": {
+      "pepper_seed": "2025-02-27 23:03:20 +0100"
     },
     "done": false
   },
@@ -1597,6 +1732,12 @@
     },
     "done": true
   },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2025-02-27 23:54:38 +0100"
+    },
+    "done": true
+  },
   "comforts:hammock_light_blue": {
     "criteria": {
       "has_the_recipe": "2025-02-20 01:01:55 +0100"
@@ -1773,6 +1914,12 @@
     },
     "done": true
   },
+  "tconstruct:world/earth_island": {
+    "criteria": {
+      "found_island": "2025-02-27 22:47:55 +0100"
+    },
+    "done": true
+  },
   "twilightforest:alt/entities/dwarf_rabbit": {
     "criteria": {
       "slay": "2025-02-20 02:22:26 +0100"
@@ -1799,8 +1946,26 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:deep_ocean": "2025-02-27 22:44:49 +0100",
+      "minecraft:sunflower_plains": "2025-02-27 23:26:13 +0100",
+      "minecraft:birch_forest": "2025-02-27 23:05:16 +0100",
+      "minecraft:bamboo_jungle": "2025-02-27 23:33:04 +0100",
+      "minecraft:beach": "2025-02-27 22:55:50 +0100",
+      "minecraft:sparse_jungle": "2025-02-27 23:10:11 +0100",
+      "minecraft:lukewarm_ocean": "2025-02-27 23:20:32 +0100",
+      "minecraft:river": "2025-02-27 22:36:09 +0100",
+      "minecraft:stony_shore": "2025-02-27 22:55:17 +0100",
+      "minecraft:cold_ocean": "2025-02-27 22:54:08 +0100",
+      "minecraft:forest": "2025-02-27 22:55:16 +0100",
+      "minecraft:desert": "2025-02-27 23:47:18 +0100",
       "minecraft:ocean": "2025-02-25 21:33:24 +0100",
-      "minecraft:old_growth_birch_forest": "2025-02-26 12:10:18 +0100"
+      "minecraft:jungle": "2025-02-27 23:08:06 +0100",
+      "minecraft:warm_ocean": "2025-02-27 23:47:57 +0100",
+      "minecraft:deep_lukewarm_ocean": "2025-02-27 23:24:17 +0100",
+      "minecraft:old_growth_birch_forest": "2025-02-26 12:10:18 +0100",
+      "minecraft:meadow": "2025-02-27 23:05:41 +0100",
+      "minecraft:savanna": "2025-02-27 23:46:43 +0100",
+      "minecraft:plains": "2025-02-27 22:59:40 +0100"
     },
     "done": false
   },
@@ -1813,6 +1978,12 @@
   "apotheosis:enchanting/30ench": {
     "criteria": {
       "enchanted_item": "2025-02-24 00:26:36 +0100"
+    },
+    "done": true
+  },
+  "blue_skies:get_moonstone_shard": {
+    "criteria": {
+      "obtain_moonstone_shard": "2025-02-27 23:00:33 +0100"
     },
     "done": true
   },
@@ -1871,15 +2042,15 @@
     },
     "done": true
   },
-  "twilightforest:hydra_chop": {
-    "criteria": {
-      "hydra_chop": "2025-02-26 22:40:19 +0100"
-    },
-    "done": true
-  },
   "twilightforest:alt/treasures/maze_map": {
     "criteria": {
       "has_focus": "2025-02-26 22:28:24 +0100"
+    },
+    "done": true
+  },
+  "twilightforest:hydra_chop": {
+    "criteria": {
+      "hydra_chop": "2025-02-26 22:40:19 +0100"
     },
     "done": true
   },
@@ -2159,6 +2330,12 @@
     },
     "done": true
   },
+  "twilightforest:hill1": {
+    "criteria": {
+      "redcap": "2025-02-27 21:34:22 +0100"
+    },
+    "done": true
+  },
   "psi:main/root": {
     "criteria": {
       "flower": "2025-02-20 01:01:55 +0100"
@@ -2220,6 +2397,12 @@
     },
     "done": true
   },
+  "twilightforest:hedge": {
+    "criteria": {
+      "swarm_spider": "2025-02-27 22:19:20 +0100"
+    },
+    "done": true
+  },
   "twilightforest:alt/entities/lich_minion": {
     "criteria": {
       "hurt_by_indirect": "2025-02-21 00:48:11 +0100"
@@ -2244,9 +2427,32 @@
     },
     "done": true
   },
+  "croptopia:gather_forest": {
+    "criteria": {
+      "blackberry_seed": "2025-02-27 23:06:40 +0100",
+      "blueberry_seed": "2025-02-27 23:05:17 +0100",
+      "strawberry_seed": "2025-02-27 23:07:12 +0100",
+      "tomato_seed": "2025-02-27 23:07:06 +0100",
+      "grape_seed": "2025-02-27 23:05:59 +0100",
+      "raspberry_seed": "2025-02-27 23:06:27 +0100"
+    },
+    "done": false
+  },
+  "pneumaticcraft:pneumatic_wrench": {
+    "criteria": {
+      "0": "2025-02-28 00:00:19 +0100"
+    },
+    "done": true
+  },
   "tombstone:adventure/ambush": {
     "criteria": {
       "coded_trigger": "2025-02-21 00:25:56 +0100"
+    },
+    "done": true
+  },
+  "pneumaticcraft:machine_vandal": {
+    "criteria": {
+      "0": "2025-02-28 00:00:35 +0100"
     },
     "done": true
   },
