@@ -1,0 +1,37 @@
+Commment ça marche?
+
+ouvrir un terminal en mode admin (clique droit sur le symb win de la barre des tâches)
+
+tips:
+    les parties entre "" sont des commandes, ne pas copier les ""
+    pour valider une commande appuyer sur la touche entrer
+
+1re config:
+lancer les commandes suivantes:
+
+    1- "cd Download"
+    2- "mkdir ServMc" => pour faire un dossier dans lequel mettre le repo
+    - "cd ServMc"
+    - "git clone git@github.com:Skanarin/Ragnamod-VII-7.1.7-Server.git"
+            => ça prends du temps la 1re fois mais c normal 
+
+Lancer le serv:
+    - "cd Download/ServMc/Ragnamod-VII-7.1.7-Server"
+    - "startserv.bat"
+
+voilà
+
+Arreter le serv:
+    -depuis la racine dur repo (à gauche du terminal C:/Users/nom/Download/ServMc/Ragna...) "stop"
+    suivre les instructions qui suivent
+
+Envoyer la dernière version sur le git:
+    tjrs au même endoit dans le terminal (respecter l'ordre)
+    -"git add -A"
+    -"git commit -m "save/hfzq" " => les "" après -m sont obligatoire mais le message à l'interrieur peut être ce que vouus voulez
+    -"git push"
+
+
+C'est tout si vous avez un pb hésiter pas à ping ThomasE ou marmad's sur le serv!
+
+@marmad's
