@@ -349,6 +349,12 @@
     },
     "done": true
   },
+  "blue_skies:everbright/get_ventium": {
+    "criteria": {
+      "obtain_material": "2025-03-02 23:27:05 +0100"
+    },
+    "done": true
+  },
   "warden_and_sculk:sculky": {
     "criteria": {
       "sculky": "2025-03-02 17:46:59 +0100"
@@ -1875,7 +1881,9 @@
       "miningmaster:spider_kunzite": "2025-02-20 19:29:29 +0100",
       "miningmaster:unbreaking_iolite": "2025-02-23 15:02:51 +0100",
       "miningmaster:fire_ruby": "2025-02-20 20:38:15 +0100",
-      "miningmaster:lucky_citrine": "2025-02-23 22:39:59 +0100"
+      "miningmaster:lucky_citrine": "2025-02-23 22:39:59 +0100",
+      "miningmaster:dive_aquamarine": "2025-03-02 23:08:53 +0100",
+      "miningmaster:haste_peridot": "2025-03-02 23:07:05 +0100"
     },
     "done": false
   },
@@ -2414,7 +2422,9 @@
       "miningmaster:ice_sapphire": "2025-02-23 22:43:30 +0100",
       "miningmaster:fire_ruby": "2025-02-20 20:38:15 +0100",
       "miningmaster:lucky_citrine": "2025-02-23 22:39:59 +0100",
-      "miningmaster:spirit_garnet": "2025-02-23 15:02:51 +0100"
+      "miningmaster:spirit_garnet": "2025-02-23 15:02:51 +0100",
+      "miningmaster:dive_aquamarine": "2025-03-02 23:08:53 +0100",
+      "miningmaster:haste_peridot": "2025-03-02 23:07:05 +0100"
     },
     "done": false
   },
