@@ -1,7 +1,6 @@
 > # **Commment ça marche?**
 >
-> Chaque étape se déroule dans un terminal en mode admin
->Pour cela:
+> Chaque étape se déroule dans un terminal en mode admin. Pour cela:
 >> - ouvrir un terminal en mode admin (clique droit sur le symb win de la barre des tâches)
 
 > tips:
@@ -44,7 +43,7 @@
 
 ---
 
-# 🔴 *** IMPORTANT Ne pas oubliez de push Après avoir arrêter le serveur ❗*** 🔴
+# 🔴 *** IMPORTANT Ne pas oubliez de push Après avoir arrêté le serveur ❗*** 🔴
 
 ---
 
