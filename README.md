@@ -27,7 +27,7 @@
 > ## ***Lancer le serv:***
 >>> 1. `cd Download/ServMc/Ragnamod-VII-7.1.7-Server`
 >>
-><h1> <p><span style="color:red"> <em>Obligatoire pour ne pas avoir de pb !!!</em></span></p></h1>
+> # ⚠️***Obligatoire pour ne pas avoir de pb***❗❗❗⚠️
 >>> 2. `git pull` cette ligne est indispensable
 >>
 >>> 3. `startserv.bat`
@@ -44,7 +44,7 @@
 
 ---
 
-# ***Ne pas oubliez de push Après avoir arrêter le serveur !!!!***
+# 🔴 *** IMPORTANT Ne pas oubliez de push Après avoir arrêter le serveur ❗*** 🔴
 
 ---
 
@@ -54,7 +54,7 @@
 >>>
 >>> 1. `git add -A`
 >>>
->>> 2. `git commit -m "save/hfzq" ` => le {"message"} après -m sont obligatoire mais le message à l'interrieur peut être ce que vous voulez
+>>> 2. `git commit -m "save/hfzq" ` => le `"message"` après -m sont obligatoire mais le message à l'interrieur peut être ce que vous voulez
 >>
 >>> 3. `git push`
 
