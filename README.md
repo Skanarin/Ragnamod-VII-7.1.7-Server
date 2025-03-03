@@ -1,4 +1,4 @@
-> #### **Commment ça marche?**
+> # **Commment ça marche?**
 >
 > Chaque étape se déroule dans un terminal en mode admin
 >> - ouvrir un terminal en mode admin (clique droit sur le symb win de la barre des tâches)
@@ -27,7 +27,7 @@
 >>> 1. `cd Download/ServMc/Ragnamod-VII-7.1.7-Server`
 >>> 2. `startserv.bat`
 
-> #### ***Voilà pour lancer le Serv***
+> # ***Voilà pour lancer le Serv***
 
 (***)
 
