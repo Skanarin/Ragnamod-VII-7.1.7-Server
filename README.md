@@ -27,7 +27,7 @@
 > ## ***Lancer le serv:***
 >>> 1. `cd Download/ServMc/Ragnamod-VII-7.1.7-Server`
 >>
-><h1> <span style="color:red"> <em>Obligatoire pour ne pas avoir de pb !!!</em></span></h1>
+><h1> <p><span style="color:red"> <em>Obligatoire pour ne pas avoir de pb !!!</em></span></p></h1>
 >>> 2. `git pull` cette ligne est indispensable
 >>
 >>> 3. `startserv.bat`
