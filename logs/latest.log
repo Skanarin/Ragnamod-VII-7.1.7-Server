@@ -1,135 +1,225 @@
-[03Mar2025 00:00:00.000] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[03Mar2025 00:00:00.010] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Found world folder at C:\Users\marti\Downloads\ServMc\Ragnamod-VII-7.1.7-Server\.\world\.
-[03Mar2025 00:00:00.414] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Last backup size: 1.7GB Current world size: 2.3GB Current Available space: 651.6GB ExpectedSize 1.7GB
-[03Mar2025 00:00:00.415] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:overworld save state to true
-[03Mar2025 00:00:00.415] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:earth_orbit save state to true
-[03Mar2025 00:00:00.416] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ae2:spatial_storage save state to true
-[03Mar2025 00:00:00.416] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world javd:void save state to true
-[03Mar2025 00:00:00.416] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world blue_skies:everbright save state to true
-[03Mar2025 00:00:00.416] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:glacio_orbit save state to true
-[03Mar2025 00:00:00.417] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_end save state to true
-[03Mar2025 00:00:00.417] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mercury save state to true
-[03Mar2025 00:00:00.417] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:venus_orbit save state to true
-[03Mar2025 00:00:00.417] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world mythicbotany:alfheim save state to true
-[03Mar2025 00:00:00.417] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:moon save state to true
-[03Mar2025 00:00:00.417] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:glacio save state to true
-[03Mar2025 00:00:00.418] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world blue_skies:everdawn save state to true
-[03Mar2025 00:00:00.418] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world compactmachines:compact_world save state to true
-[03Mar2025 00:00:00.418] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world bloodmagic:dungeon save state to true
-[03Mar2025 00:00:00.418] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world twilightforest:twilight_forest save state to true
-[03Mar2025 00:00:00.418] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_nether save state to true
-[03Mar2025 00:00:00.418] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:moon_orbit save state to true
-[03Mar2025 00:00:00.419] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:venus save state to true
-[03Mar2025 00:00:00.419] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world undergarden:undergarden save state to true
-[03Mar2025 00:00:00.419] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mars_orbit save state to true
-[03Mar2025 00:00:00.419] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mars save state to true
-[03Mar2025 00:00:00.419] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mercury_orbit save state to true
-[03Mar2025 00:00:00.420] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file C:\Users\marti\Downloads\ServMc\Ragnamod-VII-7.1.7-Server\backups\backups.json
-[03Mar2025 00:00:00.421] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Waiting for world save to complete.
-[03Mar2025 00:00:01.016] [FTB Backups backup thread 0/INFO] [net.creeperhost.levelio.loader.SaveInfo/]: Detected MC Version 1.18.2, Data version 2975
-[03Mar2025 00:00:01.016] [FTB Backups backup thread 0/INFO] [net.creeperhost.levelio.loader.SaveInfo/]: Save Name: world
-[03Mar2025 00:00:01.292] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.data.Level/]: Did not find a region folder for level: C:\Users\marti\Downloads\ServMc\Ragnamod-VII-7.1.7-Server\.\world\.\DIM1
-[03Mar2025 00:00:01.293] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder ae2:spatial_storage
-[03Mar2025 00:00:01.299] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:glacio
-[03Mar2025 00:00:01.299] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:glacio_orbit
-[03Mar2025 00:00:01.303] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:mars_orbit
-[03Mar2025 00:00:01.303] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:mercury
-[03Mar2025 00:00:01.304] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:mercury_orbit
-[03Mar2025 00:00:01.308] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:moon_orbit
-[03Mar2025 00:00:01.309] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:venus
-[03Mar2025 00:00:01.309] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:venus_orbit
-[03Mar2025 00:00:01.309] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder bloodmagic:dungeon
-[03Mar2025 00:00:01.319] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder compactmachines:compact_world
-[03Mar2025 00:00:01.320] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder javd:void
-[03Mar2025 00:00:01.320] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder mythicbotany:alfheim
-[03Mar2025 00:00:04.438] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Backup preview created, Scan took 1981ms, Capture took 1560ms
-[03Mar2025 00:00:55.814] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:overworld save state to false
-[03Mar2025 00:00:55.814] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:earth_orbit save state to false
-[03Mar2025 00:00:55.815] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ae2:spatial_storage save state to false
-[03Mar2025 00:00:55.815] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world javd:void save state to false
-[03Mar2025 00:00:55.815] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world blue_skies:everbright save state to false
-[03Mar2025 00:00:55.815] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:glacio_orbit save state to false
-[03Mar2025 00:00:55.816] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_end save state to false
-[03Mar2025 00:00:55.816] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mercury save state to false
-[03Mar2025 00:00:55.816] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:venus_orbit save state to false
-[03Mar2025 00:00:55.816] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world mythicbotany:alfheim save state to false
-[03Mar2025 00:00:55.816] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:moon save state to false
-[03Mar2025 00:00:55.816] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:glacio save state to false
-[03Mar2025 00:00:55.816] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world blue_skies:everdawn save state to false
-[03Mar2025 00:00:55.816] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world compactmachines:compact_world save state to false
-[03Mar2025 00:00:55.817] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world bloodmagic:dungeon save state to false
-[03Mar2025 00:00:55.817] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world twilightforest:twilight_forest save state to false
-[03Mar2025 00:00:55.817] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_nether save state to false
-[03Mar2025 00:00:55.817] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:moon_orbit save state to false
-[03Mar2025 00:00:55.817] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:venus save state to false
-[03Mar2025 00:00:55.817] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world undergarden:undergarden save state to false
-[03Mar2025 00:00:55.818] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mars_orbit save state to false
-[03Mar2025 00:00:55.818] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mars save state to false
-[03Mar2025 00:00:55.818] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mercury_orbit save state to false
-[03Mar2025 00:00:57.441] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Backup size 1.7GB World Size 2.3GB
-[03Mar2025 00:00:57.442] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file C:\Users\marti\Downloads\ServMc\Ragnamod-VII-7.1.7-Server\backups\backups.json
-[03Mar2025 00:00:57.443] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: New backup created at C:\Users\marti\Downloads\ServMc\Ragnamod-VII-7.1.7-Server\backups\2025-3-3_0-0-0.zip size: 1.7GB Took: 0m, 55s, 402ms Sha1: d506b2999e815caea9bfc19b78ca2af74bc6135f
-[03Mar2025 00:06:22.033] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: marmad_s lost connection: Disconnected
-[03Mar2025 00:06:22.033] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: marmad_s left the game
-[03Mar2025 00:06:22.132] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[03Mar2025 00:07:12.811] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: There are 0 of a max of 20 players online: 
-[03Mar2025 00:07:19.459] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
-[03Mar2025 00:07:19.528] [Server thread/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Shutdown Complete
-[03Mar2025 00:07:19.547] [Server thread/INFO] [HammerLib/]: Purging cache from 1 HL recipe registries.
-[03Mar2025 00:07:19.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[03Mar2025 00:07:19.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[03Mar2025 00:07:19.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[03Mar2025 00:07:19.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03Mar2025 00:07:19.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/beyond_earth:earth_orbit
-[03Mar2025 00:07:19.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
-[03Mar2025 00:07:19.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/javd:void
-[03Mar2025 00:07:19.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/blue_skies:everbright
-[03Mar2025 00:07:19.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/beyond_earth:glacio_orbit
-[03Mar2025 00:07:19.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[03Mar2025 00:07:19.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/beyond_earth:mercury
-[03Mar2025 00:07:19.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/beyond_earth:venus_orbit
-[03Mar2025 00:07:19.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mythicbotany:alfheim
-[03Mar2025 00:07:19.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/beyond_earth:moon
-[03Mar2025 00:07:19.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/beyond_earth:glacio
-[03Mar2025 00:07:19.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/blue_skies:everdawn
-[03Mar2025 00:07:19.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/compactmachines:compact_world
-[03Mar2025 00:07:19.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/bloodmagic:dungeon
-[03Mar2025 00:07:19.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
-[03Mar2025 00:07:19.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[03Mar2025 00:07:19.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/beyond_earth:moon_orbit
-[03Mar2025 00:07:19.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/beyond_earth:venus
-[03Mar2025 00:07:19.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/undergarden:undergarden
-[03Mar2025 00:07:19.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/beyond_earth:mars_orbit
-[03Mar2025 00:07:19.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/beyond_earth:mars
-[03Mar2025 00:07:19.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/beyond_earth:mercury_orbit
-[03Mar2025 00:07:19.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03Mar2025 00:07:19.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
-[03Mar2025 00:07:19.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
-[03Mar2025 00:07:19.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (void): All chunks are saved
-[03Mar2025 00:07:19.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (everbright): All chunks are saved
-[03Mar2025 00:07:19.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
-[03Mar2025 00:07:19.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03Mar2025 00:07:19.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
-[03Mar2025 00:07:19.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
-[03Mar2025 00:07:19.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (alfheim): All chunks are saved
-[03Mar2025 00:07:19.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
-[03Mar2025 00:07:19.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
-[03Mar2025 00:07:19.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (everdawn): All chunks are saved
-[03Mar2025 00:07:19.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (compact_world): All chunks are saved
-[03Mar2025 00:07:19.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon): All chunks are saved
-[03Mar2025 00:07:19.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
-[03Mar2025 00:07:19.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03Mar2025 00:07:19.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
-[03Mar2025 00:07:19.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
-[03Mar2025 00:07:19.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (undergarden): All chunks are saved
-[03Mar2025 00:07:19.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
-[03Mar2025 00:07:19.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
-[03Mar2025 00:07:19.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
-[03Mar2025 00:07:19.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[03Mar2025 00:07:20.042] [Server thread/INFO] [FTB Chunks/]: Shutting down map thread
-[03Mar2025 00:07:20.043] [Server thread/INFO] [shetiphian.endertanks.EnderTanks/]: Unloading EnderTank Data
-[03Mar2025 00:07:20.043] [Server thread/INFO] [shetiphian.endertanks.EnderTanks/]: Finished Unloading EnderTank Data
-[03Mar2025 00:07:20.044] [Server thread/INFO] [configured/]: Unloading server configs...
-[03Mar2025 00:07:20.045] [Server thread/INFO] [configured/]: Sending config unload event for configured.developer.toml
-[03Mar2025 00:07:20.047] [Server thread/INFO] [shetiphian.enderchests.EnderChests/]: Unloading EnderChest Data
-[03Mar2025 00:07:20.047] [Server thread/INFO] [shetiphian.enderchests.EnderChests/]: Finished Unloading EnderChest Data
+[04Mar2025 00:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[04Mar2025 00:00:00.016] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Found world folder at C:\Users\marti\Downloads\ServMc\Ragnamod-VII-7.1.7-Server\.\world\.
+[04Mar2025 00:00:00.407] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Last backup size: 1.7GB Current world size: 2.3GB Current Available space: 646.1GB ExpectedSize 1.7GB
+[04Mar2025 00:00:00.407] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:overworld save state to true
+[04Mar2025 00:00:00.407] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mars_orbit save state to true
+[04Mar2025 00:00:00.407] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world blue_skies:everdawn save state to true
+[04Mar2025 00:00:00.407] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world compactmachines:compact_world save state to true
+[04Mar2025 00:00:00.408] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:earth_orbit save state to true
+[04Mar2025 00:00:00.408] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:glacio_orbit save state to true
+[04Mar2025 00:00:00.408] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mars save state to true
+[04Mar2025 00:00:00.409] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world javd:void save state to true
+[04Mar2025 00:00:00.409] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world mythicbotany:alfheim save state to true
+[04Mar2025 00:00:00.409] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mercury save state to true
+[04Mar2025 00:00:00.409] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_end save state to true
+[04Mar2025 00:00:00.409] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:moon_orbit save state to true
+[04Mar2025 00:00:00.409] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world undergarden:undergarden save state to true
+[04Mar2025 00:00:00.410] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world twilightforest:twilight_forest save state to true
+[04Mar2025 00:00:00.410] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mercury_orbit save state to true
+[04Mar2025 00:00:00.410] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:venus_orbit save state to true
+[04Mar2025 00:00:00.410] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world blue_skies:everbright save state to true
+[04Mar2025 00:00:00.410] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world bloodmagic:dungeon save state to true
+[04Mar2025 00:00:00.410] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_nether save state to true
+[04Mar2025 00:00:00.410] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:glacio save state to true
+[04Mar2025 00:00:00.410] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:venus save state to true
+[04Mar2025 00:00:00.411] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:moon save state to true
+[04Mar2025 00:00:00.411] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ae2:spatial_storage save state to true
+[04Mar2025 00:00:00.412] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file C:\Users\marti\Downloads\ServMc\Ragnamod-VII-7.1.7-Server\backups\backups.json
+[04Mar2025 00:00:00.413] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Waiting for world save to complete.
+[04Mar2025 00:00:01.123] [FTB Backups backup thread 0/INFO] [net.creeperhost.levelio.loader.SaveInfo/]: Detected MC Version 1.18.2, Data version 2975
+[04Mar2025 00:00:01.123] [FTB Backups backup thread 0/INFO] [net.creeperhost.levelio.loader.SaveInfo/]: Save Name: world
+[04Mar2025 00:00:01.438] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.data.Level/]: Did not find a region folder for level: C:\Users\marti\Downloads\ServMc\Ragnamod-VII-7.1.7-Server\.\world\.\DIM1
+[04Mar2025 00:00:01.439] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder ae2:spatial_storage
+[04Mar2025 00:00:01.441] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:glacio
+[04Mar2025 00:00:01.441] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:glacio_orbit
+[04Mar2025 00:00:01.443] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:mars_orbit
+[04Mar2025 00:00:01.443] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:mercury
+[04Mar2025 00:00:01.444] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:mercury_orbit
+[04Mar2025 00:00:01.446] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:moon_orbit
+[04Mar2025 00:00:01.447] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:venus
+[04Mar2025 00:00:01.447] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:venus_orbit
+[04Mar2025 00:00:01.448] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder bloodmagic:dungeon
+[04Mar2025 00:00:01.453] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder compactmachines:compact_world
+[04Mar2025 00:00:01.453] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder javd:void
+[04Mar2025 00:00:01.454] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder mythicbotany:alfheim
+[04Mar2025 00:00:05.429] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Backup preview created, Scan took 2456ms, Capture took 2000ms
+[04Mar2025 00:01:09.076] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:overworld save state to false
+[04Mar2025 00:01:09.077] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mars_orbit save state to false
+[04Mar2025 00:01:09.077] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world blue_skies:everdawn save state to false
+[04Mar2025 00:01:09.077] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world compactmachines:compact_world save state to false
+[04Mar2025 00:01:09.077] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:earth_orbit save state to false
+[04Mar2025 00:01:09.077] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:glacio_orbit save state to false
+[04Mar2025 00:01:09.077] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mars save state to false
+[04Mar2025 00:01:09.078] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world javd:void save state to false
+[04Mar2025 00:01:09.078] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world mythicbotany:alfheim save state to false
+[04Mar2025 00:01:09.078] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mercury save state to false
+[04Mar2025 00:01:09.078] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_end save state to false
+[04Mar2025 00:01:09.078] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:moon_orbit save state to false
+[04Mar2025 00:01:09.078] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world undergarden:undergarden save state to false
+[04Mar2025 00:01:09.078] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world twilightforest:twilight_forest save state to false
+[04Mar2025 00:01:09.078] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mercury_orbit save state to false
+[04Mar2025 00:01:09.079] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:venus_orbit save state to false
+[04Mar2025 00:01:09.079] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world blue_skies:everbright save state to false
+[04Mar2025 00:01:09.079] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world bloodmagic:dungeon save state to false
+[04Mar2025 00:01:09.079] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_nether save state to false
+[04Mar2025 00:01:09.079] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:glacio save state to false
+[04Mar2025 00:01:09.079] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:venus save state to false
+[04Mar2025 00:01:09.079] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:moon save state to false
+[04Mar2025 00:01:09.079] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ae2:spatial_storage save state to false
+[04Mar2025 00:01:11.099] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Backup size 1.7GB World Size 2.3GB
+[04Mar2025 00:01:11.099] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file C:\Users\marti\Downloads\ServMc\Ragnamod-VII-7.1.7-Server\backups\backups.json
+[04Mar2025 00:01:11.101] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: New backup created at C:\Users\marti\Downloads\ServMc\Ragnamod-VII-7.1.7-Server\backups\2025-3-4_0-0-0.zip size: 1.7GB Took: 1m, 8s, 60667ms Sha1: 5c5fe468ed5b739a185485d08a387cfac664c6b7
+[04Mar2025 00:01:37.472] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: More backups than 5 found, Removing oldest backup
+[04Mar2025 00:01:37.570] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Removed old backup 2025-3-3_21-30-0.zip
+[04Mar2025 00:01:37.570] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: File missing, removing from backups C:\Users\marti\Downloads\ServMc\Ragnamod-VII-7.1.7-Server\backups\2025-3-3_21-30-0.zip
+[04Mar2025 00:01:37.571] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file C:\Users\marti\Downloads\ServMc\Ragnamod-VII-7.1.7-Server\backups\backups.json
+[04Mar2025 00:03:17.358] [Server thread/WARN] [pneumaticcraft/]: Amadron: failed to find any trades for profession evilcraft:werewolf ?
+[04Mar2025 00:30:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[04Mar2025 00:30:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Found world folder at C:\Users\marti\Downloads\ServMc\Ragnamod-VII-7.1.7-Server\.\world\.
+[04Mar2025 00:30:00.443] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Last backup size: 1.7GB Current world size: 2.3GB Current Available space: 646.1GB ExpectedSize 1.7GB
+[04Mar2025 00:30:00.443] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:overworld save state to true
+[04Mar2025 00:30:00.443] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mars_orbit save state to true
+[04Mar2025 00:30:00.443] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world blue_skies:everdawn save state to true
+[04Mar2025 00:30:00.444] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world compactmachines:compact_world save state to true
+[04Mar2025 00:30:00.444] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:earth_orbit save state to true
+[04Mar2025 00:30:00.444] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:glacio_orbit save state to true
+[04Mar2025 00:30:00.444] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mars save state to true
+[04Mar2025 00:30:00.444] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world javd:void save state to true
+[04Mar2025 00:30:00.444] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world mythicbotany:alfheim save state to true
+[04Mar2025 00:30:00.444] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mercury save state to true
+[04Mar2025 00:30:00.444] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_end save state to true
+[04Mar2025 00:30:00.444] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:moon_orbit save state to true
+[04Mar2025 00:30:00.444] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world undergarden:undergarden save state to true
+[04Mar2025 00:30:00.444] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world twilightforest:twilight_forest save state to true
+[04Mar2025 00:30:00.444] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mercury_orbit save state to true
+[04Mar2025 00:30:00.444] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:venus_orbit save state to true
+[04Mar2025 00:30:00.444] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world blue_skies:everbright save state to true
+[04Mar2025 00:30:00.444] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world bloodmagic:dungeon save state to true
+[04Mar2025 00:30:00.444] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_nether save state to true
+[04Mar2025 00:30:00.444] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:glacio save state to true
+[04Mar2025 00:30:00.444] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:venus save state to true
+[04Mar2025 00:30:00.444] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:moon save state to true
+[04Mar2025 00:30:00.445] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ae2:spatial_storage save state to true
+[04Mar2025 00:30:00.446] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file C:\Users\marti\Downloads\ServMc\Ragnamod-VII-7.1.7-Server\backups\backups.json
+[04Mar2025 00:30:00.447] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Waiting for world save to complete.
+[04Mar2025 00:30:01.266] [FTB Backups backup thread 0/INFO] [net.creeperhost.levelio.loader.SaveInfo/]: Detected MC Version 1.18.2, Data version 2975
+[04Mar2025 00:30:01.266] [FTB Backups backup thread 0/INFO] [net.creeperhost.levelio.loader.SaveInfo/]: Save Name: world
+[04Mar2025 00:30:01.588] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.data.Level/]: Did not find a region folder for level: C:\Users\marti\Downloads\ServMc\Ragnamod-VII-7.1.7-Server\.\world\.\DIM1
+[04Mar2025 00:30:01.589] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder ae2:spatial_storage
+[04Mar2025 00:30:01.592] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:glacio
+[04Mar2025 00:30:01.593] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:glacio_orbit
+[04Mar2025 00:30:01.594] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:mars_orbit
+[04Mar2025 00:30:01.595] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:mercury
+[04Mar2025 00:30:01.595] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:mercury_orbit
+[04Mar2025 00:30:01.598] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:moon_orbit
+[04Mar2025 00:30:01.598] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:venus
+[04Mar2025 00:30:01.598] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder beyond_earth:venus_orbit
+[04Mar2025 00:30:01.599] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder bloodmagic:dungeon
+[04Mar2025 00:30:01.605] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder compactmachines:compact_world
+[04Mar2025 00:30:01.605] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder javd:void
+[04Mar2025 00:30:01.606] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder mythicbotany:alfheim
+[04Mar2025 00:30:06.053] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Backup preview created, Scan took 2746ms, Capture took 2206ms
+[04Mar2025 00:31:16.835] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:overworld save state to false
+[04Mar2025 00:31:16.835] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mars_orbit save state to false
+[04Mar2025 00:31:16.835] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world blue_skies:everdawn save state to false
+[04Mar2025 00:31:16.835] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world compactmachines:compact_world save state to false
+[04Mar2025 00:31:16.835] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:earth_orbit save state to false
+[04Mar2025 00:31:16.835] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:glacio_orbit save state to false
+[04Mar2025 00:31:16.836] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mars save state to false
+[04Mar2025 00:31:16.836] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world javd:void save state to false
+[04Mar2025 00:31:16.836] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world mythicbotany:alfheim save state to false
+[04Mar2025 00:31:16.836] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mercury save state to false
+[04Mar2025 00:31:16.836] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_end save state to false
+[04Mar2025 00:31:16.836] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:moon_orbit save state to false
+[04Mar2025 00:31:16.836] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world undergarden:undergarden save state to false
+[04Mar2025 00:31:16.836] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world twilightforest:twilight_forest save state to false
+[04Mar2025 00:31:16.836] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:mercury_orbit save state to false
+[04Mar2025 00:31:16.837] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:venus_orbit save state to false
+[04Mar2025 00:31:16.837] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world blue_skies:everbright save state to false
+[04Mar2025 00:31:16.837] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world bloodmagic:dungeon save state to false
+[04Mar2025 00:31:16.837] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_nether save state to false
+[04Mar2025 00:31:16.837] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:glacio save state to false
+[04Mar2025 00:31:16.837] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:venus save state to false
+[04Mar2025 00:31:16.837] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world beyond_earth:moon save state to false
+[04Mar2025 00:31:16.838] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ae2:spatial_storage save state to false
+[04Mar2025 00:31:19.130] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Backup size 1.7GB World Size 2.3GB
+[04Mar2025 00:31:19.131] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file C:\Users\marti\Downloads\ServMc\Ragnamod-VII-7.1.7-Server\backups\backups.json
+[04Mar2025 00:31:19.133] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: New backup created at C:\Users\marti\Downloads\ServMc\Ragnamod-VII-7.1.7-Server\backups\2025-3-4_0-30-0.zip size: 1.7GB Took: 1m, 16s, 60393ms Sha1: 8b5121f4dbe954c0f680bfae0483135a77df458e
+[04Mar2025 00:31:36.390] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: More backups than 5 found, Removing oldest backup
+[04Mar2025 00:31:36.582] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Removed old backup 2025-3-3_22-0-0.zip
+[04Mar2025 00:31:36.582] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: File missing, removing from backups C:\Users\marti\Downloads\ServMc\Ragnamod-VII-7.1.7-Server\backups\2025-3-3_22-0-0.zip
+[04Mar2025 00:31:36.584] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file C:\Users\marti\Downloads\ServMc\Ragnamod-VII-7.1.7-Server\backups\backups.json
+[04Mar2025 00:34:48.610] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: marmad_s moved too quickly! 2051.1053157013444,119.5,223.28834709605917
+[04Mar2025 00:36:21.502] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: marmad_s has reached the goal [Tier 2 Rocket]
+[04Mar2025 00:40:47.891] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: marmad_s moved too quickly! -2052.8127372001036,-118.5,-224.80048429641784
+[04Mar2025 00:40:47.979] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-1812, y=-51, z=-1173} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=north,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
+[04Mar2025 00:40:47.979] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-1811, y=-51, z=-1173} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=north,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
+[04Mar2025 00:43:15.844] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=185, y=6, z=-832} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=west,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
+[04Mar2025 00:43:51.938] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-1812, y=-51, z=-1173} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=north,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
+[04Mar2025 00:43:51.938] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-1811, y=-51, z=-1173} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=north,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
+[04Mar2025 00:45:21.959] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=185, y=6, z=-832} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=west,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
+[04Mar2025 00:46:12.687] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-1812, y=-51, z=-1173} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=north,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
+[04Mar2025 00:46:12.687] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-1811, y=-51, z=-1173} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=north,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
+[04Mar2025 00:47:28.638] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=185, y=6, z=-832} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=west,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
+[04Mar2025 00:56:23.331] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: marmad_s lost connection: Disconnected
+[04Mar2025 00:56:23.332] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: marmad_s left the game
+[04Mar2025 00:56:40.714] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[04Mar2025 00:56:40.772] [Server thread/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Shutdown Complete
+[04Mar2025 00:56:40.789] [Server thread/INFO] [HammerLib/]: Purging cache from 1 HL recipe registries.
+[04Mar2025 00:56:40.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[04Mar2025 00:56:40.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[04Mar2025 00:56:40.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[04Mar2025 00:56:41.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04Mar2025 00:56:41.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/beyond_earth:mars_orbit
+[04Mar2025 00:56:41.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/blue_skies:everdawn
+[04Mar2025 00:56:41.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/compactmachines:compact_world
+[04Mar2025 00:56:41.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/beyond_earth:earth_orbit
+[04Mar2025 00:56:41.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/beyond_earth:glacio_orbit
+[04Mar2025 00:56:41.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/beyond_earth:mars
+[04Mar2025 00:56:41.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/javd:void
+[04Mar2025 00:56:41.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mythicbotany:alfheim
+[04Mar2025 00:56:41.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/beyond_earth:mercury
+[04Mar2025 00:56:41.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04Mar2025 00:56:41.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/beyond_earth:moon_orbit
+[04Mar2025 00:56:41.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/undergarden:undergarden
+[04Mar2025 00:56:41.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[04Mar2025 00:56:41.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/beyond_earth:mercury_orbit
+[04Mar2025 00:56:41.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/beyond_earth:venus_orbit
+[04Mar2025 00:56:41.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/blue_skies:everbright
+[04Mar2025 00:56:41.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/bloodmagic:dungeon
+[04Mar2025 00:56:41.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04Mar2025 00:56:41.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/beyond_earth:glacio
+[04Mar2025 00:56:41.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/beyond_earth:venus
+[04Mar2025 00:56:41.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/beyond_earth:moon
+[04Mar2025 00:56:41.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[04Mar2025 00:56:41.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04Mar2025 00:56:41.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
+[04Mar2025 00:56:41.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (everdawn): All chunks are saved
+[04Mar2025 00:56:41.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (compact_world): All chunks are saved
+[04Mar2025 00:56:41.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
+[04Mar2025 00:56:41.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
+[04Mar2025 00:56:41.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[04Mar2025 00:56:41.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (void): All chunks are saved
+[04Mar2025 00:56:41.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (alfheim): All chunks are saved
+[04Mar2025 00:56:41.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[04Mar2025 00:56:41.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04Mar2025 00:56:41.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
+[04Mar2025 00:56:41.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (undergarden): All chunks are saved
+[04Mar2025 00:56:41.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[04Mar2025 00:56:41.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
+[04Mar2025 00:56:41.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
+[04Mar2025 00:56:41.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (everbright): All chunks are saved
+[04Mar2025 00:56:41.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon): All chunks are saved
+[04Mar2025 00:56:41.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04Mar2025 00:56:41.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
+[04Mar2025 00:56:41.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
+[04Mar2025 00:56:41.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[04Mar2025 00:56:41.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[04Mar2025 00:56:41.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04Mar2025 00:56:41.416] [Server thread/INFO] [FTB Chunks/]: Shutting down map thread
+[04Mar2025 00:56:41.420] [Server thread/INFO] [shetiphian.endertanks.EnderTanks/]: Unloading EnderTank Data
+[04Mar2025 00:56:41.420] [Server thread/INFO] [shetiphian.endertanks.EnderTanks/]: Finished Unloading EnderTank Data
+[04Mar2025 00:56:41.426] [Server thread/INFO] [configured/]: Unloading server configs...
+[04Mar2025 00:56:41.427] [Server thread/INFO] [configured/]: Sending config unload event for configured.developer.toml
+[04Mar2025 00:56:41.439] [Server thread/INFO] [shetiphian.enderchests.EnderChests/]: Unloading EnderChest Data
+[04Mar2025 00:56:41.439] [Server thread/INFO] [shetiphian.enderchests.EnderChests/]: Finished Unloading EnderChest Data

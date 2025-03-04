@@ -119,6 +119,7 @@
     "criteria": {
       "sweetpotato_seed": "2025-03-01 14:59:32 +0100",
       "bellpepper_seed": "2025-03-01 23:05:15 +0100",
+      "saguaro_seed": "2025-03-03 21:36:35 +0100",
       "elderberry_seed": "2025-03-01 14:59:32 +0100",
       "tomato_seed": "2025-02-27 23:07:06 +0100",
       "greenbean_seed": "2025-03-02 20:56:43 +0100",
@@ -139,8 +140,10 @@
       "eggplant_seed": "2025-03-01 22:56:04 +0100",
       "barley_seed": "2025-03-02 20:56:43 +0100",
       "raspberry_seed": "2025-02-27 23:06:27 +0100",
+      "lettuce_seed": "2025-03-03 21:36:35 +0100",
       "blackberry_seed": "2025-02-27 23:06:40 +0100",
       "corn_seed": "2025-03-01 20:02:17 +0100",
+      "currant_seed": "2025-03-03 21:36:35 +0100",
       "garlic_seed": "2025-03-01 22:57:00 +0100"
     },
     "done": false
@@ -275,9 +278,11 @@
   },
   "croptopia:gather_drinks": {
     "criteria": {
+      "kale_smoothie": "2025-03-03 17:12:49 +0100",
       "grape_juice": "2025-03-01 19:32:35 +0100",
       "melon_juice": "2025-03-01 23:38:53 +0100",
       "rum": "2025-03-01 15:49:34 +0100",
+      "fruit_smoothie": "2025-03-03 17:21:38 +0100",
       "wine": "2025-03-01 20:37:34 +0100",
       "orange_juice": "2025-03-02 15:53:18 +0100"
     },
@@ -358,6 +363,12 @@
   "warden_and_sculk:sculky": {
     "criteria": {
       "sculky": "2025-03-02 17:46:59 +0100"
+    },
+    "done": true
+  },
+  "beyond_earth:rocket_tier_2_advancement": {
+    "criteria": {
+      "rocket_tier_2_advancement": "2025-03-04 00:36:21 +0100"
     },
     "done": true
   },
@@ -456,7 +467,9 @@
       "toast": "2025-03-01 18:33:07 +0100",
       "enchilada": "2025-03-01 21:59:25 +0100",
       "cooked_tuna": "2025-02-26 20:45:32 +0100",
+      "cabbage_roll": "2025-03-03 17:41:35 +0100",
       "calamari": "2025-02-27 23:21:06 +0100",
+      "yoghurt": "2025-03-03 17:03:27 +0100",
       "peanut_butter": "2025-02-22 15:22:35 +0100",
       "tamales": "2025-03-02 15:06:39 +0100",
       "tuna": "2025-02-26 20:45:32 +0100",
@@ -828,6 +841,7 @@
   },
   "croptopia:gather_swamp": {
     "criteria": {
+      "currant_seed": "2025-03-03 21:36:35 +0100",
       "artichoke_seed": "2025-03-02 20:20:52 +0100"
     },
     "done": false
@@ -876,6 +890,7 @@
   },
   "croptopia:gather_plains": {
     "criteria": {
+      "lettuce_seed": "2025-03-03 21:36:35 +0100",
       "greenbean_seed": "2025-03-02 20:56:43 +0100",
       "pepper_seed": "2025-02-27 23:03:20 +0100",
       "sweetpotato_seed": "2025-03-01 14:59:32 +0100",
@@ -1172,6 +1187,12 @@
     },
     "done": false
   },
+  "blue_skies:everbright/regen_brewberry": {
+    "criteria": {
+      "have_pink_brewberry": "2025-03-03 17:37:30 +0100"
+    },
+    "done": true
+  },
   "pneumaticcraft:vortex_tube": {
     "criteria": {
       "0": "2025-03-01 23:11:08 +0100"
@@ -1180,6 +1201,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2025-03-03 19:05:24 +0100",
       "minecraft:deep_ocean": "2025-02-27 22:44:49 +0100",
       "minecraft:sunflower_plains": "2025-02-27 23:26:13 +0100",
       "minecraft:birch_forest": "2025-02-27 23:05:16 +0100",
@@ -1200,6 +1222,7 @@
       "minecraft:warm_ocean": "2025-02-27 23:47:57 +0100",
       "minecraft:deep_lukewarm_ocean": "2025-02-27 23:24:17 +0100",
       "minecraft:flower_forest": "2025-03-01 18:12:23 +0100",
+      "minecraft:frozen_peaks": "2025-03-03 17:11:54 +0100",
       "minecraft:old_growth_birch_forest": "2025-02-26 12:10:18 +0100",
       "minecraft:meadow": "2025-02-27 23:05:41 +0100",
       "minecraft:savanna": "2025-02-27 23:46:43 +0100",
@@ -1311,6 +1334,12 @@
       "garlic_seed": "2025-03-01 22:57:00 +0100"
     },
     "done": false
+  },
+  "croptopia:gather_desert": {
+    "criteria": {
+      "saguaro_seed": "2025-03-03 21:36:35 +0100"
+    },
+    "done": true
   },
   "comforts:sleeping_bag_yellow_from_white": {
     "criteria": {
@@ -1457,6 +1486,12 @@
       "celery_seed": "2025-03-01 15:52:30 +0100"
     },
     "done": false
+  },
+  "tconstruct:tools/modified": {
+    "criteria": {
+      "crafted_tool": "2025-03-04 00:40:09 +0100"
+    },
+    "done": true
   },
   "tombstone:adventure/ambush": {
     "criteria": {
@@ -1874,6 +1909,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2025-03-03 17:39:53 +0100"
+    },
+    "done": false
+  },
   "miningmaster:miningmaster/the_collector": {
     "criteria": {
       "miningmaster:ice_sapphire": "2025-02-23 22:43:30 +0100",
@@ -1958,6 +1999,12 @@
       "builtin": "2025-02-20 02:17:55 +0100"
     },
     "done": true
+  },
+  "tconstruct:tools/travelers_gear": {
+    "criteria": {
+      "crafted_helmet": "2025-03-04 00:40:09 +0100"
+    },
+    "done": false
   },
   "minecraft:husbandry/root": {
     "criteria": {
@@ -2130,7 +2177,10 @@
   "morevillagers:all_workstations_get": {
     "criteria": {
       "barrel": "2025-02-20 01:35:05 +0100",
+      "brewingstand": "2025-03-03 17:57:48 +0100",
       "smithingtable": "2025-03-01 18:28:45 +0100",
+      "lectern": "2025-03-03 21:47:55 +0100",
+      "stonecutter": "2025-03-03 20:42:38 +0100",
       "cauldron": "2025-02-20 01:35:36 +0100"
     },
     "done": false
@@ -2275,6 +2325,7 @@
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
       "cabbage": "2025-03-02 21:21:59 +0100",
+      "tomato": "2025-03-03 22:21:22 +0100",
       "beetroot": "2025-03-01 14:53:15 +0100",
       "cocoa": "2025-03-01 14:54:53 +0100",
       "sugar_cane": "2025-02-20 02:04:55 +0100",
@@ -2811,6 +2862,12 @@
   "twilightforest:magic_map_focus": {
     "criteria": {
       "focus": "2025-02-23 15:11:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2025-03-03 17:39:53 +0100"
     },
     "done": true
   },
