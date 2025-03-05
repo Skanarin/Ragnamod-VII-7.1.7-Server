@@ -440,7 +440,8 @@
   "tconstruct:world/slime_collector": {
     "criteria": {
       "magma_cream": "2025-03-02 02:39:58 +0100",
-      "earth": "2025-02-20 18:41:00 +0100"
+      "earth": "2025-02-20 18:41:00 +0100",
+      "blood": "2025-03-05 15:27:18 +0100"
     },
     "done": false
   },
@@ -627,6 +628,12 @@
   "twilightforest:alt/treasures/naga_armor_set": {
     "criteria": {
       "has_scale": "2025-02-22 16:54:56 +0100"
+    },
+    "done": true
+  },
+  "integrateddynamics:meneglin_basics/drying": {
+    "criteria": {
+      "criteria_0": "2025-03-05 15:36:18 +0100"
     },
     "done": true
   },
@@ -1445,6 +1452,12 @@
     },
     "done": true
   },
+  "occultism:occultism/familiar/mummy_dodge": {
+    "criteria": {
+      "mummy_dodge": "2025-03-05 18:53:20 +0100"
+    },
+    "done": true
+  },
   "comforts:hammock_pink": {
     "criteria": {
       "has_the_recipe": "2025-02-20 01:01:55 +0100"
@@ -1865,10 +1878,12 @@
   },
   "twilightforest:arborist": {
     "criteria": {
+      "twilight_oak_fence": "2025-03-05 18:05:16 +0100",
       "twilight_oak_planks": "2025-02-20 18:12:17 +0100",
       "twilight_oak_log": "2025-02-20 01:35:06 +0100",
       "twilight_oak_wood": "2025-02-25 20:24:56 +0100",
       "mangrove_planks": "2025-02-20 01:36:33 +0100",
+      "dark_log": "2025-03-05 15:45:59 +0100",
       "twilight_oak_sign": "2025-02-23 15:04:22 +0100",
       "twilight_oak_sapling": "2025-02-20 02:05:08 +0100",
       "liveroot": "2025-02-23 15:10:03 +0100",
@@ -1910,6 +1925,12 @@
   "twilightforest:alt/entities/swarm_spider": {
     "criteria": {
       "hurt_by_indirect": "2025-02-23 15:20:14 +0100"
+    },
+    "done": true
+  },
+  "blue_skies:craft_food_prep_table": {
+    "criteria": {
+      "obtain_prep_table": "2025-03-05 15:29:53 +0100"
     },
     "done": true
   },
@@ -2232,6 +2253,7 @@
       "barrel": "2025-02-20 01:35:05 +0100",
       "brewingstand": "2025-03-03 17:57:48 +0100",
       "smithingtable": "2025-03-01 18:28:45 +0100",
+      "blastfurnace": "2025-03-05 15:10:32 +0100",
       "lectern": "2025-03-03 21:47:55 +0100",
       "stonecutter": "2025-03-03 20:42:38 +0100",
       "cauldron": "2025-02-20 01:35:36 +0100"
@@ -2385,7 +2407,8 @@
       "potato": "2025-02-20 02:50:23 +0100",
       "red_mushroom": "2025-03-04 16:12:16 +0100",
       "wheat": "2025-02-20 02:06:36 +0100",
-      "melon": "2025-02-25 19:18:44 +0100"
+      "melon": "2025-02-25 19:18:44 +0100",
+      "carrot": "2025-03-05 20:20:53 +0100"
     },
     "done": false
   },

@@ -114,6 +114,9 @@
     "criteria": {
       "sweetpotato_seed": "2025-03-02 13:41:40 +0100",
       "bellpepper_seed": "2025-03-02 00:35:12 +0100",
+      "blackbean_seed": "2025-03-05 18:48:28 +0100",
+      "cauliflower_seed": "2025-03-05 18:48:28 +0100",
+      "honeydew_seed": "2025-03-05 15:04:36 +0100",
       "elderberry_seed": "2025-03-02 13:41:39 +0100",
       "tomato_seed": "2025-03-02 00:35:01 +0100",
       "greenbean_seed": "2025-03-05 00:49:25 +0100",
@@ -131,11 +134,13 @@
       "strawberry_seed": "2025-03-02 00:34:49 +0100",
       "grape_seed": "2025-03-02 00:32:46 +0100",
       "celery_seed": "2025-02-24 04:00:19 +0100",
+      "greenonion_seed": "2025-03-05 15:04:36 +0100",
       "broccoli_seed": "2025-03-02 00:33:17 +0100",
       "eggplant_seed": "2025-03-02 04:32:38 +0100",
       "barley_seed": "2025-03-05 00:49:46 +0100",
       "raspberry_seed": "2025-03-02 00:33:48 +0100",
       "blackberry_seed": "2025-03-02 00:33:35 +0100",
+      "spinach_seed": "2025-03-05 15:04:36 +0100",
       "corn_seed": "2025-03-02 00:32:42 +0100",
       "garlic_seed": "2025-03-02 00:30:55 +0100"
     },
@@ -313,6 +318,18 @@
     },
     "done": true
   },
+  "blue_skies:everbright/get_ventium": {
+    "criteria": {
+      "obtain_material": "2025-03-05 15:44:55 +0100"
+    },
+    "done": true
+  },
+  "warden_and_sculk:sculky": {
+    "criteria": {
+      "sculky": "2025-03-05 16:28:46 +0100"
+    },
+    "done": true
+  },
   "morevillagers:root": {
     "criteria": {
       "always": "2025-02-19 20:15:32 +0100"
@@ -478,6 +495,7 @@
       "minecraft:spider": "2025-02-21 18:30:28 +0100",
       "minecraft:creeper": "2025-02-20 21:57:04 +0100",
       "minecraft:slime": "2025-02-21 18:30:36 +0100",
+      "minecraft:phantom": "2025-03-05 14:33:59 +0100",
       "minecraft:wither_skeleton": "2025-03-02 03:07:46 +0100",
       "minecraft:husk": "2025-03-05 03:17:53 +0100",
       "minecraft:cave_spider": "2025-02-20 17:51:31 +0100",
@@ -1001,12 +1019,16 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2025-03-05 18:18:49 +0100",
       "minecraft:deep_ocean": "2025-03-05 02:35:11 +0100",
       "minecraft:lukewarm_ocean": "2025-03-05 03:33:58 +0100",
+      "minecraft:river": "2025-03-05 14:38:01 +0100",
       "minecraft:lush_caves": "2025-03-05 02:16:00 +0100",
       "minecraft:ocean": "2025-02-25 21:26:37 +0100",
       "minecraft:deep_lukewarm_ocean": "2025-03-05 03:07:17 +0100",
-      "minecraft:old_growth_birch_forest": "2025-02-25 21:28:07 +0100"
+      "minecraft:old_growth_birch_forest": "2025-02-25 21:28:07 +0100",
+      "minecraft:meadow": "2025-03-05 16:30:52 +0100",
+      "minecraft:plains": "2025-03-05 16:30:53 +0100"
     },
     "done": false
   },
@@ -1115,6 +1137,8 @@
   },
   "croptopia:gather_jungle": {
     "criteria": {
+      "honeydew_seed": "2025-03-05 15:04:36 +0100",
+      "greenonion_seed": "2025-03-05 15:04:36 +0100",
       "rhubarb_seed": "2025-03-02 00:33:04 +0100",
       "eggplant_seed": "2025-03-02 04:32:38 +0100",
       "garlic_seed": "2025-03-02 00:30:55 +0100"
@@ -1258,6 +1282,9 @@
     "criteria": {
       "tomatillo_seed": "2025-03-02 04:32:13 +0100",
       "blackberry_seed": "2025-03-02 00:33:35 +0100",
+      "spinach_seed": "2025-03-05 15:04:36 +0100",
+      "blackbean_seed": "2025-03-05 18:48:28 +0100",
+      "cauliflower_seed": "2025-03-05 18:48:28 +0100",
       "elderberry_seed": "2025-03-02 13:41:39 +0100",
       "blueberry_seed": "2025-03-02 00:33:33 +0100",
       "strawberry_seed": "2025-03-02 00:34:49 +0100",
@@ -1267,6 +1294,12 @@
       "raspberry_seed": "2025-03-02 00:33:48 +0100"
     },
     "done": false
+  },
+  "tombstone:adventure/ambush": {
+    "criteria": {
+      "coded_trigger": "2025-03-05 14:33:59 +0100"
+    },
+    "done": true
   },
   "comforts:sleeping_bag_light_gray": {
     "criteria": {
