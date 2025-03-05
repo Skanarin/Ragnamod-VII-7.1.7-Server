@@ -17,6 +17,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-03-05 02:10:21 +0100"
+    },
+    "done": true
+  },
   "twilightforest:fiery_set": {
     "criteria": {
       "fiery_boots": "2025-02-26 23:36:05 +0100",
@@ -119,6 +125,8 @@
     "criteria": {
       "sweetpotato_seed": "2025-03-01 14:59:32 +0100",
       "bellpepper_seed": "2025-03-01 23:05:15 +0100",
+      "cantaloupe_seed": "2025-03-04 16:34:50 +0100",
+      "blackbean_seed": "2025-03-05 02:47:34 +0100",
       "saguaro_seed": "2025-03-03 21:36:35 +0100",
       "elderberry_seed": "2025-03-01 14:59:32 +0100",
       "tomato_seed": "2025-02-27 23:07:06 +0100",
@@ -143,6 +151,7 @@
       "lettuce_seed": "2025-03-03 21:36:35 +0100",
       "blackberry_seed": "2025-02-27 23:06:40 +0100",
       "corn_seed": "2025-03-01 20:02:17 +0100",
+      "mustard_seed": "2025-03-05 02:47:34 +0100",
       "currant_seed": "2025-03-03 21:36:35 +0100",
       "garlic_seed": "2025-03-01 22:57:00 +0100"
     },
@@ -163,6 +172,12 @@
   "lootr:1cart": {
     "criteria": {
       "opened_cart": "2025-03-02 18:02:09 +0100"
+    },
+    "done": true
+  },
+  "create:funnel": {
+    "criteria": {
+      "0": "2025-03-04 17:02:54 +0100"
     },
     "done": true
   },
@@ -282,6 +297,7 @@
       "grape_juice": "2025-03-01 19:32:35 +0100",
       "melon_juice": "2025-03-01 23:38:53 +0100",
       "rum": "2025-03-01 15:49:34 +0100",
+      "saguaro_juice": "2025-03-04 17:04:53 +0100",
       "fruit_smoothie": "2025-03-03 17:21:38 +0100",
       "wine": "2025-03-01 20:37:34 +0100",
       "orange_juice": "2025-03-02 15:53:18 +0100"
@@ -291,6 +307,12 @@
   "comforts:sleeping_bag_light_blue_from_white": {
     "criteria": {
       "has_the_recipe": "2025-02-20 01:01:55 +0100"
+    },
+    "done": true
+  },
+  "integrateddynamics:root": {
+    "criteria": {
+      "criteria_0": "2025-03-04 16:42:58 +0100"
     },
     "done": true
   },
@@ -540,6 +562,7 @@
       "minecraft:piglin": "2025-03-02 02:34:12 +0100",
       "minecraft:enderman": "2025-02-20 20:38:47 +0100",
       "minecraft:silverfish": "2025-02-21 00:48:49 +0100",
+      "minecraft:stray": "2025-03-04 16:48:23 +0100",
       "minecraft:vex": "2025-02-28 00:12:58 +0100",
       "minecraft:zombie": "2025-02-20 19:17:09 +0100",
       "minecraft:drowned": "2025-02-27 23:49:15 +0100",
@@ -568,6 +591,12 @@
   "blue_skies:recipes/blue_skies_tools/pyrope_pickaxe": {
     "criteria": {
       "has_resource": "2025-03-02 21:42:55 +0100"
+    },
+    "done": true
+  },
+  "create:encased_fan": {
+    "criteria": {
+      "0": "2025-03-04 17:10:17 +0100"
     },
     "done": true
   },
@@ -699,6 +728,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-03-04 16:05:10 +0100"
+    },
+    "done": true
+  },
   "tombstone:adventure/neighborhood_brawl": {
     "criteria": {
       "coded_trigger": "2025-03-01 18:02:48 +0100"
@@ -708,6 +743,12 @@
   "twilightforest:alt/major_landmarks/naga_courtyard": {
     "criteria": {
       "found_structure": "2025-02-21 00:29:12 +0100"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/tree_of_time": {
+    "criteria": {
+      "has_wood": "2025-03-04 17:18:40 +0100"
     },
     "done": true
   },
@@ -898,6 +939,7 @@
       "bellpepper_seed": "2025-03-01 23:05:15 +0100",
       "corn_seed": "2025-03-01 20:02:17 +0100",
       "broccoli_seed": "2025-03-01 23:04:04 +0100",
+      "mustard_seed": "2025-03-05 02:47:34 +0100",
       "kale_seed": "2025-03-02 19:45:34 +0100",
       "barley_seed": "2025-03-02 20:56:43 +0100"
     },
@@ -1202,6 +1244,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2025-03-03 19:05:24 +0100",
+      "minecraft:mushroom_fields": "2025-03-05 03:21:43 +0100",
       "minecraft:deep_ocean": "2025-02-27 22:44:49 +0100",
       "minecraft:sunflower_plains": "2025-02-27 23:26:13 +0100",
       "minecraft:birch_forest": "2025-02-27 23:05:16 +0100",
@@ -1216,6 +1259,7 @@
       "minecraft:jagged_peaks": "2025-03-02 17:52:35 +0100",
       "minecraft:cold_ocean": "2025-02-27 22:54:08 +0100",
       "minecraft:forest": "2025-02-27 22:55:16 +0100",
+      "minecraft:lush_caves": "2025-03-05 02:14:20 +0100",
       "minecraft:desert": "2025-02-27 23:47:18 +0100",
       "minecraft:ocean": "2025-02-25 21:33:24 +0100",
       "minecraft:jungle": "2025-02-27 23:08:06 +0100",
@@ -1443,6 +1487,12 @@
     },
     "done": true
   },
+  "create:fan_processing": {
+    "criteria": {
+      "0": "2025-03-04 17:26:28 +0100"
+    },
+    "done": true
+  },
   "psi:main/gold_assembly_pickup": {
     "criteria": {
       "flower": "2025-02-20 01:01:55 +0100"
@@ -1477,6 +1527,8 @@
     "criteria": {
       "tomatillo_seed": "2025-03-01 22:58:10 +0100",
       "blackberry_seed": "2025-02-27 23:06:40 +0100",
+      "cantaloupe_seed": "2025-03-04 16:34:50 +0100",
+      "blackbean_seed": "2025-03-05 02:47:34 +0100",
       "elderberry_seed": "2025-03-01 14:59:32 +0100",
       "blueberry_seed": "2025-02-27 23:05:17 +0100",
       "strawberry_seed": "2025-02-27 23:07:12 +0100",
@@ -1832,6 +1884,7 @@
       "canopy_sapling": "2025-02-20 01:04:28 +0100",
       "canopy_slab": "2025-02-20 01:35:05 +0100",
       "canopy_fence": "2025-02-20 01:30:36 +0100",
+      "time_wood": "2025-03-04 17:18:40 +0100",
       "thorn_rose": "2025-02-23 20:17:49 +0100"
     },
     "done": false
@@ -2330,6 +2383,7 @@
       "cocoa": "2025-03-01 14:54:53 +0100",
       "sugar_cane": "2025-02-20 02:04:55 +0100",
       "potato": "2025-02-20 02:50:23 +0100",
+      "red_mushroom": "2025-03-04 16:12:16 +0100",
       "wheat": "2025-02-20 02:06:36 +0100",
       "melon": "2025-02-25 19:18:44 +0100"
     },
@@ -2914,9 +2968,21 @@
     },
     "done": true
   },
+  "integrateddynamics:meneglin_basics/meneglin_discovery": {
+    "criteria": {
+      "criteria_0": "2025-03-04 16:42:58 +0100"
+    },
+    "done": true
+  },
   "farmersdelight:main/eat_nourishing_food": {
     "criteria": {
       "nourishment": "2025-02-22 16:01:17 +0100"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_campfire": {
+    "criteria": {
+      "soul_campfire": "2025-03-04 17:10:05 +0100"
     },
     "done": true
   },

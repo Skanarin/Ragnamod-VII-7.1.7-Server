@@ -1,7 +1,7 @@
 {
 	max_claim_chunks: 500
 	max_force_load_chunks: 25
-	last_login_time: 1740501990921L
+	last_login_time: 1741132273004L
 	chunks: {
 		"twilightforest:twilight_forest": [
 			{ x: -18, z: 3, time: 1740176347244L }

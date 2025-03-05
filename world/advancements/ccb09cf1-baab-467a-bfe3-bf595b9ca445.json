@@ -93,7 +93,8 @@
   "croptopia:gather_savanna": {
     "criteria": {
       "kiwi_seed": "2025-03-02 04:32:57 +0100",
-      "rutabaga_seed": "2025-03-02 00:33:37 +0100"
+      "rutabaga_seed": "2025-03-02 00:33:37 +0100",
+      "olive_seed": "2025-03-05 00:49:26 +0100"
     },
     "done": false
   },
@@ -115,19 +116,24 @@
       "bellpepper_seed": "2025-03-02 00:35:12 +0100",
       "elderberry_seed": "2025-03-02 13:41:39 +0100",
       "tomato_seed": "2025-03-02 00:35:01 +0100",
+      "greenbean_seed": "2025-03-05 00:49:25 +0100",
       "pepper_seed": "2025-03-02 00:33:54 +0100",
       "chile_pepper_seed": "2025-03-02 00:35:18 +0100",
       "tomatillo_seed": "2025-03-02 04:32:13 +0100",
       "cucumber_seed": "2025-03-02 15:06:22 +0100",
       "rhubarb_seed": "2025-03-02 00:33:04 +0100",
+      "olive_seed": "2025-03-05 00:49:26 +0100",
+      "kale_seed": "2025-03-05 00:49:44 +0100",
       "kiwi_seed": "2025-03-02 04:32:57 +0100",
       "blueberry_seed": "2025-03-02 00:33:33 +0100",
+      "artichoke_seed": "2025-03-05 00:49:17 +0100",
       "rutabaga_seed": "2025-03-02 00:33:37 +0100",
       "strawberry_seed": "2025-03-02 00:34:49 +0100",
       "grape_seed": "2025-03-02 00:32:46 +0100",
       "celery_seed": "2025-02-24 04:00:19 +0100",
       "broccoli_seed": "2025-03-02 00:33:17 +0100",
       "eggplant_seed": "2025-03-02 04:32:38 +0100",
+      "barley_seed": "2025-03-05 00:49:46 +0100",
       "raspberry_seed": "2025-03-02 00:33:48 +0100",
       "blackberry_seed": "2025-03-02 00:33:35 +0100",
       "corn_seed": "2025-03-02 00:32:42 +0100",
@@ -144,6 +150,12 @@
   "create:funnel": {
     "criteria": {
       "0": "2025-02-27 02:56:40 +0100"
+    },
+    "done": true
+  },
+  "lootr:1cart": {
+    "criteria": {
+      "opened_cart": "2025-03-05 02:40:04 +0100"
     },
     "done": true
   },
@@ -236,6 +248,7 @@
       "melon_juice": "2025-03-01 23:50:37 +0100",
       "tomato_juice": "2025-03-01 18:41:11 +0100",
       "apple_juice": "2025-03-01 18:44:01 +0100",
+      "fruit_smoothie": "2025-03-05 01:00:35 +0100",
       "orange_juice": "2025-03-02 04:00:05 +0100"
     },
     "done": false
@@ -393,9 +406,11 @@
       "elderberry_jam": "2025-03-01 18:31:23 +0100",
       "candy_corn": "2025-03-01 22:29:04 +0100",
       "tortilla": "2025-02-21 23:11:41 +0100",
+      "carnitas": "2025-03-05 01:16:50 +0100",
       "toast": "2025-03-01 18:34:06 +0100",
       "enchilada": "2025-03-01 21:40:00 +0100",
       "cooked_tuna": "2025-03-01 17:23:47 +0100",
+      "cabbage_roll": "2025-03-05 00:53:57 +0100",
       "calamari": "2025-03-01 14:49:51 +0100",
       "yoghurt": "2025-03-01 22:27:27 +0100",
       "peanut_butter": "2025-02-21 23:11:04 +0100",
@@ -410,8 +425,10 @@
       "peanut_butter_and_jam": "2025-02-21 23:10:59 +0100",
       "candied_nuts": "2025-02-24 01:09:39 +0100",
       "apricot_jam": "2025-03-01 20:22:11 +0100",
+      "egg_roll": "2025-03-05 01:18:51 +0100",
       "quesadilla": "2025-03-01 21:50:10 +0100",
       "butter": "2025-03-01 21:00:08 +0100",
+      "glowing_calamari": "2025-03-05 00:54:04 +0100",
       "peanut_butter_with_celery": "2025-02-21 23:11:27 +0100",
       "fruit_salad": "2025-03-02 04:14:01 +0100",
       "oyster": "2025-03-01 19:45:08 +0100",
@@ -435,7 +452,9 @@
   },
   "lootr:social": {
     "criteria": {
-      "opened_chest": "2025-02-19 22:09:34 +0100"
+      "opened_barrel": "2025-03-05 02:23:38 +0100",
+      "opened_chest": "2025-02-19 22:09:34 +0100",
+      "opened_cart": "2025-03-05 02:40:04 +0100"
     },
     "done": false
   },
@@ -460,11 +479,13 @@
       "minecraft:creeper": "2025-02-20 21:57:04 +0100",
       "minecraft:slime": "2025-02-21 18:30:36 +0100",
       "minecraft:wither_skeleton": "2025-03-02 03:07:46 +0100",
+      "minecraft:husk": "2025-03-05 03:17:53 +0100",
       "minecraft:cave_spider": "2025-02-20 17:51:31 +0100",
       "minecraft:piglin": "2025-02-27 00:13:17 +0100",
       "minecraft:enderman": "2025-02-20 20:26:58 +0100",
       "minecraft:silverfish": "2025-02-21 00:49:13 +0100",
-      "minecraft:zombie": "2025-02-19 22:01:18 +0100"
+      "minecraft:zombie": "2025-02-19 22:01:18 +0100",
+      "savage_and_ravage:skeleton_villager": "2025-03-05 03:40:13 +0100"
     },
     "done": false
   },
@@ -680,6 +701,12 @@
     },
     "done": true
   },
+  "croptopia:gather_swamp": {
+    "criteria": {
+      "artichoke_seed": "2025-03-05 00:49:17 +0100"
+    },
+    "done": false
+  },
   "twilightforest:alt/biomes/thornlands": {
     "criteria": {
       "in_biome": "2025-03-01 23:28:22 +0100"
@@ -730,13 +757,16 @@
   },
   "croptopia:gather_plains": {
     "criteria": {
+      "greenbean_seed": "2025-03-05 00:49:25 +0100",
       "pepper_seed": "2025-03-02 00:33:54 +0100",
       "sweetpotato_seed": "2025-03-02 13:41:40 +0100",
       "chile_pepper_seed": "2025-03-02 00:35:18 +0100",
       "cucumber_seed": "2025-03-02 15:06:22 +0100",
       "bellpepper_seed": "2025-03-02 00:35:12 +0100",
       "corn_seed": "2025-03-02 00:32:42 +0100",
-      "broccoli_seed": "2025-03-02 00:33:17 +0100"
+      "broccoli_seed": "2025-03-02 00:33:17 +0100",
+      "kale_seed": "2025-03-05 00:49:44 +0100",
+      "barley_seed": "2025-03-05 00:49:46 +0100"
     },
     "done": false
   },
@@ -971,10 +1001,20 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:deep_ocean": "2025-03-05 02:35:11 +0100",
+      "minecraft:lukewarm_ocean": "2025-03-05 03:33:58 +0100",
+      "minecraft:lush_caves": "2025-03-05 02:16:00 +0100",
       "minecraft:ocean": "2025-02-25 21:26:37 +0100",
+      "minecraft:deep_lukewarm_ocean": "2025-03-05 03:07:17 +0100",
       "minecraft:old_growth_birch_forest": "2025-02-25 21:28:07 +0100"
     },
     "done": false
+  },
+  "pneumaticcraft:programming_puzzle": {
+    "criteria": {
+      "0": "2025-03-05 02:10:51 +0100"
+    },
+    "done": true
   },
   "comforts:sleeping_bag_gray_from_white": {
     "criteria": {
@@ -1288,6 +1328,12 @@
     },
     "done": true
   },
+  "evilcraft:evil_source": {
+    "criteria": {
+      "criteria_0": "2025-03-05 03:35:10 +0100"
+    },
+    "done": true
+  },
   "comforts:sleeping_bag_lime_from_white": {
     "criteria": {
       "has_the_recipe": "2025-02-19 20:15:32 +0100"
@@ -1411,6 +1457,7 @@
       "sweet_berries": "2025-02-21 01:10:14 +0100",
       "cooked_beef": "2025-02-27 23:40:25 +0100",
       "baked_potato": "2025-02-20 21:37:29 +0100",
+      "beef": "2025-03-05 00:58:25 +0100",
       "porkchop": "2025-02-21 01:15:57 +0100",
       "tropical_fish": "2025-03-01 14:54:58 +0100",
       "beetroot_soup": "2025-03-02 04:21:03 +0100",
@@ -1547,6 +1594,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/create_voodoo_poppet": {
+    "criteria": {
+      "has_voodoo_poppet": "2025-03-05 04:00:49 +0100"
+    },
+    "done": true
+  },
   "blue_skies:recipes/blue_skies_tools/pyrope_axe": {
     "criteria": {
       "has_resource": "2025-03-01 18:58:28 +0100"
@@ -1655,6 +1708,12 @@
   "beautify:lamps": {
     "criteria": {
       "requirement": "2025-02-19 23:39:25 +0100"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_magic_scroll": {
+    "criteria": {
+      "has_magic_scroll": "2025-03-05 02:38:22 +0100"
     },
     "done": true
   },
@@ -1811,6 +1870,7 @@
   "morevillagers:all_workstations_get": {
     "criteria": {
       "barrel": "2025-02-19 22:14:34 +0100",
+      "brewingstand": "2025-03-05 03:52:57 +0100",
       "smoker": "2025-02-26 14:37:49 +0100",
       "blastfurnace": "2025-02-26 14:34:45 +0100",
       "cauldron": "2025-02-20 02:29:59 +0100",
@@ -1896,6 +1956,12 @@
     },
     "done": true
   },
+  "lootr:1barrel": {
+    "criteria": {
+      "opened_barrel": "2025-03-05 02:23:38 +0100"
+    },
+    "done": true
+  },
   "byg:husbandry/forager": {
     "criteria": {
       "white_puffball_cap": "2025-03-02 00:02:58 +0100"
@@ -1924,6 +1990,8 @@
     "criteria": {
       "ratatouille": "2025-03-02 04:24:25 +0100",
       "roasted_mutton_chops": "2025-03-02 04:27:05 +0100",
+      "mixed_salad": "2025-03-05 01:05:21 +0100",
+      "grilled_salmon": "2025-03-05 01:06:53 +0100",
       "squid_ink_pasta": "2025-03-02 02:52:59 +0100",
       "steak_and_potatoes": "2025-03-02 02:49:51 +0100",
       "mushroom_rice": "2025-03-02 02:53:59 +0100",
@@ -2025,6 +2093,12 @@
   "twilightforest:alt/biomes/dark_forest_center": {
     "criteria": {
       "in_biome": "2025-02-20 17:37:00 +0100"
+    },
+    "done": true
+  },
+  "apotheosis:affix/boss": {
+    "criteria": {
+      "sword": "2025-03-05 02:33:39 +0100"
     },
     "done": true
   },
@@ -2183,6 +2257,12 @@
   "twilightforest:alt/treasures/ice_bow": {
     "criteria": {
       "has_item": "2025-02-21 23:26:17 +0100"
+    },
+    "done": true
+  },
+  "tombstone:adventure/enchant_voodoo_poppet": {
+    "criteria": {
+      "has_enchanted_voodoo_poppet": "2025-03-05 04:00:49 +0100"
     },
     "done": true
   },
