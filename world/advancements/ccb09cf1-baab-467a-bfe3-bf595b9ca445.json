@@ -117,6 +117,7 @@
       "blackbean_seed": "2025-03-05 18:48:28 +0100",
       "cauliflower_seed": "2025-03-05 18:48:28 +0100",
       "honeydew_seed": "2025-03-05 15:04:36 +0100",
+      "saguaro_seed": "2025-03-06 00:16:06 +0100",
       "elderberry_seed": "2025-03-02 13:41:39 +0100",
       "tomato_seed": "2025-03-02 00:35:01 +0100",
       "greenbean_seed": "2025-03-05 00:49:25 +0100",
@@ -139,9 +140,11 @@
       "eggplant_seed": "2025-03-02 04:32:38 +0100",
       "barley_seed": "2025-03-05 00:49:46 +0100",
       "raspberry_seed": "2025-03-02 00:33:48 +0100",
+      "lettuce_seed": "2025-03-06 00:16:05 +0100",
       "blackberry_seed": "2025-03-02 00:33:35 +0100",
       "spinach_seed": "2025-03-05 15:04:36 +0100",
       "corn_seed": "2025-03-02 00:32:42 +0100",
+      "currant_seed": "2025-03-06 00:16:05 +0100",
       "garlic_seed": "2025-03-02 00:30:55 +0100"
     },
     "done": false
@@ -721,6 +724,7 @@
   },
   "croptopia:gather_swamp": {
     "criteria": {
+      "currant_seed": "2025-03-06 00:16:05 +0100",
       "artichoke_seed": "2025-03-05 00:49:17 +0100"
     },
     "done": false
@@ -775,6 +779,7 @@
   },
   "croptopia:gather_plains": {
     "criteria": {
+      "lettuce_seed": "2025-03-06 00:16:05 +0100",
       "greenbean_seed": "2025-03-05 00:49:25 +0100",
       "pepper_seed": "2025-03-02 00:33:54 +0100",
       "sweetpotato_seed": "2025-03-02 13:41:40 +0100",
@@ -1144,6 +1149,12 @@
       "garlic_seed": "2025-03-02 00:30:55 +0100"
     },
     "done": false
+  },
+  "croptopia:gather_desert": {
+    "criteria": {
+      "saguaro_seed": "2025-03-06 00:16:06 +0100"
+    },
+    "done": true
   },
   "comforts:sleeping_bag_yellow_from_white": {
     "criteria": {
