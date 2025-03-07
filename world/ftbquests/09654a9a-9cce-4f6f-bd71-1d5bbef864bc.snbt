@@ -1,0 +1,15 @@
+{
+	version: 1
+	uuid: "09654a9a9cce4f6fbd711d5bbef864bc"
+	name: "Appalog"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	chapter_pinned: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

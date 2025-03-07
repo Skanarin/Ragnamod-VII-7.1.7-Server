@@ -1,0 +1,15 @@
+{
+	version: 1
+	uuid: "4ff71880856645a898c06b0ebff7f603"
+	name: "Appalog's Party"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	chapter_pinned: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

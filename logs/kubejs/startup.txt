@@ -1,11 +1,11 @@
-[05:01:46] [INFO ] Loaded script startup_scripts:armors.js in 0.268 s
-[05:01:46] [INFO ] Loaded script startup_scripts:blocks.js in 0.007 s
-[05:01:46] [INFO ] Loaded script startup_scripts:complete_prediction.js in 0.009 s
-[05:01:46] [INFO ] Loaded script startup_scripts:fluids.js in 0.001 s
-[05:01:46] [INFO ] Loaded script startup_scripts:food.js in 0.01 s
-[05:01:46] [INFO ] Loaded script startup_scripts:items.js in 0.003 s
-[05:01:46] [INFO ] Loaded script startup_scripts:singularities.js in 0.004 s
-[05:01:46] [INFO ] Loaded script startup_scripts:tools.js in 0.002 s
-[05:01:46] [INFO ] Loaded script startup_scripts:world_gen.js in 0.0 s
-[05:01:46] [INFO ] Loaded 9/9 KubeJS startup scripts in 1.613 s
-[05:01:59] [ERR  ] Error occurred while handling event 'worldgen.add': Wrapped java.lang.RuntimeException: Could not encode element to JSON: Value 100 outside of range [0:64] (startup_scripts:world_gen.js#3)
+[12:19:29] [INFO ] Loaded script startup_scripts:armors.js in 0.148 s
+[12:19:29] [INFO ] Loaded script startup_scripts:blocks.js in 0.01 s
+[12:19:29] [INFO ] Loaded script startup_scripts:complete_prediction.js in 0.009 s
+[12:19:29] [INFO ] Loaded script startup_scripts:fluids.js in 0.001 s
+[12:19:29] [INFO ] Loaded script startup_scripts:food.js in 0.006 s
+[12:19:29] [INFO ] Loaded script startup_scripts:items.js in 0.003 s
+[12:19:29] [INFO ] Loaded script startup_scripts:singularities.js in 0.005 s
+[12:19:29] [INFO ] Loaded script startup_scripts:tools.js in 0.001 s
+[12:19:29] [INFO ] Loaded script startup_scripts:world_gen.js in 0.001 s
+[12:19:29] [INFO ] Loaded 9/9 KubeJS startup scripts in 1.168 s
+[12:19:39] [ERR  ] Error occurred while handling event 'worldgen.add': Wrapped java.lang.RuntimeException: Could not encode element to JSON: Value 100 outside of range [0:64] (startup_scripts:world_gen.js#3)
