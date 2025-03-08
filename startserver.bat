@@ -25,14 +25,14 @@ if not exist "libraries" (
     echo Forge not installed, installing now.
     if not exist %INSTALLER% (
         echo No Forge installer found, downloading from %FORGE_URL%
-        bitsadmin.exe /rawreturn /nowrap /transfer forgeinstaller /download /priority FOREGROUND %FORGE_URL% %INSTALLER%
+        bitsadmin.exe /rawreturn /nowrap /transfer forgeinstaller /download /   priority FOREGROUND %FORGE_URL% %INSTALLER%
     )
 
     echo Running Forge installer.
     "%RM7_JAVA%" -jar %INSTALLER% -installServer
 )
 
-if not exist "server.properties" (
+    if not exist "server.properties" (
     (
         echo allow-flight=true
         echo motd=RagnaMod VII
@@ -52,13 +52,16 @@ if not %jver% geq 17  (
     exit /b 1
 )
 
+
 :START
+curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"Serveur ouvert\"}" https://discord.com/api/webhooks/1345166990658109472/K2nSWHzdIEehK1SjOY7jE-82MzYsj_88ggmkX_DlKuqsXxvsw9o9eKvlDjqQBnESf9Dl
 "%RM7_JAVA%" @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.18.2-%FORGE_VERSION%/win_args.txt nogui
+
 
 if "%RM7_RESTART%" == "false" (
     goto:EOF
 )
-
+curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"Fermeture du serveur\"}" https://discord.com/api/webhooks/1345166990658109472/K2nSWHzdIEehK1SjOY7jE-82MzYsj_88ggmkX_DlKuqsXxvsw9o9eKvlDjqQBnESf9Dl
 echo Restarting automatically in 10 seconds (press Ctrl + C to cancel)
 timeout /t 10 /nobreak > NUL
 goto:START

@@ -17,8 +17,6 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: |
           if [ "${{ github.event_name }}" == "push" ]; then
-            MESSAGE="Serveur fermé"
-          elif [ "${{ github.event_name }}" == "pull_request" ]; then
-            MESSAGE="Serveur ouvert"
+            MESSAGE="Serveur Sauvegardé"
           fi
           curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"$MESSAGE\"}" $DISCORD_WEBHOOK
