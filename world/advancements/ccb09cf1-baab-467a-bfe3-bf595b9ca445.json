@@ -92,6 +92,7 @@
   },
   "croptopia:gather_savanna": {
     "criteria": {
+      "zucchini_seed": "2025-03-08 02:22:59 +0100",
       "kiwi_seed": "2025-03-02 04:32:57 +0100",
       "rutabaga_seed": "2025-03-02 00:33:37 +0100",
       "olive_seed": "2025-03-05 00:49:26 +0100"
@@ -114,7 +115,9 @@
     "criteria": {
       "sweetpotato_seed": "2025-03-02 13:41:40 +0100",
       "bellpepper_seed": "2025-03-02 00:35:12 +0100",
+      "cantaloupe_seed": "2025-03-08 01:38:16 +0100",
       "blackbean_seed": "2025-03-05 18:48:28 +0100",
+      "vanilla_seeds": "2025-03-08 02:31:14 +0100",
       "cauliflower_seed": "2025-03-05 18:48:28 +0100",
       "honeydew_seed": "2025-03-05 15:04:36 +0100",
       "saguaro_seed": "2025-03-06 00:16:06 +0100",
@@ -127,16 +130,19 @@
       "cucumber_seed": "2025-03-02 15:06:22 +0100",
       "rhubarb_seed": "2025-03-02 00:33:04 +0100",
       "olive_seed": "2025-03-05 00:49:26 +0100",
+      "onion_seed": "2025-03-08 02:23:04 +0100",
       "kale_seed": "2025-03-05 00:49:44 +0100",
       "kiwi_seed": "2025-03-02 04:32:57 +0100",
       "blueberry_seed": "2025-03-02 00:33:33 +0100",
       "artichoke_seed": "2025-03-05 00:49:17 +0100",
+      "soybean_seed": "2025-03-08 02:22:58 +0100",
       "rutabaga_seed": "2025-03-02 00:33:37 +0100",
       "strawberry_seed": "2025-03-02 00:34:49 +0100",
       "grape_seed": "2025-03-02 00:32:46 +0100",
       "celery_seed": "2025-02-24 04:00:19 +0100",
       "greenonion_seed": "2025-03-05 15:04:36 +0100",
       "broccoli_seed": "2025-03-02 00:33:17 +0100",
+      "asparagus_seed": "2025-03-08 02:23:04 +0100",
       "eggplant_seed": "2025-03-02 04:32:38 +0100",
       "barley_seed": "2025-03-05 00:49:46 +0100",
       "raspberry_seed": "2025-03-02 00:33:48 +0100",
@@ -144,7 +150,10 @@
       "blackberry_seed": "2025-03-02 00:33:35 +0100",
       "spinach_seed": "2025-03-05 15:04:36 +0100",
       "corn_seed": "2025-03-02 00:32:42 +0100",
+      "oat_seed": "2025-03-08 01:38:16 +0100",
+      "mustard_seed": "2025-03-08 03:29:18 +0100",
       "currant_seed": "2025-03-06 00:16:05 +0100",
+      "zucchini_seed": "2025-03-08 02:22:59 +0100",
       "garlic_seed": "2025-03-02 00:30:55 +0100"
     },
     "done": false
@@ -238,6 +247,12 @@
       "creeper_spores": "2025-02-23 21:10:18 +0100"
     },
     "done": true
+  },
+  "twilightforest:beanstalk": {
+    "criteria": {
+      "beans": "2025-03-08 02:23:04 +0100"
+    },
+    "done": false
   },
   "comforts:sleeping_bag_pink": {
     "criteria": {
@@ -595,6 +610,12 @@
     },
     "done": true
   },
+  "twilightforest:giants": {
+    "criteria": {
+      "pickaxe": "2025-03-08 02:23:04 +0100"
+    },
+    "done": false
+  },
   "twilightforest:alt/treasures/foods/hydra_chop": {
     "criteria": {
       "has_item": "2025-02-22 00:52:29 +0100"
@@ -686,6 +707,12 @@
     },
     "done": true
   },
+  "croptopia:gather_tree_forest": {
+    "criteria": {
+      "lemon_sapling": "2025-03-08 02:32:41 +0100"
+    },
+    "done": false
+  },
   "undergarden:undergarden/mine_ore": {
     "criteria": {
       "has_regalium_crystal": "2025-02-28 02:19:54 +0100"
@@ -725,6 +752,7 @@
   "croptopia:gather_swamp": {
     "criteria": {
       "currant_seed": "2025-03-06 00:16:05 +0100",
+      "asparagus_seed": "2025-03-08 02:23:04 +0100",
       "artichoke_seed": "2025-03-05 00:49:17 +0100"
     },
     "done": false
@@ -788,8 +816,11 @@
       "bellpepper_seed": "2025-03-02 00:35:12 +0100",
       "corn_seed": "2025-03-02 00:32:42 +0100",
       "broccoli_seed": "2025-03-02 00:33:17 +0100",
+      "oat_seed": "2025-03-08 01:38:16 +0100",
+      "mustard_seed": "2025-03-08 03:29:18 +0100",
       "kale_seed": "2025-03-05 00:49:44 +0100",
-      "barley_seed": "2025-03-05 00:49:46 +0100"
+      "barley_seed": "2025-03-05 00:49:46 +0100",
+      "soybean_seed": "2025-03-08 02:22:58 +0100"
     },
     "done": false
   },
@@ -962,6 +993,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/treasures/magic_beans": {
+    "criteria": {
+      "has_item": "2025-03-08 02:23:04 +0100"
+    },
+    "done": true
+  },
   "explorerscompass:explorers_compass_cracked_stone_bricks": {
     "criteria": {
       "has_recipe": "2025-02-19 20:15:32 +0100"
@@ -985,6 +1022,12 @@
       "requirement": "2025-02-19 22:48:27 +0100"
     },
     "done": true
+  },
+  "croptopia:gather_tree_jungle": {
+    "criteria": {
+      "dragonfruit_sapling": "2025-03-08 02:32:36 +0100"
+    },
+    "done": false
   },
   "twilightforest:alt/entities/pinch_beetle": {
     "criteria": {
@@ -1143,10 +1186,12 @@
   "croptopia:gather_jungle": {
     "criteria": {
       "honeydew_seed": "2025-03-05 15:04:36 +0100",
+      "onion_seed": "2025-03-08 02:23:04 +0100",
       "greenonion_seed": "2025-03-05 15:04:36 +0100",
       "rhubarb_seed": "2025-03-02 00:33:04 +0100",
       "eggplant_seed": "2025-03-02 04:32:38 +0100",
-      "garlic_seed": "2025-03-02 00:30:55 +0100"
+      "garlic_seed": "2025-03-02 00:30:55 +0100",
+      "vanilla_seeds": "2025-03-08 02:31:14 +0100"
     },
     "done": false
   },
@@ -1294,6 +1339,7 @@
       "tomatillo_seed": "2025-03-02 04:32:13 +0100",
       "blackberry_seed": "2025-03-02 00:33:35 +0100",
       "spinach_seed": "2025-03-05 15:04:36 +0100",
+      "cantaloupe_seed": "2025-03-08 01:38:16 +0100",
       "blackbean_seed": "2025-03-05 18:48:28 +0100",
       "cauliflower_seed": "2025-03-05 18:48:28 +0100",
       "elderberry_seed": "2025-03-02 13:41:39 +0100",
@@ -2051,9 +2097,12 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
+      "cabbage": "2025-03-08 01:57:16 +0100",
+      "sweet_berries": "2025-03-08 02:53:35 +0100",
       "beetroot": "2025-03-02 14:23:36 +0100",
       "cocoa": "2025-03-02 13:14:27 +0100",
       "sugar_cane": "2025-02-20 01:49:45 +0100",
+      "potato": "2025-03-08 02:53:08 +0100",
       "nether_wart": "2025-03-02 05:00:25 +0100",
       "wheat": "2025-02-24 01:05:38 +0100",
       "melon": "2025-03-02 14:54:21 +0100",
@@ -2094,6 +2143,8 @@
   },
   "croptopia:gather_tree_all": {
     "criteria": {
+      "lemon_sapling": "2025-03-08 02:32:41 +0100",
+      "dragonfruit_sapling": "2025-03-08 02:32:36 +0100",
       "apple_sapling": "2025-03-01 18:43:02 +0100"
     },
     "done": false
@@ -2271,6 +2322,12 @@
   "twilightforest:alt/major_landmarks/hedge_maze": {
     "criteria": {
       "found_structure": "2025-02-19 22:06:55 +0100"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_white_marble": {
+    "criteria": {
+      "has_ingredient": "2025-03-08 01:49:03 +0100"
     },
     "done": true
   },
@@ -2610,6 +2667,12 @@
   "twilightforest:alt/entities/boar": {
     "criteria": {
       "slay": "2025-03-02 03:32:03 +0100"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_grave_marble": {
+    "criteria": {
+      "has_grave_marble": "2025-03-08 01:49:03 +0100"
     },
     "done": true
   },

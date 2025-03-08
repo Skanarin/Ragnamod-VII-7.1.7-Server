@@ -210,6 +210,12 @@
     },
     "done": false
   },
+  "blue_skies:recipes/blue_skies_tools/frostbright_sword": {
+    "criteria": {
+      "has_resource": "2025-03-08 00:03:24 +0100"
+    },
+    "done": true
+  },
   "psi:main/iron_cad_pickup": {
     "criteria": {
       "flower": "2025-02-20 01:01:55 +0100"
@@ -293,6 +299,12 @@
       "beans": "2025-03-02 20:56:43 +0100"
     },
     "done": false
+  },
+  "blue_skies:recipes/blue_skies_tools/frostbright_pickaxe": {
+    "criteria": {
+      "has_resource": "2025-03-08 00:03:24 +0100"
+    },
+    "done": true
   },
   "comforts:sleeping_bag_pink": {
     "criteria": {
@@ -412,6 +424,12 @@
   "blue_skies:everbright/get_ventium": {
     "criteria": {
       "obtain_material": "2025-03-02 23:27:05 +0100"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/frostbright_shovel": {
+    "criteria": {
+      "has_resource": "2025-03-08 00:03:24 +0100"
     },
     "done": true
   },
@@ -896,6 +914,12 @@
     },
     "done": true
   },
+  "pneumaticcraft:pressure_chamber": {
+    "criteria": {
+      "0": "2025-03-07 19:22:24 +0100"
+    },
+    "done": true
+  },
   "twilightforest:alt/treasures/minotaur_axe_diamond": {
     "criteria": {
       "has_item": "2025-02-23 15:01:56 +0100"
@@ -1122,6 +1146,12 @@
   "comforts:sleeping_bag_brown": {
     "criteria": {
       "has_the_recipe": "2025-02-20 01:01:55 +0100"
+    },
+    "done": true
+  },
+  "pneumaticcraft:yeast_culture": {
+    "criteria": {
+      "0": "2025-03-08 01:32:30 +0100"
     },
     "done": true
   },
@@ -1772,6 +1802,12 @@
   "twilightforest:alt/entities/maze_slime": {
     "criteria": {
       "hurt": "2025-02-26 21:11:37 +0100"
+    },
+    "done": true
+  },
+  "pneumaticcraft:pcb_blueprint": {
+    "criteria": {
+      "0": "2025-03-08 01:17:13 +0100"
     },
     "done": true
   },
@@ -2469,6 +2505,12 @@
     },
     "done": true
   },
+  "blue_skies:recipes/blue_skies_tools/frostbright_axe": {
+    "criteria": {
+      "has_resource": "2025-03-08 00:03:24 +0100"
+    },
+    "done": true
+  },
   "byg:husbandry/forager": {
     "criteria": {
       "white_puffball_cap": "2025-02-28 00:20:06 +0100"
@@ -2581,6 +2623,12 @@
       "starfruit_sapling": "2025-03-01 21:16:01 +0100"
     },
     "done": false
+  },
+  "pneumaticcraft:uv_light_box": {
+    "criteria": {
+      "0": "2025-03-08 01:19:54 +0100"
+    },
+    "done": true
   },
   "comforts:hammock_light_blue_from_white": {
     "criteria": {
@@ -2712,6 +2760,12 @@
   "twilightforest:mazebreaker": {
     "criteria": {
       "pick": "2025-02-27 03:32:37 +0100"
+    },
+    "done": true
+  },
+  "pneumaticcraft:liquid_compressor": {
+    "criteria": {
+      "0": "2025-03-07 20:19:05 +0100"
     },
     "done": true
   },
@@ -2963,6 +3017,12 @@
     },
     "done": true
   },
+  "pneumaticcraft:amadron_tablet": {
+    "criteria": {
+      "0": "2025-03-07 20:25:18 +0100"
+    },
+    "done": true
+  },
   "immersiveengineering:main/craft_hammer": {
     "criteria": {
       "has_item": "2025-02-23 15:00:47 +0100"
@@ -3050,6 +3110,12 @@
   "twilightforest:alt/major_landmarks/quest_grove": {
     "criteria": {
       "found_structure": "2025-02-26 12:56:08 +0100"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/frostbright_hoe": {
+    "criteria": {
+      "has_resource": "2025-03-08 00:03:24 +0100"
     },
     "done": true
   },
